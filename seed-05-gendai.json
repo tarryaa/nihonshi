@@ -1,0 +1,1542 @@
+{
+ "format": "nhnote-patch",
+ "schemaVersion": 1,
+ "seed": {
+  "id": "gendai",
+  "version": 1,
+  "title": "現代（戦後〜平成）"
+ },
+ "about": "初期データ（AI作成・未確認）。重要度の基準は DATA_SCHEMA.md。元ファイルは tools/seed-gendai.txt",
+ "upsert": {
+  "terms": [
+   {
+    "id": "t-gendai-0001",
+    "name": "連合国軍による占領（GHQ／SCAP）",
+    "col": "system",
+    "when": {
+     "from": 1945,
+     "to": 1952
+    },
+    "importance": 10,
+    "shape": "span",
+    "yomi": "せんりょう"
+   },
+   {
+    "id": "t-gendai-0002",
+    "name": "財閥解体",
+    "col": "policy",
+    "when": {
+     "from": 1945
+    },
+    "importance": 10,
+    "yomi": "ざいばつかいたい"
+   },
+   {
+    "id": "t-gendai-0003",
+    "name": "五大改革指令",
+    "col": "policy",
+    "when": {
+     "from": 1945
+    },
+    "importance": 9,
+    "yomi": "ごだいかいかくしれい"
+   },
+   {
+    "id": "t-gendai-0004",
+    "name": "労働組合法",
+    "col": "policy",
+    "when": {
+     "from": 1945
+    },
+    "importance": 9,
+    "yomi": "ろうどうくみあいほう"
+   },
+   {
+    "id": "t-gendai-0005",
+    "name": "衆議院議員選挙法の改正（女性参政権）",
+    "col": "policy",
+    "when": {
+     "from": 1945
+    },
+    "importance": 9,
+    "yomi": "じょせいさんせいけん"
+   },
+   {
+    "id": "t-gendai-0006",
+    "name": "マッカーサー（連合国軍最高司令官）",
+    "col": "ruler",
+    "when": {
+     "from": 1945,
+     "to": 1951
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "マッカーサー"
+   },
+   {
+    "id": "t-gendai-0007",
+    "name": "幣原喜重郎内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1945,
+     "to": 1946
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "しではらきじゅうろう"
+   },
+   {
+    "id": "t-gendai-0008",
+    "name": "人権指令（治安維持法・特高の廃止）",
+    "col": "policy",
+    "when": {
+     "from": 1945
+    },
+    "importance": 7,
+    "yomi": "じんけんしれい"
+   },
+   {
+    "id": "t-gendai-0009",
+    "name": "東久邇宮稔彦内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1945
+    },
+    "importance": 6,
+    "yomi": "ひがしくにのみやなるひこ"
+   },
+   {
+    "id": "t-gendai-0010",
+    "name": "農地改革（第二次・自作農創設特別措置法）",
+    "col": "policy",
+    "when": {
+     "from": 1946
+    },
+    "importance": 10,
+    "yomi": "のうちかいかく"
+   },
+   {
+    "id": "t-gendai-0011",
+    "name": "日本国憲法の公布（1947年施行）",
+    "col": "policy",
+    "when": {
+     "from": 1946
+    },
+    "importance": 10,
+    "yomi": "にほんこくけんぽう"
+   },
+   {
+    "id": "t-gendai-0012",
+    "name": "極東国際軍事裁判（東京裁判。1946〜48年）",
+    "col": "event",
+    "when": {
+     "from": 1946
+    },
+    "importance": 9,
+    "yomi": "きょくとうこくさいぐんじさいばん"
+   },
+   {
+    "id": "t-gendai-0013",
+    "name": "吉田茂（第1次内閣）",
+    "col": "ruler",
+    "when": {
+     "from": 1946,
+     "to": 1947
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "よしだしげる"
+   },
+   {
+    "id": "t-gendai-0014",
+    "name": "天皇の人間宣言",
+    "col": "policy",
+    "when": {
+     "from": 1946
+    },
+    "importance": 8,
+    "yomi": "にんげんせんげん"
+   },
+   {
+    "id": "t-gendai-0015",
+    "name": "公職追放",
+    "col": "policy",
+    "when": {
+     "from": 1946
+    },
+    "importance": 8,
+    "yomi": "こうしょくついほう"
+   },
+   {
+    "id": "t-gendai-0016",
+    "name": "傾斜生産方式",
+    "col": "industry",
+    "when": {
+     "from": 1946
+    },
+    "importance": 8,
+    "yomi": "けいしゃせいさんほうしき"
+   },
+   {
+    "id": "t-gendai-0017",
+    "name": "金融緊急措置令",
+    "col": "finance",
+    "when": {
+     "from": 1946
+    },
+    "importance": 7,
+    "yomi": "きんゆうきんきゅうそちれい"
+   },
+   {
+    "id": "t-gendai-0018",
+    "name": "労働関係調整法",
+    "col": "policy",
+    "when": {
+     "from": 1946
+    },
+    "importance": 7,
+    "yomi": "ろうどうかんけいちょうせいほう"
+   },
+   {
+    "id": "t-gendai-0019",
+    "name": "労働基準法",
+    "col": "policy",
+    "when": {
+     "from": 1947
+    },
+    "importance": 9,
+    "yomi": "ろうどうきじゅんほう"
+   },
+   {
+    "id": "t-gendai-0020",
+    "name": "教育基本法・学校教育法",
+    "col": "policy",
+    "when": {
+     "from": 1947
+    },
+    "importance": 9,
+    "yomi": "きょういくきほんほう"
+   },
+   {
+    "id": "t-gendai-0021",
+    "name": "冷戦の始まり",
+    "col": "situation",
+    "when": {
+     "from": 1947
+    },
+    "importance": 9,
+    "yomi": "れいせん"
+   },
+   {
+    "id": "t-gendai-0022",
+    "name": "独占禁止法",
+    "col": "policy",
+    "when": {
+     "from": 1947
+    },
+    "importance": 8,
+    "yomi": "どくせんきんしほう"
+   },
+   {
+    "id": "t-gendai-0023",
+    "name": "民法の改正（家制度の廃止）",
+    "col": "policy",
+    "when": {
+     "from": 1947
+    },
+    "importance": 8,
+    "yomi": "みんぽう"
+   },
+   {
+    "id": "t-gendai-0024",
+    "name": "地方自治法",
+    "col": "policy",
+    "when": {
+     "from": 1947
+    },
+    "importance": 7,
+    "yomi": "ちほうじちほう"
+   },
+   {
+    "id": "t-gendai-0025",
+    "name": "二・一ゼネストの中止",
+    "col": "society",
+    "when": {
+     "from": 1947
+    },
+    "importance": 7,
+    "yomi": "に・いちゼネスト"
+   },
+   {
+    "id": "t-gendai-0026",
+    "name": "片山哲内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1947,
+     "to": 1948
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "かたやまてつ"
+   },
+   {
+    "id": "t-gendai-0027",
+    "name": "過度経済力集中排除法",
+    "col": "policy",
+    "when": {
+     "from": 1947
+    },
+    "importance": 6,
+    "yomi": "かどけいざいりょくしゅうちゅうはいじょほう"
+   },
+   {
+    "id": "t-gendai-0028",
+    "name": "吉田茂（第2〜5次内閣）",
+    "col": "ruler",
+    "when": {
+     "from": 1948,
+     "to": 1954
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "よしだしげる"
+   },
+   {
+    "id": "t-gendai-0029",
+    "name": "経済安定九原則",
+    "col": "policy",
+    "when": {
+     "from": 1948
+    },
+    "importance": 8,
+    "yomi": "けいざいあんていきゅうげんそく"
+   },
+   {
+    "id": "t-gendai-0030",
+    "name": "芦田均内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1948
+    },
+    "importance": 6,
+    "yomi": "あしだひとし"
+   },
+   {
+    "id": "t-gendai-0031",
+    "name": "ドッジ・ライン（1ドル＝360円）",
+    "col": "finance",
+    "when": {
+     "from": 1949
+    },
+    "importance": 9,
+    "yomi": "ドッジ・ライン"
+   },
+   {
+    "id": "t-gendai-0032",
+    "name": "中華人民共和国の成立",
+    "col": "situation",
+    "when": {
+     "from": 1949
+    },
+    "importance": 9,
+    "yomi": "ちゅうかじんみんきょうわこく"
+   },
+   {
+    "id": "t-gendai-0033",
+    "name": "シャウプ勧告",
+    "col": "finance",
+    "when": {
+     "from": 1949
+    },
+    "importance": 8,
+    "yomi": "シャウプかんこく"
+   },
+   {
+    "id": "t-gendai-0034",
+    "name": "湯川秀樹がノーベル物理学賞",
+    "col": "culture",
+    "when": {
+     "from": 1949
+    },
+    "importance": 7,
+    "yomi": "ゆかわひでき"
+   },
+   {
+    "id": "t-gendai-0035",
+    "name": "朝鮮戦争（1950〜53年）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1950
+    },
+    "importance": 10,
+    "yomi": "ちょうせんせんそう"
+   },
+   {
+    "id": "t-gendai-0036",
+    "name": "特需景気",
+    "col": "industry",
+    "when": {
+     "from": 1950
+    },
+    "importance": 9,
+    "yomi": "とくじゅけいき"
+   },
+   {
+    "id": "t-gendai-0037",
+    "name": "警察予備隊",
+    "col": "system",
+    "when": {
+     "from": 1950
+    },
+    "importance": 9,
+    "yomi": "けいさつよびたい"
+   },
+   {
+    "id": "t-gendai-0038",
+    "name": "レッド・パージ",
+    "col": "society",
+    "when": {
+     "from": 1950
+    },
+    "importance": 7,
+    "yomi": "レッド・パージ"
+   },
+   {
+    "id": "t-gendai-0039",
+    "name": "文化財保護法",
+    "col": "culture",
+    "when": {
+     "from": 1950
+    },
+    "importance": 6,
+    "yomi": "ぶんかざいほごほう"
+   },
+   {
+    "id": "t-gendai-0040",
+    "name": "日本労働組合総評議会（総評）",
+    "col": "society",
+    "when": {
+     "from": 1950
+    },
+    "importance": 6,
+    "yomi": "そうひょう"
+   },
+   {
+    "id": "t-gendai-0041",
+    "name": "サンフランシスコ平和条約",
+    "col": "diplomacy",
+    "when": {
+     "from": 1951
+    },
+    "importance": 10,
+    "yomi": "サンフランシスコへいわじょうやく"
+   },
+   {
+    "id": "t-gendai-0042",
+    "name": "日米安全保障条約",
+    "col": "diplomacy",
+    "when": {
+     "from": 1951
+    },
+    "importance": 10,
+    "yomi": "にちべいあんぜんほしょうじょうやく"
+   },
+   {
+    "id": "t-gendai-0043",
+    "name": "日米行政協定",
+    "col": "diplomacy",
+    "when": {
+     "from": 1952
+    },
+    "importance": 7,
+    "yomi": "にちべいぎょうせいきょうてい"
+   },
+   {
+    "id": "t-gendai-0044",
+    "name": "保安隊",
+    "col": "system",
+    "when": {
+     "from": 1952
+    },
+    "importance": 7,
+    "yomi": "ほあんたい"
+   },
+   {
+    "id": "t-gendai-0045",
+    "name": "破壊活動防止法",
+    "col": "policy",
+    "when": {
+     "from": 1952
+    },
+    "importance": 6,
+    "yomi": "はかいかつどうぼうしほう"
+   },
+   {
+    "id": "t-gendai-0046",
+    "name": "テレビ放送の開始",
+    "col": "culture",
+    "when": {
+     "from": 1953
+    },
+    "importance": 7,
+    "yomi": "テレビほうそう"
+   },
+   {
+    "id": "t-gendai-0047",
+    "name": "奄美諸島の返還",
+    "col": "diplomacy",
+    "when": {
+     "from": 1953
+    },
+    "importance": 6,
+    "yomi": "あまみしょとう"
+   },
+   {
+    "id": "t-gendai-0048",
+    "name": "自衛隊・防衛庁",
+    "col": "system",
+    "when": {
+     "from": 1954
+    },
+    "importance": 9,
+    "yomi": "じえいたい"
+   },
+   {
+    "id": "t-gendai-0049",
+    "name": "第五福竜丸事件",
+    "col": "society",
+    "when": {
+     "from": 1954
+    },
+    "importance": 8,
+    "yomi": "だいごふくりゅうまるじけん"
+   },
+   {
+    "id": "t-gendai-0050",
+    "name": "鳩山一郎内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1954,
+     "to": 1956
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "はとやまいちろう"
+   },
+   {
+    "id": "t-gendai-0051",
+    "name": "MSA協定",
+    "col": "diplomacy",
+    "when": {
+     "from": 1954
+    },
+    "importance": 7,
+    "yomi": "MSAきょうてい"
+   },
+   {
+    "id": "t-gendai-0052",
+    "name": "55年体制",
+    "col": "system",
+    "when": {
+     "from": 1955,
+     "to": 1993
+    },
+    "importance": 10,
+    "shape": "span",
+    "yomi": "ごじゅうごねんたいせい"
+   },
+   {
+    "id": "t-gendai-0053",
+    "name": "高度経済成長",
+    "col": "industry",
+    "when": {
+     "from": 1955,
+     "to": 1973
+    },
+    "importance": 10,
+    "shape": "span",
+    "yomi": "こうどけいざいせいちょう"
+   },
+   {
+    "id": "t-gendai-0054",
+    "name": "自由民主党の結成（保守合同）",
+    "col": "society",
+    "when": {
+     "from": 1955
+    },
+    "importance": 9,
+    "yomi": "じゆうみんしゅとう"
+   },
+   {
+    "id": "t-gendai-0055",
+    "name": "日本社会党の統一",
+    "col": "society",
+    "when": {
+     "from": 1955
+    },
+    "importance": 8,
+    "yomi": "にほんしゃかいとう"
+   },
+   {
+    "id": "t-gendai-0056",
+    "name": "神武景気",
+    "col": "industry",
+    "when": {
+     "from": 1955
+    },
+    "importance": 8,
+    "yomi": "じんむけいき"
+   },
+   {
+    "id": "t-gendai-0057",
+    "name": "三種の神器（白黒テレビ・洗濯機・冷蔵庫）",
+    "col": "society",
+    "when": {
+     "from": 1955,
+     "approx": true,
+     "label": "1950年代後半"
+    },
+    "importance": 8,
+    "yomi": "さんしゅのじんぎ"
+   },
+   {
+    "id": "t-gendai-0058",
+    "name": "原水爆禁止世界大会",
+    "col": "society",
+    "when": {
+     "from": 1955
+    },
+    "importance": 7,
+    "yomi": "げんすいばくきんし"
+   },
+   {
+    "id": "t-gendai-0059",
+    "name": "GATT加盟",
+    "col": "diplomacy",
+    "when": {
+     "from": 1955
+    },
+    "importance": 6,
+    "yomi": "ガット"
+   },
+   {
+    "id": "t-gendai-0060",
+    "name": "日ソ共同宣言",
+    "col": "diplomacy",
+    "when": {
+     "from": 1956
+    },
+    "importance": 10,
+    "yomi": "にっそきょうどうせんげん"
+   },
+   {
+    "id": "t-gendai-0061",
+    "name": "国際連合への加盟",
+    "col": "diplomacy",
+    "when": {
+     "from": 1956
+    },
+    "importance": 10,
+    "yomi": "こくさいれんごう"
+   },
+   {
+    "id": "t-gendai-0062",
+    "name": "「もはや戦後ではない」（経済白書）",
+    "col": "culture",
+    "when": {
+     "from": 1956
+    },
+    "importance": 7,
+    "yomi": "もはやせんごではない"
+   },
+   {
+    "id": "t-gendai-0063",
+    "name": "石橋湛山内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1956,
+     "to": 1957
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "いしばしたんざん"
+   },
+   {
+    "id": "t-gendai-0064",
+    "name": "岸信介内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1957,
+     "to": 1960
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "きしのぶすけ"
+   },
+   {
+    "id": "t-gendai-0065",
+    "name": "岩戸景気",
+    "col": "industry",
+    "when": {
+     "from": 1958
+    },
+    "importance": 6,
+    "yomi": "いわとけいき"
+   },
+   {
+    "id": "t-gendai-0066",
+    "name": "日米相互協力及び安全保障条約（新安保条約）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1960
+    },
+    "importance": 10,
+    "yomi": "しんあんぽじょうやく"
+   },
+   {
+    "id": "t-gendai-0067",
+    "name": "60年安保闘争",
+    "col": "society",
+    "when": {
+     "from": 1960
+    },
+    "importance": 9,
+    "yomi": "あんぽとうそう"
+   },
+   {
+    "id": "t-gendai-0068",
+    "name": "池田勇人内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1960,
+     "to": 1964
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "いけだはやと"
+   },
+   {
+    "id": "t-gendai-0069",
+    "name": "国民所得倍増計画",
+    "col": "policy",
+    "when": {
+     "from": 1960
+    },
+    "importance": 9,
+    "yomi": "こくみんしょとくばいぞうけいかく"
+   },
+   {
+    "id": "t-gendai-0070",
+    "name": "エネルギー革命（石炭から石油へ）",
+    "col": "industry",
+    "when": {
+     "from": 1960,
+     "approx": true,
+     "label": "1960年代"
+    },
+    "importance": 7,
+    "yomi": "エネルギーかくめい"
+   },
+   {
+    "id": "t-gendai-0071",
+    "name": "三井三池炭鉱争議",
+    "col": "society",
+    "when": {
+     "from": 1960
+    },
+    "importance": 6,
+    "yomi": "みついみいけ"
+   },
+   {
+    "id": "t-gendai-0072",
+    "name": "農業基本法",
+    "col": "policy",
+    "when": {
+     "from": 1961
+    },
+    "importance": 7,
+    "yomi": "のうぎょうきほんほう"
+   },
+   {
+    "id": "t-gendai-0073",
+    "name": "LT貿易（日中）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1962
+    },
+    "importance": 6,
+    "yomi": "LTぼうえき"
+   },
+   {
+    "id": "t-gendai-0074",
+    "name": "東京オリンピック",
+    "col": "culture",
+    "when": {
+     "from": 1964
+    },
+    "importance": 9,
+    "yomi": "とうきょうオリンピック"
+   },
+   {
+    "id": "t-gendai-0075",
+    "name": "佐藤栄作内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1964,
+     "to": 1972
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "さとうえいさく"
+   },
+   {
+    "id": "t-gendai-0076",
+    "name": "東海道新幹線",
+    "col": "industry",
+    "when": {
+     "from": 1964
+    },
+    "importance": 8,
+    "yomi": "とうかいどうしんかんせん"
+   },
+   {
+    "id": "t-gendai-0077",
+    "name": "OECD加盟・IMF8条国へ",
+    "col": "diplomacy",
+    "when": {
+     "from": 1964
+    },
+    "importance": 7,
+    "yomi": "OECD"
+   },
+   {
+    "id": "t-gendai-0078",
+    "name": "日韓基本条約",
+    "col": "diplomacy",
+    "when": {
+     "from": 1965
+    },
+    "importance": 10,
+    "yomi": "にっかんきほんじょうやく"
+   },
+   {
+    "id": "t-gendai-0079",
+    "name": "ベトナム戦争の本格化（北爆）",
+    "col": "situation",
+    "when": {
+     "from": 1965
+    },
+    "importance": 8,
+    "yomi": "ベトナムせんそう"
+   },
+   {
+    "id": "t-gendai-0080",
+    "name": "3C（カー・クーラー・カラーテレビ）",
+    "col": "society",
+    "when": {
+     "from": 1965,
+     "approx": true,
+     "label": "1960年代後半"
+    },
+    "importance": 7,
+    "yomi": "さんシー"
+   },
+   {
+    "id": "t-gendai-0081",
+    "name": "いざなぎ景気",
+    "col": "industry",
+    "when": {
+     "from": 1966
+    },
+    "importance": 6,
+    "yomi": "いざなぎけいき"
+   },
+   {
+    "id": "t-gendai-0082",
+    "name": "公害対策基本法",
+    "col": "society",
+    "when": {
+     "from": 1967
+    },
+    "importance": 8,
+    "yomi": "こうがいたいさくきほんほう"
+   },
+   {
+    "id": "t-gendai-0083",
+    "name": "四大公害訴訟",
+    "col": "society",
+    "when": {
+     "from": 1967,
+     "approx": true,
+     "label": "1967〜69年提訴"
+    },
+    "importance": 8,
+    "yomi": "よんだいこうがいそしょう"
+   },
+   {
+    "id": "t-gendai-0084",
+    "name": "非核三原則",
+    "col": "diplomacy",
+    "when": {
+     "from": 1967
+    },
+    "importance": 8,
+    "yomi": "ひかくさんげんそく"
+   },
+   {
+    "id": "t-gendai-0085",
+    "name": "小笠原諸島の返還",
+    "col": "diplomacy",
+    "when": {
+     "from": 1968
+    },
+    "importance": 8,
+    "yomi": "おがさわらしょとう"
+   },
+   {
+    "id": "t-gendai-0086",
+    "name": "GNPが資本主義国で第2位に",
+    "col": "industry",
+    "when": {
+     "from": 1968
+    },
+    "importance": 6,
+    "yomi": "GNP"
+   },
+   {
+    "id": "t-gendai-0087",
+    "name": "日本万国博覧会（大阪）",
+    "col": "culture",
+    "when": {
+     "from": 1970
+    },
+    "importance": 7,
+    "yomi": "ばんこくはくらんかい"
+   },
+   {
+    "id": "t-gendai-0088",
+    "name": "ドル危機（ニクソン・ショック）",
+    "col": "finance",
+    "when": {
+     "from": 1971
+    },
+    "importance": 9,
+    "yomi": "ドルきき"
+   },
+   {
+    "id": "t-gendai-0089",
+    "name": "沖縄返還協定",
+    "col": "diplomacy",
+    "when": {
+     "from": 1971
+    },
+    "importance": 8,
+    "yomi": "おきなわへんかんきょうてい"
+   },
+   {
+    "id": "t-gendai-0090",
+    "name": "環境庁",
+    "col": "system",
+    "when": {
+     "from": 1971
+    },
+    "importance": 7,
+    "yomi": "かんきょうちょう"
+   },
+   {
+    "id": "t-gendai-0091",
+    "name": "沖縄の日本復帰",
+    "col": "diplomacy",
+    "when": {
+     "from": 1972
+    },
+    "importance": 10,
+    "yomi": "おきなわのにほんふっき"
+   },
+   {
+    "id": "t-gendai-0092",
+    "name": "日中共同声明",
+    "col": "diplomacy",
+    "when": {
+     "from": 1972
+    },
+    "importance": 10,
+    "yomi": "にっちゅうきょうどうせいめい"
+   },
+   {
+    "id": "t-gendai-0093",
+    "name": "田中角栄内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1972,
+     "to": 1974
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "たなかかくえい"
+   },
+   {
+    "id": "t-gendai-0094",
+    "name": "日本列島改造論",
+    "col": "policy",
+    "when": {
+     "from": 1972
+    },
+    "importance": 7,
+    "yomi": "にほんれっとうかいぞうろん"
+   },
+   {
+    "id": "t-gendai-0095",
+    "name": "第1次石油危機（オイル・ショック）",
+    "col": "industry",
+    "when": {
+     "from": 1973
+    },
+    "importance": 10,
+    "yomi": "せきゆきき"
+   },
+   {
+    "id": "t-gendai-0096",
+    "name": "変動為替相場制へ",
+    "col": "finance",
+    "when": {
+     "from": 1973
+    },
+    "importance": 8,
+    "yomi": "へんどうかわせそうばせい"
+   },
+   {
+    "id": "t-gendai-0097",
+    "name": "三木武夫内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1974,
+     "to": 1976
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "みきたけお"
+   },
+   {
+    "id": "t-gendai-0098",
+    "name": "先進国首脳会議（サミット）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1975
+    },
+    "importance": 6,
+    "yomi": "サミット"
+   },
+   {
+    "id": "t-gendai-0099",
+    "name": "ロッキード事件",
+    "col": "event",
+    "when": {
+     "from": 1976
+    },
+    "importance": 8,
+    "yomi": "ロッキードじけん"
+   },
+   {
+    "id": "t-gendai-0100",
+    "name": "福田赳夫内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1976,
+     "to": 1978
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "ふくだたけお"
+   },
+   {
+    "id": "t-gendai-0101",
+    "name": "日中平和友好条約",
+    "col": "diplomacy",
+    "when": {
+     "from": 1978
+    },
+    "importance": 9,
+    "yomi": "にっちゅうへいわゆうこうじょうやく"
+   },
+   {
+    "id": "t-gendai-0102",
+    "name": "大平正芳内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1978,
+     "to": 1980
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "おおひらまさよし"
+   },
+   {
+    "id": "t-gendai-0103",
+    "name": "第2次石油危機",
+    "col": "industry",
+    "when": {
+     "from": 1979
+    },
+    "importance": 7,
+    "yomi": "せきゆきき"
+   },
+   {
+    "id": "t-gendai-0104",
+    "name": "日米貿易摩擦",
+    "col": "diplomacy",
+    "when": {
+     "from": 1980,
+     "approx": true,
+     "label": "1980年代"
+    },
+    "importance": 7,
+    "yomi": "にちべいぼうえきまさつ"
+   },
+   {
+    "id": "t-gendai-0105",
+    "name": "鈴木善幸内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1980,
+     "to": 1982
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "すずきぜんこう"
+   },
+   {
+    "id": "t-gendai-0106",
+    "name": "中曽根康弘内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1982,
+     "to": 1987
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "なかそねやすひろ"
+   },
+   {
+    "id": "t-gendai-0107",
+    "name": "プラザ合意（円高）",
+    "col": "finance",
+    "when": {
+     "from": 1985
+    },
+    "importance": 9,
+    "yomi": "プラザごうい"
+   },
+   {
+    "id": "t-gendai-0108",
+    "name": "行財政改革（電電公社・専売公社・国鉄の民営化）",
+    "col": "policy",
+    "when": {
+     "from": 1985,
+     "approx": true,
+     "label": "1980年代"
+    },
+    "importance": 8,
+    "yomi": "みんえいか"
+   },
+   {
+    "id": "t-gendai-0109",
+    "name": "男女雇用機会均等法",
+    "col": "policy",
+    "when": {
+     "from": 1985
+    },
+    "importance": 8,
+    "yomi": "だんじょこようきかいきんとうほう"
+   },
+   {
+    "id": "t-gendai-0110",
+    "name": "バブル経済",
+    "col": "industry",
+    "when": {
+     "from": 1986,
+     "to": 1991
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "バブルけいざい"
+   },
+   {
+    "id": "t-gendai-0111",
+    "name": "国鉄の分割民営化（JR）",
+    "col": "policy",
+    "when": {
+     "from": 1987
+    },
+    "importance": 7,
+    "yomi": "こくてつ"
+   },
+   {
+    "id": "t-gendai-0112",
+    "name": "竹下登内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1987,
+     "to": 1989
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "たけしたのぼる"
+   },
+   {
+    "id": "t-gendai-0113",
+    "name": "リクルート事件",
+    "col": "event",
+    "when": {
+     "from": 1988
+    },
+    "importance": 6,
+    "yomi": "リクルートじけん"
+   },
+   {
+    "id": "t-gendai-0114",
+    "name": "消費税の導入",
+    "col": "policy",
+    "when": {
+     "from": 1989
+    },
+    "importance": 9,
+    "yomi": "しょうひぜい"
+   },
+   {
+    "id": "t-gendai-0115",
+    "name": "冷戦の終結（マルタ会談）",
+    "col": "situation",
+    "when": {
+     "from": 1989
+    },
+    "importance": 9,
+    "yomi": "れいせんのしゅうけつ"
+   },
+   {
+    "id": "t-gendai-0116",
+    "name": "平成の天皇（明仁）",
+    "col": "ruler",
+    "when": {
+     "from": 1989,
+     "to": 2019
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "あきひと"
+   },
+   {
+    "id": "t-gendai-0117",
+    "name": "海部俊樹内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1989,
+     "to": 1991
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "かいふとしき"
+   },
+   {
+    "id": "t-gendai-0118",
+    "name": "湾岸戦争",
+    "col": "situation",
+    "when": {
+     "from": 1991
+    },
+    "importance": 8,
+    "yomi": "わんがんせんそう"
+   },
+   {
+    "id": "t-gendai-0119",
+    "name": "ソ連の解体",
+    "col": "situation",
+    "when": {
+     "from": 1991
+    },
+    "importance": 8,
+    "yomi": "ソれんのかいたい"
+   },
+   {
+    "id": "t-gendai-0120",
+    "name": "バブル崩壊・平成不況",
+    "col": "industry",
+    "when": {
+     "from": 1991,
+     "approx": true,
+     "label": "1990年代〜"
+    },
+    "importance": 8,
+    "yomi": "へいせいふきょう"
+   },
+   {
+    "id": "t-gendai-0121",
+    "name": "宮沢喜一内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1991,
+     "to": 1993
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "みやざわきいち"
+   },
+   {
+    "id": "t-gendai-0122",
+    "name": "PKO協力法",
+    "col": "policy",
+    "when": {
+     "from": 1992
+    },
+    "importance": 8,
+    "yomi": "PKOきょうりょくほう"
+   },
+   {
+    "id": "t-gendai-0123",
+    "name": "55年体制の崩壊",
+    "col": "event",
+    "when": {
+     "from": 1993
+    },
+    "importance": 9,
+    "yomi": "ごじゅうごねんたいせいのほうかい"
+   },
+   {
+    "id": "t-gendai-0124",
+    "name": "細川護熙内閣（非自民の連立政権）",
+    "col": "ruler",
+    "when": {
+     "from": 1993,
+     "to": 1994
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "ほそかわもりひろ"
+   },
+   {
+    "id": "t-gendai-0125",
+    "name": "村山富市内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1994,
+     "to": 1996
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "むらやまとみいち"
+   },
+   {
+    "id": "t-gendai-0126",
+    "name": "選挙制度改革（小選挙区比例代表並立制）",
+    "col": "policy",
+    "when": {
+     "from": 1994
+    },
+    "importance": 6,
+    "yomi": "しょうせんきょく"
+   },
+   {
+    "id": "t-gendai-0127",
+    "name": "阪神・淡路大震災",
+    "col": "event",
+    "when": {
+     "from": 1995
+    },
+    "importance": 8,
+    "yomi": "はんしん・あわじだいしんさい"
+   },
+   {
+    "id": "t-gendai-0128",
+    "name": "地下鉄サリン事件",
+    "col": "event",
+    "when": {
+     "from": 1995
+    },
+    "importance": 6,
+    "yomi": "ちかてつサリンじけん"
+   },
+   {
+    "id": "t-gendai-0129",
+    "name": "橋本龍太郎内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1996,
+     "to": 1998
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "はしもとりゅうたろう"
+   },
+   {
+    "id": "t-gendai-0130",
+    "name": "小渕恵三内閣",
+    "col": "ruler",
+    "when": {
+     "from": 1998,
+     "to": 2000
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "おぶちけいぞう"
+   },
+   {
+    "id": "t-gendai-0131",
+    "name": "森喜朗内閣",
+    "col": "ruler",
+    "when": {
+     "from": 2000,
+     "to": 2001
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "もりよしろう"
+   },
+   {
+    "id": "t-gendai-0132",
+    "name": "小泉純一郎内閣",
+    "col": "ruler",
+    "when": {
+     "from": 2001,
+     "to": 2006
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "こいずみじゅんいちろう"
+   },
+   {
+    "id": "t-gendai-0133",
+    "name": "日朝首脳会談（日朝平壌宣言）",
+    "col": "diplomacy",
+    "when": {
+     "from": 2002
+    },
+    "importance": 7,
+    "yomi": "にっちょうしゅのうかいだん"
+   },
+   {
+    "id": "t-gendai-0134",
+    "name": "郵政民営化法",
+    "col": "policy",
+    "when": {
+     "from": 2005
+    },
+    "importance": 7,
+    "yomi": "ゆうせいみんえいか"
+   },
+   {
+    "id": "t-gendai-0135",
+    "name": "安倍晋三（第1次内閣）",
+    "col": "ruler",
+    "when": {
+     "from": 2006,
+     "to": 2007
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "あべしんぞう"
+   },
+   {
+    "id": "t-gendai-0136",
+    "name": "福田康夫内閣",
+    "col": "ruler",
+    "when": {
+     "from": 2007,
+     "to": 2008
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "ふくだやすお"
+   },
+   {
+    "id": "t-gendai-0137",
+    "name": "世界金融危機（リーマン・ショック）",
+    "col": "situation",
+    "when": {
+     "from": 2008
+    },
+    "importance": 7,
+    "yomi": "せかいきんゆうきき"
+   },
+   {
+    "id": "t-gendai-0138",
+    "name": "麻生太郎内閣",
+    "col": "ruler",
+    "when": {
+     "from": 2008,
+     "to": 2009
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "あそうたろう"
+   },
+   {
+    "id": "t-gendai-0139",
+    "name": "鳩山由紀夫内閣（民主党政権）",
+    "col": "ruler",
+    "when": {
+     "from": 2009,
+     "to": 2010
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "はとやまゆきお"
+   },
+   {
+    "id": "t-gendai-0140",
+    "name": "菅直人内閣",
+    "col": "ruler",
+    "when": {
+     "from": 2010,
+     "to": 2011
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "かんなおと"
+   },
+   {
+    "id": "t-gendai-0141",
+    "name": "東日本大震災・福島第一原子力発電所事故",
+    "col": "event",
+    "when": {
+     "from": 2011
+    },
+    "importance": 8,
+    "yomi": "ひがしにほんだいしんさい"
+   },
+   {
+    "id": "t-gendai-0142",
+    "name": "野田佳彦内閣",
+    "col": "ruler",
+    "when": {
+     "from": 2011,
+     "to": 2012
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "のだよしひこ"
+   },
+   {
+    "id": "t-gendai-0143",
+    "name": "安倍晋三（第2次〜第4次内閣）",
+    "col": "ruler",
+    "when": {
+     "from": 2012,
+     "to": 2020
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "あべしんぞう"
+   },
+   {
+    "id": "t-gendai-0144",
+    "name": "天皇の退位・令和への改元",
+    "col": "event",
+    "when": {
+     "from": 2019
+    },
+    "importance": 6,
+    "yomi": "れいわ"
+   }
+  ]
+ }
+}

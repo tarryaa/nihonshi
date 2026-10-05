@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "日本史ノート",
+  "short_name": "日本史ノート",
+  "description": "日本史の整理・暗記ノート（年表・赤シート・苦手管理）",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F4F0E6",
+  "theme_color": "#F4F0E6",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

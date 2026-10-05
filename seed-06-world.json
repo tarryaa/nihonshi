@@ -1,0 +1,716 @@
+{
+ "format": "nhnote-patch",
+ "schemaVersion": 1,
+ "seed": {
+  "id": "world",
+  "version": 1,
+  "title": "世界の動き"
+ },
+ "about": "初期データ（AI作成・未確認）。重要度の基準は DATA_SCHEMA.md。元ファイルは tools/seed-world.txt",
+ "upsert": {
+  "terms": [
+   {
+    "id": "t-world-0001",
+    "name": "ローマ帝国（帝政）の始まり",
+    "col": "world",
+    "when": {
+     "from": -27
+    },
+    "importance": 5,
+    "yomi": "ローマていこく"
+   },
+   {
+    "id": "t-world-0002",
+    "name": "キリスト教の成立",
+    "col": "world",
+    "when": {
+     "from": 30,
+     "approx": true,
+     "label": "1世紀前半"
+    },
+    "importance": 5,
+    "yomi": "キリストきょう"
+   },
+   {
+    "id": "t-world-0003",
+    "name": "ローマ帝国の東西分裂",
+    "col": "world",
+    "when": {
+     "from": 395
+    },
+    "importance": 5,
+    "yomi": "ローマていこくのとうざいぶんれつ"
+   },
+   {
+    "id": "t-world-0004",
+    "name": "西ローマ帝国の滅亡",
+    "col": "world",
+    "when": {
+     "from": 476
+    },
+    "importance": 5,
+    "yomi": "にしローマていこくのめつぼう"
+   },
+   {
+    "id": "t-world-0005",
+    "name": "イスラーム教の成立（ムハンマド）",
+    "col": "world",
+    "when": {
+     "from": 610,
+     "approx": true,
+     "label": "7世紀初め"
+    },
+    "importance": 6,
+    "yomi": "イスラームきょう"
+   },
+   {
+    "id": "t-world-0006",
+    "name": "アッバース朝の成立",
+    "col": "world",
+    "when": {
+     "from": 750
+    },
+    "importance": 4,
+    "yomi": "アッバースちょう"
+   },
+   {
+    "id": "t-world-0007",
+    "name": "カールの戴冠（フランク王国）",
+    "col": "world",
+    "when": {
+     "from": 800
+    },
+    "importance": 5,
+    "yomi": "カールのたいかん"
+   },
+   {
+    "id": "t-world-0008",
+    "name": "神聖ローマ帝国の始まり",
+    "col": "world",
+    "when": {
+     "from": 962
+    },
+    "importance": 4,
+    "yomi": "しんせいローマていこく"
+   },
+   {
+    "id": "t-world-0009",
+    "name": "第1回十字軍",
+    "col": "world",
+    "when": {
+     "from": 1096
+    },
+    "importance": 6,
+    "yomi": "じゅうじぐん"
+   },
+   {
+    "id": "t-world-0010",
+    "name": "モンゴル帝国の成立（チンギス＝ハン）",
+    "col": "world",
+    "when": {
+     "from": 1206
+    },
+    "importance": 7,
+    "yomi": "モンゴルていこく"
+   },
+   {
+    "id": "t-world-0011",
+    "name": "マグナ＝カルタ（大憲章）",
+    "col": "world",
+    "when": {
+     "from": 1215
+    },
+    "importance": 5,
+    "yomi": "マグナ＝カルタ"
+   },
+   {
+    "id": "t-world-0012",
+    "name": "オスマン帝国の成立",
+    "col": "world",
+    "when": {
+     "from": 1299,
+     "approx": true,
+     "label": "13世紀末"
+    },
+    "importance": 4,
+    "yomi": "オスマンていこく"
+   },
+   {
+    "id": "t-world-0013",
+    "name": "ペストの大流行",
+    "col": "world",
+    "when": {
+     "from": 1348,
+     "approx": true,
+     "label": "14世紀中頃"
+    },
+    "importance": 4,
+    "yomi": "ペスト"
+   },
+   {
+    "id": "t-world-0014",
+    "name": "ルネサンス",
+    "col": "world",
+    "when": {
+     "from": 1450,
+     "approx": true,
+     "label": "15世紀"
+    },
+    "importance": 6,
+    "yomi": "ルネサンス"
+   },
+   {
+    "id": "t-world-0015",
+    "name": "ビザンツ帝国の滅亡",
+    "col": "world",
+    "when": {
+     "from": 1453
+    },
+    "importance": 4,
+    "yomi": "ビザンツていこく"
+   },
+   {
+    "id": "t-world-0016",
+    "name": "バルトロメウ＝ディアスが喜望峰に到達",
+    "col": "world",
+    "when": {
+     "from": 1488
+    },
+    "importance": 4,
+    "yomi": "きぼうほう"
+   },
+   {
+    "id": "t-world-0017",
+    "name": "コロンブスがアメリカ大陸近くの島に到達",
+    "col": "world",
+    "when": {
+     "from": 1492
+    },
+    "importance": 8,
+    "yomi": "コロンブス"
+   },
+   {
+    "id": "t-world-0018",
+    "name": "ヴァスコ＝ダ＝ガマのインド航路",
+    "col": "world",
+    "when": {
+     "from": 1498
+    },
+    "importance": 7,
+    "yomi": "ヴァスコ＝ダ＝ガマ"
+   },
+   {
+    "id": "t-world-0019",
+    "name": "ルターの宗教改革",
+    "col": "world",
+    "when": {
+     "from": 1517
+    },
+    "importance": 8,
+    "yomi": "しゅうきょうかいかく"
+   },
+   {
+    "id": "t-world-0020",
+    "name": "マゼランの船隊の世界周航（〜1522年）",
+    "col": "world",
+    "when": {
+     "from": 1519
+    },
+    "importance": 5,
+    "yomi": "マゼラン"
+   },
+   {
+    "id": "t-world-0021",
+    "name": "イエズス会の結成",
+    "col": "world",
+    "when": {
+     "from": 1534
+    },
+    "importance": 7,
+    "yomi": "イエズスかい"
+   },
+   {
+    "id": "t-world-0022",
+    "name": "スペインがマニラを建設",
+    "col": "world",
+    "when": {
+     "from": 1571
+    },
+    "importance": 6,
+    "yomi": "マニラ"
+   },
+   {
+    "id": "t-world-0023",
+    "name": "スペインの無敵艦隊がイギリスに敗れる",
+    "col": "world",
+    "when": {
+     "from": 1588
+    },
+    "importance": 5,
+    "yomi": "むてきかんたい"
+   },
+   {
+    "id": "t-world-0024",
+    "name": "イギリス東インド会社",
+    "col": "world",
+    "when": {
+     "from": 1600
+    },
+    "importance": 7,
+    "yomi": "ひがしインドがいしゃ"
+   },
+   {
+    "id": "t-world-0025",
+    "name": "オランダ東インド会社",
+    "col": "world",
+    "when": {
+     "from": 1602
+    },
+    "importance": 8,
+    "yomi": "ひがしインドがいしゃ"
+   },
+   {
+    "id": "t-world-0026",
+    "name": "ピューリタン革命",
+    "col": "world",
+    "when": {
+     "from": 1642
+    },
+    "importance": 5,
+    "yomi": "ピューリタンかくめい"
+   },
+   {
+    "id": "t-world-0027",
+    "name": "ウェストファリア条約",
+    "col": "world",
+    "when": {
+     "from": 1648
+    },
+    "importance": 4,
+    "yomi": "ウェストファリアじょうやく"
+   },
+   {
+    "id": "t-world-0028",
+    "name": "名誉革命",
+    "col": "world",
+    "when": {
+     "from": 1688
+    },
+    "importance": 6,
+    "yomi": "めいよかくめい"
+   },
+   {
+    "id": "t-world-0029",
+    "name": "ネルチンスク条約（ロシアと清）",
+    "col": "world",
+    "when": {
+     "from": 1689
+    },
+    "importance": 6,
+    "yomi": "ネルチンスクじょうやく"
+   },
+   {
+    "id": "t-world-0030",
+    "name": "イギリスの産業革命",
+    "col": "world",
+    "when": {
+     "from": 1760,
+     "approx": true,
+     "label": "18世紀後半"
+    },
+    "importance": 8,
+    "yomi": "さんぎょうかくめい"
+   },
+   {
+    "id": "t-world-0031",
+    "name": "アメリカ独立宣言",
+    "col": "world",
+    "when": {
+     "from": 1776
+    },
+    "importance": 8,
+    "yomi": "アメリカどくりつせんげん"
+   },
+   {
+    "id": "t-world-0032",
+    "name": "フランス革命",
+    "col": "world",
+    "when": {
+     "from": 1789
+    },
+    "importance": 8,
+    "yomi": "フランスかくめい"
+   },
+   {
+    "id": "t-world-0033",
+    "name": "ナポレオンが皇帝に",
+    "col": "world",
+    "when": {
+     "from": 1804
+    },
+    "importance": 5,
+    "yomi": "ナポレオン"
+   },
+   {
+    "id": "t-world-0034",
+    "name": "ウィーン会議（1814〜15年）",
+    "col": "world",
+    "when": {
+     "from": 1814
+    },
+    "importance": 4,
+    "yomi": "ウィーンかいぎ"
+   },
+   {
+    "id": "t-world-0035",
+    "name": "フランス二月革命・『共産党宣言』",
+    "col": "world",
+    "when": {
+     "from": 1848
+    },
+    "importance": 4,
+    "yomi": "にがつかくめい"
+   },
+   {
+    "id": "t-world-0036",
+    "name": "太平天国の乱（1851〜64年）",
+    "col": "world",
+    "when": {
+     "from": 1851
+    },
+    "importance": 5,
+    "yomi": "たいへいてんごく"
+   },
+   {
+    "id": "t-world-0037",
+    "name": "クリミア戦争（1853〜56年）",
+    "col": "world",
+    "when": {
+     "from": 1853
+    },
+    "importance": 5,
+    "yomi": "クリミアせんそう"
+   },
+   {
+    "id": "t-world-0038",
+    "name": "インド大反乱",
+    "col": "world",
+    "when": {
+     "from": 1857
+    },
+    "importance": 4,
+    "yomi": "インドだいはんらん"
+   },
+   {
+    "id": "t-world-0039",
+    "name": "アメリカの南北戦争（1861〜65年）",
+    "col": "world",
+    "when": {
+     "from": 1861
+    },
+    "importance": 7,
+    "yomi": "なんぼくせんそう"
+   },
+   {
+    "id": "t-world-0040",
+    "name": "スエズ運河の開通",
+    "col": "world",
+    "when": {
+     "from": 1869
+    },
+    "importance": 5,
+    "yomi": "スエズうんが"
+   },
+   {
+    "id": "t-world-0041",
+    "name": "アメリカ大陸横断鉄道の開通",
+    "col": "world",
+    "when": {
+     "from": 1869
+    },
+    "importance": 5,
+    "yomi": "たいりくおうだんてつどう"
+   },
+   {
+    "id": "t-world-0042",
+    "name": "ドイツ帝国の成立",
+    "col": "world",
+    "when": {
+     "from": 1871
+    },
+    "importance": 6,
+    "yomi": "ドイツていこく"
+   },
+   {
+    "id": "t-world-0043",
+    "name": "三国同盟（ドイツ・オーストリア・イタリア）",
+    "col": "world",
+    "when": {
+     "from": 1882
+    },
+    "importance": 5,
+    "yomi": "さんごくどうめい"
+   },
+   {
+    "id": "t-world-0044",
+    "name": "アメリカ＝スペイン戦争（フィリピン・グアムがアメリカ領に）",
+    "col": "world",
+    "when": {
+     "from": 1898
+    },
+    "importance": 4,
+    "yomi": "べいせいせんそう"
+   },
+   {
+    "id": "t-world-0045",
+    "name": "三国協商（イギリス・フランス・ロシア）",
+    "col": "world",
+    "when": {
+     "from": 1907
+    },
+    "importance": 6,
+    "yomi": "さんごくきょうしょう"
+   },
+   {
+    "id": "t-world-0046",
+    "name": "第一次世界大戦（1914〜18年）",
+    "col": "world",
+    "when": {
+     "from": 1914
+    },
+    "importance": 8,
+    "yomi": "だいいちじせかいたいせん"
+   },
+   {
+    "id": "t-world-0047",
+    "name": "ソビエト社会主義共和国連邦の成立",
+    "col": "world",
+    "when": {
+     "from": 1922
+    },
+    "importance": 6,
+    "yomi": "ソビエト"
+   },
+   {
+    "id": "t-world-0048",
+    "name": "イタリアでムッソリーニが政権をにぎる",
+    "col": "world",
+    "when": {
+     "from": 1922
+    },
+    "importance": 4,
+    "yomi": "ムッソリーニ"
+   },
+   {
+    "id": "t-world-0049",
+    "name": "ドイツでヒトラーが政権をにぎる",
+    "col": "world",
+    "when": {
+     "from": 1933
+    },
+    "importance": 7,
+    "yomi": "ヒトラー"
+   },
+   {
+    "id": "t-world-0050",
+    "name": "アメリカのニューディール政策",
+    "col": "world",
+    "when": {
+     "from": 1933
+    },
+    "importance": 6,
+    "yomi": "ニューディール"
+   },
+   {
+    "id": "t-world-0051",
+    "name": "独ソ不可侵条約",
+    "col": "world",
+    "when": {
+     "from": 1939
+    },
+    "importance": 7,
+    "yomi": "どくそふかしんじょうやく"
+   },
+   {
+    "id": "t-world-0052",
+    "name": "大西洋憲章",
+    "col": "world",
+    "when": {
+     "from": 1941
+    },
+    "importance": 5,
+    "yomi": "たいせいようけんしょう"
+   },
+   {
+    "id": "t-world-0053",
+    "name": "国際連合の成立",
+    "col": "world",
+    "when": {
+     "from": 1945
+    },
+    "importance": 8,
+    "yomi": "こくさいれんごう"
+   },
+   {
+    "id": "t-world-0054",
+    "name": "トルーマン＝ドクトリン・マーシャル＝プラン",
+    "col": "world",
+    "when": {
+     "from": 1947
+    },
+    "importance": 6,
+    "yomi": "トルーマン＝ドクトリン"
+   },
+   {
+    "id": "t-world-0055",
+    "name": "大韓民国・朝鮮民主主義人民共和国の成立",
+    "col": "world",
+    "when": {
+     "from": 1948
+    },
+    "importance": 5,
+    "yomi": "かんこく・きたちょうせん"
+   },
+   {
+    "id": "t-world-0056",
+    "name": "北大西洋条約機構（NATO）",
+    "col": "world",
+    "when": {
+     "from": 1949
+    },
+    "importance": 7,
+    "yomi": "NATO"
+   },
+   {
+    "id": "t-world-0057",
+    "name": "アジア・アフリカ会議（バンドン会議）",
+    "col": "world",
+    "when": {
+     "from": 1955
+    },
+    "importance": 6,
+    "yomi": "アジア・アフリカかいぎ"
+   },
+   {
+    "id": "t-world-0058",
+    "name": "ワルシャワ条約機構",
+    "col": "world",
+    "when": {
+     "from": 1955
+    },
+    "importance": 5,
+    "yomi": "ワルシャワじょうやくきこう"
+   },
+   {
+    "id": "t-world-0059",
+    "name": "キューバ危機",
+    "col": "world",
+    "when": {
+     "from": 1962
+    },
+    "importance": 7,
+    "yomi": "キューバきき"
+   },
+   {
+    "id": "t-world-0060",
+    "name": "中国の文化大革命",
+    "col": "world",
+    "when": {
+     "from": 1966
+    },
+    "importance": 6,
+    "yomi": "ぶんかだいかくめい"
+   },
+   {
+    "id": "t-world-0061",
+    "name": "ヨーロッパ共同体（EC）・東南アジア諸国連合（ASEAN）",
+    "col": "world",
+    "when": {
+     "from": 1967
+    },
+    "importance": 5,
+    "yomi": "EC・ASEAN"
+   },
+   {
+    "id": "t-world-0062",
+    "name": "第4次中東戦争",
+    "col": "world",
+    "when": {
+     "from": 1973
+    },
+    "importance": 7,
+    "yomi": "ちゅうとうせんそう"
+   },
+   {
+    "id": "t-world-0063",
+    "name": "中国の改革・開放政策",
+    "col": "world",
+    "when": {
+     "from": 1978
+    },
+    "importance": 6,
+    "yomi": "かいかく・かいほう"
+   },
+   {
+    "id": "t-world-0064",
+    "name": "ベルリンの壁の崩壊",
+    "col": "world",
+    "when": {
+     "from": 1989
+    },
+    "importance": 7,
+    "yomi": "ベルリンのかべ"
+   },
+   {
+    "id": "t-world-0065",
+    "name": "天安門事件",
+    "col": "world",
+    "when": {
+     "from": 1989
+    },
+    "importance": 5,
+    "yomi": "てんあんもんじけん"
+   },
+   {
+    "id": "t-world-0066",
+    "name": "東西ドイツの統一",
+    "col": "world",
+    "when": {
+     "from": 1990
+    },
+    "importance": 6,
+    "yomi": "ドイツとういつ"
+   },
+   {
+    "id": "t-world-0067",
+    "name": "ヨーロッパ連合（EU）",
+    "col": "world",
+    "when": {
+     "from": 1993
+    },
+    "importance": 6,
+    "yomi": "EU"
+   },
+   {
+    "id": "t-world-0068",
+    "name": "アメリカ同時多発テロ事件",
+    "col": "world",
+    "when": {
+     "from": 2001
+    },
+    "importance": 7,
+    "yomi": "どうじたはつテロ"
+   },
+   {
+    "id": "t-world-0069",
+    "name": "イラク戦争",
+    "col": "world",
+    "when": {
+     "from": 2003
+    },
+    "importance": 5,
+    "yomi": "イラクせんそう"
+   }
+  ]
+ }
+}

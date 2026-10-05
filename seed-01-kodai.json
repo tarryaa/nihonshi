@@ -1,0 +1,3573 @@
+{
+ "format": "nhnote-patch",
+ "schemaVersion": 1,
+ "seed": {
+  "id": "kodai",
+  "version": 2,
+  "title": "原始・古代"
+ },
+ "about": "初期データ（AI作成・未確認）。重要度の基準は DATA_SCHEMA.md。元ファイルは tools/seed-kodai.txt",
+ "upsert": {
+  "terms": [
+   {
+    "id": "t-kodai-0001",
+    "name": "打製石器",
+    "col": "culture",
+    "when": {
+     "from": -36000,
+     "approx": true,
+     "label": "約3万8000年前〜"
+    },
+    "importance": 8,
+    "yomi": "だせいせっき"
+   },
+   {
+    "id": "t-kodai-0002",
+    "name": "岩宿遺跡",
+    "col": "culture",
+    "when": {
+     "from": -36000,
+     "approx": true,
+     "label": "約3万8000年前〜"
+    },
+    "importance": 8,
+    "yomi": "いわじゅくいせき"
+   },
+   {
+    "id": "t-kodai-0003",
+    "name": "狩猟・採集の生活",
+    "col": "society",
+    "when": {
+     "from": -36000,
+     "approx": true,
+     "label": "約3万8000年前〜"
+    },
+    "importance": 7,
+    "yomi": "しゅりょう・さいしゅう"
+   },
+   {
+    "id": "t-kodai-0004",
+    "name": "港川人・浜北人",
+    "col": "society",
+    "when": {
+     "from": -36000,
+     "approx": true,
+     "label": "約3万8000年前〜"
+    },
+    "importance": 4,
+    "yomi": "みなとがわじん・はまきたじん"
+   },
+   {
+    "id": "t-kodai-0005",
+    "name": "野尻湖遺跡（ナウマンゾウ）",
+    "col": "culture",
+    "when": {
+     "from": -36000,
+     "approx": true,
+     "label": "約3万8000年前〜"
+    },
+    "importance": 3,
+    "yomi": "のじりこいせき"
+   },
+   {
+    "id": "t-kodai-0006",
+    "name": "細石器",
+    "col": "culture",
+    "when": {
+     "from": -18000,
+     "approx": true,
+     "label": "旧石器時代の終わり頃"
+    },
+    "importance": 6,
+    "yomi": "さいせっき"
+   },
+   {
+    "id": "t-kodai-0007",
+    "name": "縄文土器",
+    "col": "culture",
+    "when": {
+     "from": -14000,
+     "approx": true,
+     "label": "約1万6000年前〜"
+    },
+    "importance": 9,
+    "yomi": "じょうもんどき"
+   },
+   {
+    "id": "t-kodai-0008",
+    "name": "竪穴住居",
+    "col": "society",
+    "when": {
+     "from": -14000,
+     "approx": true,
+     "label": "約1万6000年前〜"
+    },
+    "importance": 8,
+    "yomi": "たてあなじゅうきょ"
+   },
+   {
+    "id": "t-kodai-0009",
+    "name": "貝塚",
+    "col": "society",
+    "when": {
+     "from": -14000,
+     "approx": true,
+     "label": "約1万6000年前〜"
+    },
+    "importance": 8,
+    "yomi": "かいづか"
+   },
+   {
+    "id": "t-kodai-0010",
+    "name": "磨製石器",
+    "col": "culture",
+    "when": {
+     "from": -14000,
+     "approx": true,
+     "label": "約1万6000年前〜"
+    },
+    "importance": 7,
+    "yomi": "ませいせっき"
+   },
+   {
+    "id": "t-kodai-0011",
+    "name": "土偶",
+    "col": "culture",
+    "when": {
+     "from": -14000,
+     "approx": true,
+     "label": "約1万6000年前〜"
+    },
+    "importance": 7,
+    "yomi": "どぐう"
+   },
+   {
+    "id": "t-kodai-0012",
+    "name": "弓矢",
+    "col": "industry",
+    "when": {
+     "from": -14000,
+     "approx": true,
+     "label": "約1万6000年前〜"
+    },
+    "importance": 6,
+    "yomi": "ゆみや"
+   },
+   {
+    "id": "t-kodai-0013",
+    "name": "屈葬",
+    "col": "society",
+    "when": {
+     "from": -14000,
+     "approx": true,
+     "label": "約1万6000年前〜"
+    },
+    "importance": 6,
+    "yomi": "くっそう"
+   },
+   {
+    "id": "t-kodai-0014",
+    "name": "黒曜石の交易",
+    "col": "industry",
+    "when": {
+     "from": -14000,
+     "approx": true,
+     "label": "約1万6000年前〜"
+    },
+    "importance": 6,
+    "yomi": "こくようせき"
+   },
+   {
+    "id": "t-kodai-0015",
+    "name": "アニミズム",
+    "col": "culture",
+    "when": {
+     "from": -14000,
+     "approx": true,
+     "label": "約1万6000年前〜"
+    },
+    "importance": 5
+   },
+   {
+    "id": "t-kodai-0016",
+    "name": "抜歯",
+    "col": "society",
+    "when": {
+     "from": -14000,
+     "approx": true,
+     "label": "約1万6000年前〜"
+    },
+    "importance": 3,
+    "yomi": "ばっし"
+   },
+   {
+    "id": "t-kodai-0017",
+    "name": "三内丸山遺跡",
+    "col": "culture",
+    "when": {
+     "from": -3900,
+     "approx": true,
+     "label": "約5900年前〜"
+    },
+    "importance": 7,
+    "yomi": "さんないまるやまいせき"
+   },
+   {
+    "id": "t-kodai-0018",
+    "name": "水稲耕作の広まり",
+    "col": "industry",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 10,
+    "yomi": "すいとうこうさく"
+   },
+   {
+    "id": "t-kodai-0019",
+    "name": "弥生土器",
+    "col": "culture",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 8,
+    "yomi": "やよいどき"
+   },
+   {
+    "id": "t-kodai-0020",
+    "name": "金属器（青銅器・鉄器）",
+    "col": "industry",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 8,
+    "yomi": "きんぞくき"
+   },
+   {
+    "id": "t-kodai-0021",
+    "name": "銅鐸",
+    "col": "culture",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 7,
+    "yomi": "どうたく"
+   },
+   {
+    "id": "t-kodai-0022",
+    "name": "環濠集落",
+    "col": "society",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 7,
+    "yomi": "かんごうしゅうらく"
+   },
+   {
+    "id": "t-kodai-0023",
+    "name": "吉野ヶ里遺跡",
+    "col": "society",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 7,
+    "yomi": "よしのがりいせき"
+   },
+   {
+    "id": "t-kodai-0024",
+    "name": "石包丁",
+    "col": "industry",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 6,
+    "yomi": "いしぼうちょう"
+   },
+   {
+    "id": "t-kodai-0025",
+    "name": "高床倉庫",
+    "col": "industry",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 6,
+    "yomi": "たかゆかそうこ"
+   },
+   {
+    "id": "t-kodai-0026",
+    "name": "高地性集落",
+    "col": "society",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 6,
+    "yomi": "こうちせいしゅうらく"
+   },
+   {
+    "id": "t-kodai-0027",
+    "name": "登呂遺跡",
+    "col": "society",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 5,
+    "yomi": "とろいせき"
+   },
+   {
+    "id": "t-kodai-0028",
+    "name": "菜畑遺跡・板付遺跡",
+    "col": "industry",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 4,
+    "yomi": "なばたけ・いたづけ"
+   },
+   {
+    "id": "t-kodai-0029",
+    "name": "方形周溝墓",
+    "col": "society",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 4,
+    "yomi": "ほうけいしゅうこうぼ"
+   },
+   {
+    "id": "t-kodai-0030",
+    "name": "甕棺墓",
+    "col": "society",
+    "when": {
+     "from": -400,
+     "approx": true,
+     "label": "前4世紀頃〜"
+    },
+    "importance": 4,
+    "yomi": "かめかんぼ"
+   },
+   {
+    "id": "t-kodai-0031",
+    "name": "『漢書』地理志（倭人は百余国）",
+    "col": "diplomacy",
+    "when": {
+     "from": -100,
+     "approx": true,
+     "label": "前1世紀"
+    },
+    "importance": 8,
+    "yomi": "かんじょちりし"
+   },
+   {
+    "id": "t-kodai-0032",
+    "name": "奴国王が後漢に遣使（金印）",
+    "col": "diplomacy",
+    "when": {
+     "from": 57
+    },
+    "importance": 10,
+    "yomi": "なこく"
+   },
+   {
+    "id": "t-kodai-0033",
+    "name": "倭国王帥升らが生口を献上",
+    "col": "diplomacy",
+    "when": {
+     "from": 107
+    },
+    "importance": 5,
+    "yomi": "すいしょう"
+   },
+   {
+    "id": "t-kodai-0034",
+    "name": "倭国大乱",
+    "col": "situation",
+    "when": {
+     "from": 146,
+     "to": 189,
+     "approx": true,
+     "label": "2世紀後半"
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "わこくたいらん"
+   },
+   {
+    "id": "t-kodai-0035",
+    "name": "卑弥呼が魏に遣使（親魏倭王）",
+    "col": "diplomacy",
+    "when": {
+     "from": 239
+    },
+    "importance": 10,
+    "yomi": "ひみこ"
+   },
+   {
+    "id": "t-kodai-0036",
+    "name": "『魏志』倭人伝",
+    "col": "diplomacy",
+    "when": {
+     "from": 239
+    },
+    "importance": 9,
+    "yomi": "ぎしわじんでん"
+   },
+   {
+    "id": "t-kodai-0037",
+    "name": "前方後円墳",
+    "col": "culture",
+    "when": {
+     "from": 250,
+     "approx": true,
+     "label": "3世紀中頃〜"
+    },
+    "importance": 9,
+    "yomi": "ぜんぽうこうえんふん"
+   },
+   {
+    "id": "t-kodai-0038",
+    "name": "埴輪",
+    "col": "culture",
+    "when": {
+     "from": 250,
+     "approx": true,
+     "label": "3世紀中頃〜"
+    },
+    "importance": 7,
+    "yomi": "はにわ"
+   },
+   {
+    "id": "t-kodai-0039",
+    "name": "箸墓古墳",
+    "col": "culture",
+    "when": {
+     "from": 250,
+     "approx": true,
+     "label": "3世紀中頃〜"
+    },
+    "importance": 6,
+    "yomi": "はしはかこふん"
+   },
+   {
+    "id": "t-kodai-0040",
+    "name": "壱与（台与）が晋に遣使",
+    "col": "diplomacy",
+    "when": {
+     "from": 266
+    },
+    "importance": 5,
+    "yomi": "いよ（とよ）"
+   },
+   {
+    "id": "t-kodai-0041",
+    "name": "倭が朝鮮半島に進出（好太王碑）",
+    "col": "diplomacy",
+    "when": {
+     "from": 391
+    },
+    "importance": 7,
+    "yomi": "こうたいおうひ"
+   },
+   {
+    "id": "t-kodai-0042",
+    "name": "渡来人",
+    "col": "society",
+    "when": {
+     "from": 400,
+     "approx": true,
+     "label": "5世紀頃"
+    },
+    "importance": 8,
+    "yomi": "とらいじん"
+   },
+   {
+    "id": "t-kodai-0043",
+    "name": "倭の五王の遣使（讃・珍・済・興・武）",
+    "col": "diplomacy",
+    "when": {
+     "from": 413,
+     "to": 478
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "わのごおう"
+   },
+   {
+    "id": "t-kodai-0044",
+    "name": "大仙陵古墳（仁徳天皇陵）",
+    "col": "culture",
+    "when": {
+     "from": 450,
+     "approx": true,
+     "label": "5世紀中頃"
+    },
+    "importance": 8,
+    "yomi": "だいせんりょうこふん"
+   },
+   {
+    "id": "t-kodai-0045",
+    "name": "稲荷山古墳出土鉄剣（ワカタケル大王）",
+    "col": "culture",
+    "when": {
+     "from": 471
+    },
+    "importance": 8,
+    "yomi": "いなりやまこふん"
+   },
+   {
+    "id": "t-kodai-0046",
+    "name": "江田船山古墳出土鉄刀",
+    "col": "culture",
+    "when": {
+     "from": 475,
+     "approx": true,
+     "label": "5世紀後半"
+    },
+    "importance": 6,
+    "yomi": "えたふなやまこふん"
+   },
+   {
+    "id": "t-kodai-0047",
+    "name": "倭王武の上表文",
+    "col": "diplomacy",
+    "when": {
+     "from": 478
+    },
+    "importance": 8,
+    "yomi": "わおうぶ"
+   },
+   {
+    "id": "t-kodai-0048",
+    "name": "氏姓制度",
+    "col": "system",
+    "when": {
+     "from": 500,
+     "approx": true,
+     "label": "5〜6世紀"
+    },
+    "importance": 9,
+    "yomi": "しせいせいど"
+   },
+   {
+    "id": "t-kodai-0049",
+    "name": "国造",
+    "col": "system",
+    "when": {
+     "from": 500,
+     "approx": true,
+     "label": "5〜6世紀"
+    },
+    "importance": 7,
+    "yomi": "くにのみやつこ"
+   },
+   {
+    "id": "t-kodai-0050",
+    "name": "部民制",
+    "col": "system",
+    "when": {
+     "from": 500,
+     "approx": true,
+     "label": "5〜6世紀"
+    },
+    "importance": 6,
+    "yomi": "べみんせい"
+   },
+   {
+    "id": "t-kodai-0051",
+    "name": "屯倉",
+    "col": "system",
+    "when": {
+     "from": 500,
+     "approx": true,
+     "label": "5〜6世紀"
+    },
+    "importance": 6,
+    "yomi": "みやけ"
+   },
+   {
+    "id": "t-kodai-0052",
+    "name": "横穴式石室",
+    "col": "culture",
+    "when": {
+     "from": 500,
+     "approx": true,
+     "label": "6世紀頃"
+    },
+    "importance": 6,
+    "yomi": "よこあなしきせきしつ"
+   },
+   {
+    "id": "t-kodai-0053",
+    "name": "盟神探湯",
+    "col": "society",
+    "when": {
+     "from": 500,
+     "approx": true,
+     "label": "5〜6世紀"
+    },
+    "importance": 4,
+    "yomi": "くかたち"
+   },
+   {
+    "id": "t-kodai-0054",
+    "name": "五経博士（百済から）",
+    "col": "culture",
+    "when": {
+     "from": 513
+    },
+    "importance": 5,
+    "yomi": "ごきょうはかせ"
+   },
+   {
+    "id": "t-kodai-0055",
+    "name": "磐井の乱",
+    "col": "event",
+    "when": {
+     "from": 527
+    },
+    "importance": 8,
+    "yomi": "いわいのらん"
+   },
+   {
+    "id": "t-kodai-0056",
+    "name": "仏教公伝（百済の聖明王）",
+    "col": "culture",
+    "when": {
+     "from": 538
+    },
+    "importance": 9,
+    "yomi": "ぶっきょうこうでん"
+   },
+   {
+    "id": "t-kodai-0057",
+    "name": "群集墳",
+    "col": "culture",
+    "when": {
+     "from": 550,
+     "approx": true,
+     "label": "6世紀"
+    },
+    "importance": 5,
+    "yomi": "ぐんしゅうふん"
+   },
+   {
+    "id": "t-kodai-0058",
+    "name": "蘇我馬子が物部守屋を滅ぼす",
+    "col": "event",
+    "when": {
+     "from": 587
+    },
+    "importance": 7,
+    "yomi": "もののべのもりや"
+   },
+   {
+    "id": "t-kodai-0059",
+    "name": "隋が中国を統一",
+    "col": "situation",
+    "when": {
+     "from": 589
+    },
+    "importance": 7,
+    "yomi": "ずい"
+   },
+   {
+    "id": "t-kodai-0060",
+    "name": "推古天皇",
+    "col": "ruler",
+    "when": {
+     "from": 592,
+     "to": 628
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "すいこてんのう"
+   },
+   {
+    "id": "t-kodai-0061",
+    "name": "崇峻天皇が暗殺される",
+    "col": "event",
+    "when": {
+     "from": 592
+    },
+    "importance": 6,
+    "yomi": "すしゅんてんのう"
+   },
+   {
+    "id": "t-kodai-0062",
+    "name": "厩戸王（聖徳太子）",
+    "col": "ruler",
+    "when": {
+     "from": 593,
+     "to": 622
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "うまやとおう（しょうとくたいし）"
+   },
+   {
+    "id": "t-kodai-0063",
+    "name": "飛鳥文化",
+    "col": "culture",
+    "when": {
+     "from": 593,
+     "to": 645,
+     "approx": true,
+     "label": "7世紀前半"
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "あすかぶんか"
+   },
+   {
+    "id": "t-kodai-0064",
+    "name": "飛鳥寺（法興寺）",
+    "col": "culture",
+    "when": {
+     "from": 596
+    },
+    "importance": 6,
+    "yomi": "あすかでら"
+   },
+   {
+    "id": "t-kodai-0065",
+    "name": "遣隋使（第1回）",
+    "col": "diplomacy",
+    "when": {
+     "from": 600
+    },
+    "importance": 7,
+    "yomi": "けんずいし"
+   },
+   {
+    "id": "t-kodai-0066",
+    "name": "冠位十二階",
+    "col": "policy",
+    "when": {
+     "from": 603
+    },
+    "importance": 10,
+    "yomi": "かんいじゅうにかい"
+   },
+   {
+    "id": "t-kodai-0067",
+    "name": "憲法十七条",
+    "col": "policy",
+    "when": {
+     "from": 604
+    },
+    "importance": 10,
+    "yomi": "けんぽうじゅうしちじょう"
+   },
+   {
+    "id": "t-kodai-0068",
+    "name": "遣隋使（小野妹子）",
+    "col": "diplomacy",
+    "when": {
+     "from": 607
+    },
+    "importance": 10,
+    "yomi": "おののいもこ"
+   },
+   {
+    "id": "t-kodai-0069",
+    "name": "法隆寺",
+    "col": "culture",
+    "when": {
+     "from": 607
+    },
+    "importance": 9,
+    "yomi": "ほうりゅうじ"
+   },
+   {
+    "id": "t-kodai-0070",
+    "name": "裴世清の来日",
+    "col": "diplomacy",
+    "when": {
+     "from": 608
+    },
+    "importance": 5,
+    "yomi": "はいせいせい"
+   },
+   {
+    "id": "t-kodai-0071",
+    "name": "犬上御田鍬を隋へ派遣",
+    "col": "diplomacy",
+    "when": {
+     "from": 614
+    },
+    "importance": 2,
+    "yomi": "いぬかみのみたすき"
+   },
+   {
+    "id": "t-kodai-0072",
+    "name": "唐の建国",
+    "col": "situation",
+    "when": {
+     "from": 618
+    },
+    "importance": 8,
+    "yomi": "とう"
+   },
+   {
+    "id": "t-kodai-0073",
+    "name": "『天皇記』『国記』",
+    "col": "culture",
+    "when": {
+     "from": 620
+    },
+    "importance": 5,
+    "yomi": "てんのうき・こっき"
+   },
+   {
+    "id": "t-kodai-0074",
+    "name": "舒明天皇",
+    "col": "ruler",
+    "when": {
+     "from": 629,
+     "to": 641
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "じょめいてんのう"
+   },
+   {
+    "id": "t-kodai-0075",
+    "name": "遣唐使（第1回・犬上御田鍬）",
+    "col": "diplomacy",
+    "when": {
+     "from": 630
+    },
+    "importance": 9,
+    "yomi": "けんとうし"
+   },
+   {
+    "id": "t-kodai-0076",
+    "name": "皇極天皇",
+    "col": "ruler",
+    "when": {
+     "from": 642,
+     "to": 645
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "こうぎょくてんのう"
+   },
+   {
+    "id": "t-kodai-0077",
+    "name": "山背大兄王の自害",
+    "col": "event",
+    "when": {
+     "from": 643
+    },
+    "importance": 5,
+    "yomi": "やましろのおおえのおう"
+   },
+   {
+    "id": "t-kodai-0078",
+    "name": "乙巳の変",
+    "col": "event",
+    "when": {
+     "from": 645
+    },
+    "importance": 10,
+    "yomi": "いっしのへん"
+   },
+   {
+    "id": "t-kodai-0079",
+    "name": "孝徳天皇",
+    "col": "ruler",
+    "when": {
+     "from": 645,
+     "to": 654
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "こうとくてんのう"
+   },
+   {
+    "id": "t-kodai-0080",
+    "name": "改新の詔",
+    "col": "policy",
+    "when": {
+     "from": 646
+    },
+    "importance": 10,
+    "yomi": "かいしんのみことのり"
+   },
+   {
+    "id": "t-kodai-0081",
+    "name": "渟足柵",
+    "col": "policy",
+    "when": {
+     "from": 647
+    },
+    "importance": 3,
+    "yomi": "ぬたりのさく"
+   },
+   {
+    "id": "t-kodai-0082",
+    "name": "磐舟柵",
+    "col": "policy",
+    "when": {
+     "from": 648
+    },
+    "importance": 2,
+    "yomi": "いわふねのさく"
+   },
+   {
+    "id": "t-kodai-0083",
+    "name": "斉明天皇",
+    "col": "ruler",
+    "when": {
+     "from": 655,
+     "to": 661
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "さいめいてんのう"
+   },
+   {
+    "id": "t-kodai-0084",
+    "name": "阿倍比羅夫の蝦夷遠征",
+    "col": "policy",
+    "when": {
+     "from": 658
+    },
+    "importance": 5,
+    "yomi": "あべのひらふ"
+   },
+   {
+    "id": "t-kodai-0085",
+    "name": "百済の滅亡",
+    "col": "situation",
+    "when": {
+     "from": 660
+    },
+    "importance": 7,
+    "yomi": "くだら"
+   },
+   {
+    "id": "t-kodai-0086",
+    "name": "白村江の戦い",
+    "col": "diplomacy",
+    "when": {
+     "from": 663
+    },
+    "importance": 10,
+    "yomi": "はくすきのえ（はくそんこう）"
+   },
+   {
+    "id": "t-kodai-0087",
+    "name": "水城・防人・烽",
+    "col": "policy",
+    "when": {
+     "from": 664
+    },
+    "importance": 7,
+    "yomi": "みずき・さきもり・とぶひ"
+   },
+   {
+    "id": "t-kodai-0088",
+    "name": "大野城・基肄城",
+    "col": "policy",
+    "when": {
+     "from": 665
+    },
+    "importance": 5,
+    "yomi": "おおのじょう・きいじょう"
+   },
+   {
+    "id": "t-kodai-0089",
+    "name": "近江大津宮へ遷都",
+    "col": "event",
+    "when": {
+     "from": 667
+    },
+    "importance": 7,
+    "yomi": "おうみおおつのみや"
+   },
+   {
+    "id": "t-kodai-0090",
+    "name": "天智天皇",
+    "col": "ruler",
+    "when": {
+     "from": 668,
+     "to": 671
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "てんじてんのう"
+   },
+   {
+    "id": "t-kodai-0091",
+    "name": "高句麗の滅亡",
+    "col": "situation",
+    "when": {
+     "from": 668
+    },
+    "importance": 6,
+    "yomi": "こうくり"
+   },
+   {
+    "id": "t-kodai-0092",
+    "name": "庚午年籍",
+    "col": "system",
+    "when": {
+     "from": 670
+    },
+    "importance": 9,
+    "yomi": "こうごねんじゃく"
+   },
+   {
+    "id": "t-kodai-0093",
+    "name": "白鳳文化",
+    "col": "culture",
+    "when": {
+     "from": 670,
+     "to": 710,
+     "approx": true,
+     "label": "7世紀後半〜8世紀初め"
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "はくほうぶんか"
+   },
+   {
+    "id": "t-kodai-0094",
+    "name": "壬申の乱",
+    "col": "event",
+    "when": {
+     "from": 672
+    },
+    "importance": 10,
+    "yomi": "じんしんのらん"
+   },
+   {
+    "id": "t-kodai-0095",
+    "name": "天武天皇",
+    "col": "ruler",
+    "when": {
+     "from": 673,
+     "to": 686
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "てんむてんのう"
+   },
+   {
+    "id": "t-kodai-0096",
+    "name": "新羅が朝鮮半島を統一",
+    "col": "situation",
+    "when": {
+     "from": 676
+    },
+    "importance": 8,
+    "yomi": "しらぎ"
+   },
+   {
+    "id": "t-kodai-0097",
+    "name": "薬師寺（発願）",
+    "col": "culture",
+    "when": {
+     "from": 680
+    },
+    "importance": 5,
+    "yomi": "やくしじ"
+   },
+   {
+    "id": "t-kodai-0098",
+    "name": "富本銭",
+    "col": "finance",
+    "when": {
+     "from": 683,
+     "approx": true,
+     "label": "7世紀後半"
+    },
+    "importance": 6,
+    "yomi": "ふほんせん"
+   },
+   {
+    "id": "t-kodai-0099",
+    "name": "八色の姓",
+    "col": "system",
+    "when": {
+     "from": 684
+    },
+    "importance": 8,
+    "yomi": "やくさのかばね"
+   },
+   {
+    "id": "t-kodai-0100",
+    "name": "飛鳥浄御原令の施行",
+    "col": "system",
+    "when": {
+     "from": 689
+    },
+    "importance": 8,
+    "yomi": "あすかきよみはらりょう"
+   },
+   {
+    "id": "t-kodai-0101",
+    "name": "持統天皇",
+    "col": "ruler",
+    "when": {
+     "from": 690,
+     "to": 697
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "じとうてんのう"
+   },
+   {
+    "id": "t-kodai-0102",
+    "name": "庚寅年籍",
+    "col": "system",
+    "when": {
+     "from": 690
+    },
+    "importance": 7,
+    "yomi": "こういんねんじゃく"
+   },
+   {
+    "id": "t-kodai-0103",
+    "name": "藤原京へ遷都",
+    "col": "event",
+    "when": {
+     "from": 694
+    },
+    "importance": 9,
+    "yomi": "ふじわらきょう"
+   },
+   {
+    "id": "t-kodai-0104",
+    "name": "文武天皇",
+    "col": "ruler",
+    "when": {
+     "from": 697,
+     "to": 707
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "もんむてんのう"
+   },
+   {
+    "id": "t-kodai-0105",
+    "name": "渤海の建国",
+    "col": "situation",
+    "when": {
+     "from": 698
+    },
+    "importance": 6,
+    "yomi": "ぼっかい"
+   },
+   {
+    "id": "t-kodai-0106",
+    "name": "高松塚古墳壁画",
+    "col": "culture",
+    "when": {
+     "from": 700,
+     "approx": true,
+     "label": "7世紀末〜8世紀初め"
+    },
+    "importance": 6,
+    "yomi": "たかまつづかこふん"
+   },
+   {
+    "id": "t-kodai-0107",
+    "name": "大宝律令",
+    "col": "system",
+    "when": {
+     "from": 701
+    },
+    "importance": 10,
+    "yomi": "たいほうりつりょう"
+   },
+   {
+    "id": "t-kodai-0108",
+    "name": "二官八省",
+    "col": "system",
+    "when": {
+     "from": 701
+    },
+    "importance": 9,
+    "yomi": "にかんはっしょう"
+   },
+   {
+    "id": "t-kodai-0109",
+    "name": "租・庸・調",
+    "col": "system",
+    "when": {
+     "from": 701
+    },
+    "importance": 9,
+    "yomi": "そ・よう・ちょう"
+   },
+   {
+    "id": "t-kodai-0110",
+    "name": "班田収授法",
+    "col": "system",
+    "when": {
+     "from": 701,
+     "to": 902
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "はんでんしゅうじゅのほう"
+   },
+   {
+    "id": "t-kodai-0111",
+    "name": "国司・郡司・里長",
+    "col": "system",
+    "when": {
+     "from": 701
+    },
+    "importance": 8,
+    "yomi": "こくし・ぐんじ・りちょう"
+   },
+   {
+    "id": "t-kodai-0112",
+    "name": "五畿七道",
+    "col": "system",
+    "when": {
+     "from": 701
+    },
+    "importance": 7,
+    "yomi": "ごきしちどう"
+   },
+   {
+    "id": "t-kodai-0113",
+    "name": "蔭位の制",
+    "col": "system",
+    "when": {
+     "from": 701
+    },
+    "importance": 6,
+    "yomi": "おんいのせい"
+   },
+   {
+    "id": "t-kodai-0114",
+    "name": "遣唐使の再開（粟田真人）",
+    "col": "diplomacy",
+    "when": {
+     "from": 702
+    },
+    "importance": 5,
+    "yomi": "あわたのまひと"
+   },
+   {
+    "id": "t-kodai-0115",
+    "name": "元明天皇",
+    "col": "ruler",
+    "when": {
+     "from": 707,
+     "to": 715
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "げんめいてんのう"
+   },
+   {
+    "id": "t-kodai-0116",
+    "name": "和同開珎",
+    "col": "finance",
+    "when": {
+     "from": 708
+    },
+    "importance": 9,
+    "yomi": "わどうかいちん"
+   },
+   {
+    "id": "t-kodai-0117",
+    "name": "藤原不比等",
+    "col": "ruler",
+    "when": {
+     "from": 708,
+     "to": 720
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "ふじわらのふひと"
+   },
+   {
+    "id": "t-kodai-0118",
+    "name": "武蔵国から和銅を献上",
+    "col": "finance",
+    "when": {
+     "from": 708
+    },
+    "importance": 3,
+    "yomi": "わどう"
+   },
+   {
+    "id": "t-kodai-0119",
+    "name": "平城京へ遷都",
+    "col": "event",
+    "when": {
+     "from": 710
+    },
+    "importance": 10,
+    "yomi": "へいじょうきょう"
+   },
+   {
+    "id": "t-kodai-0120",
+    "name": "蓄銭叙位令",
+    "col": "finance",
+    "when": {
+     "from": 711
+    },
+    "importance": 6,
+    "yomi": "ちくせんじょいれい"
+   },
+   {
+    "id": "t-kodai-0121",
+    "name": "古事記",
+    "col": "culture",
+    "when": {
+     "from": 712
+    },
+    "importance": 9,
+    "yomi": "こじき"
+   },
+   {
+    "id": "t-kodai-0122",
+    "name": "風土記の編纂を命じる",
+    "col": "culture",
+    "when": {
+     "from": 713
+    },
+    "importance": 7,
+    "yomi": "ふどき"
+   },
+   {
+    "id": "t-kodai-0123",
+    "name": "元正天皇",
+    "col": "ruler",
+    "when": {
+     "from": 715,
+     "to": 724
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "げんしょうてんのう"
+   },
+   {
+    "id": "t-kodai-0124",
+    "name": "遣唐使（吉備真備・玄昉・阿倍仲麻呂）",
+    "col": "diplomacy",
+    "when": {
+     "from": 717
+    },
+    "importance": 7,
+    "yomi": "きびのまきび・げんぼう"
+   },
+   {
+    "id": "t-kodai-0125",
+    "name": "養老律令（編纂）",
+    "col": "system",
+    "when": {
+     "from": 718
+    },
+    "importance": 8,
+    "yomi": "ようろうりつりょう"
+   },
+   {
+    "id": "t-kodai-0126",
+    "name": "日本書紀",
+    "col": "culture",
+    "when": {
+     "from": 720
+    },
+    "importance": 9,
+    "yomi": "にほんしょき"
+   },
+   {
+    "id": "t-kodai-0127",
+    "name": "長屋王",
+    "col": "ruler",
+    "when": {
+     "from": 721,
+     "to": 729
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "ながやおう"
+   },
+   {
+    "id": "t-kodai-0128",
+    "name": "百万町歩の開墾計画",
+    "col": "policy",
+    "when": {
+     "from": 722
+    },
+    "importance": 6,
+    "yomi": "ひゃくまんちょうぶ"
+   },
+   {
+    "id": "t-kodai-0129",
+    "name": "三世一身法",
+    "col": "policy",
+    "when": {
+     "from": 723
+    },
+    "importance": 9,
+    "yomi": "さんぜいっしんのほう"
+   },
+   {
+    "id": "t-kodai-0130",
+    "name": "聖武天皇",
+    "col": "ruler",
+    "when": {
+     "from": 724,
+     "to": 749
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "しょうむてんのう"
+   },
+   {
+    "id": "t-kodai-0131",
+    "name": "天平文化",
+    "col": "culture",
+    "when": {
+     "from": 724,
+     "to": 757,
+     "approx": true,
+     "label": "8世紀中頃"
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "てんぴょうぶんか"
+   },
+   {
+    "id": "t-kodai-0132",
+    "name": "渤海使の初来日",
+    "col": "diplomacy",
+    "when": {
+     "from": 727
+    },
+    "importance": 6,
+    "yomi": "ぼっかいし"
+   },
+   {
+    "id": "t-kodai-0133",
+    "name": "長屋王の変",
+    "col": "event",
+    "when": {
+     "from": 729
+    },
+    "importance": 9,
+    "yomi": "ながやおうのへん"
+   },
+   {
+    "id": "t-kodai-0134",
+    "name": "藤原四子",
+    "col": "ruler",
+    "when": {
+     "from": 729,
+     "to": 737
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "ふじわらしし"
+   },
+   {
+    "id": "t-kodai-0135",
+    "name": "浮浪・逃亡の増加",
+    "col": "society",
+    "when": {
+     "from": 730,
+     "approx": true,
+     "label": "8世紀"
+    },
+    "importance": 5,
+    "yomi": "ふろう・とうぼう"
+   },
+   {
+    "id": "t-kodai-0136",
+    "name": "橘諸兄",
+    "col": "ruler",
+    "when": {
+     "from": 737,
+     "to": 756
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "たちばなのもろえ"
+   },
+   {
+    "id": "t-kodai-0137",
+    "name": "天然痘の流行（藤原四子が死去）",
+    "col": "event",
+    "when": {
+     "from": 737
+    },
+    "importance": 6,
+    "yomi": "てんねんとう"
+   },
+   {
+    "id": "t-kodai-0138",
+    "name": "藤原広嗣の乱",
+    "col": "event",
+    "when": {
+     "from": 740
+    },
+    "importance": 9,
+    "yomi": "ふじわらのひろつぐ"
+   },
+   {
+    "id": "t-kodai-0139",
+    "name": "恭仁京へ遷都",
+    "col": "event",
+    "when": {
+     "from": 740
+    },
+    "importance": 5,
+    "yomi": "くにきょう"
+   },
+   {
+    "id": "t-kodai-0140",
+    "name": "国分寺建立の詔",
+    "col": "policy",
+    "when": {
+     "from": 741
+    },
+    "importance": 9,
+    "yomi": "こくぶんじこんりゅう"
+   },
+   {
+    "id": "t-kodai-0141",
+    "name": "墾田永年私財法",
+    "col": "policy",
+    "when": {
+     "from": 743
+    },
+    "importance": 10,
+    "yomi": "こんでんえいねんしざいほう"
+   },
+   {
+    "id": "t-kodai-0142",
+    "name": "大仏造立の詔",
+    "col": "policy",
+    "when": {
+     "from": 743
+    },
+    "importance": 9,
+    "yomi": "だいぶつぞうりゅう"
+   },
+   {
+    "id": "t-kodai-0143",
+    "name": "難波宮へ遷都",
+    "col": "event",
+    "when": {
+     "from": 744
+    },
+    "importance": 2,
+    "yomi": "なにわのみや"
+   },
+   {
+    "id": "t-kodai-0144",
+    "name": "行基が大僧正になる",
+    "col": "society",
+    "when": {
+     "from": 745
+    },
+    "importance": 6,
+    "yomi": "ぎょうき"
+   },
+   {
+    "id": "t-kodai-0145",
+    "name": "平城京に都を戻す",
+    "col": "event",
+    "when": {
+     "from": 745
+    },
+    "importance": 4,
+    "yomi": "へいじょうきょう"
+   },
+   {
+    "id": "t-kodai-0146",
+    "name": "孝謙天皇",
+    "col": "ruler",
+    "when": {
+     "from": 749,
+     "to": 758
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "こうけんてんのう"
+   },
+   {
+    "id": "t-kodai-0147",
+    "name": "懐風藻",
+    "col": "culture",
+    "when": {
+     "from": 751
+    },
+    "importance": 6,
+    "yomi": "かいふうそう"
+   },
+   {
+    "id": "t-kodai-0148",
+    "name": "大仏開眼供養",
+    "col": "culture",
+    "when": {
+     "from": 752
+    },
+    "importance": 7,
+    "yomi": "だいぶつかいげん"
+   },
+   {
+    "id": "t-kodai-0149",
+    "name": "鑑真の来日",
+    "col": "diplomacy",
+    "when": {
+     "from": 753
+    },
+    "importance": 8,
+    "yomi": "がんじん"
+   },
+   {
+    "id": "t-kodai-0150",
+    "name": "東大寺に戒壇を設ける",
+    "col": "culture",
+    "when": {
+     "from": 754
+    },
+    "importance": 6,
+    "yomi": "かいだん"
+   },
+   {
+    "id": "t-kodai-0151",
+    "name": "安史の乱（唐）",
+    "col": "situation",
+    "when": {
+     "from": 755
+    },
+    "importance": 6,
+    "yomi": "あんしのらん"
+   },
+   {
+    "id": "t-kodai-0152",
+    "name": "正倉院（聖武太上天皇の遺品）",
+    "col": "culture",
+    "when": {
+     "from": 756
+    },
+    "importance": 6,
+    "yomi": "しょうそういん"
+   },
+   {
+    "id": "t-kodai-0153",
+    "name": "藤原仲麻呂（恵美押勝）",
+    "col": "ruler",
+    "when": {
+     "from": 757,
+     "to": 764
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "ふじわらのなかまろ（えみのおしかつ）"
+   },
+   {
+    "id": "t-kodai-0154",
+    "name": "橘奈良麻呂の変",
+    "col": "event",
+    "when": {
+     "from": 757
+    },
+    "importance": 7,
+    "yomi": "たちばなのならまろ"
+   },
+   {
+    "id": "t-kodai-0155",
+    "name": "養老律令の施行",
+    "col": "system",
+    "when": {
+     "from": 757
+    },
+    "importance": 7,
+    "yomi": "ようろうりつりょう"
+   },
+   {
+    "id": "t-kodai-0156",
+    "name": "淳仁天皇",
+    "col": "ruler",
+    "when": {
+     "from": 758,
+     "to": 764
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "じゅんにんてんのう"
+   },
+   {
+    "id": "t-kodai-0157",
+    "name": "万葉集",
+    "col": "culture",
+    "when": {
+     "from": 759,
+     "approx": true,
+     "label": "8世紀後半"
+    },
+    "importance": 8,
+    "yomi": "まんようしゅう"
+   },
+   {
+    "id": "t-kodai-0158",
+    "name": "唐招提寺",
+    "col": "culture",
+    "when": {
+     "from": 759
+    },
+    "importance": 6,
+    "yomi": "とうしょうだいじ"
+   },
+   {
+    "id": "t-kodai-0159",
+    "name": "万年通宝",
+    "col": "finance",
+    "when": {
+     "from": 760
+    },
+    "importance": 2,
+    "yomi": "まんねんつうほう"
+   },
+   {
+    "id": "t-kodai-0160",
+    "name": "恵美押勝の乱",
+    "col": "event",
+    "when": {
+     "from": 764
+    },
+    "importance": 8,
+    "yomi": "えみのおしかつのらん"
+   },
+   {
+    "id": "t-kodai-0161",
+    "name": "道鏡",
+    "col": "ruler",
+    "when": {
+     "from": 764,
+     "to": 770
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "どうきょう"
+   },
+   {
+    "id": "t-kodai-0162",
+    "name": "称徳天皇",
+    "col": "ruler",
+    "when": {
+     "from": 764,
+     "to": 770
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "しょうとくてんのう"
+   },
+   {
+    "id": "t-kodai-0163",
+    "name": "加墾禁止令",
+    "col": "policy",
+    "when": {
+     "from": 765
+    },
+    "importance": 5,
+    "yomi": "かこんきんしれい"
+   },
+   {
+    "id": "t-kodai-0164",
+    "name": "宇佐八幡宮神託事件",
+    "col": "event",
+    "when": {
+     "from": 769
+    },
+    "importance": 6,
+    "yomi": "うさはちまんぐう"
+   },
+   {
+    "id": "t-kodai-0165",
+    "name": "光仁天皇",
+    "col": "ruler",
+    "when": {
+     "from": 770,
+     "to": 781
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "こうにんてんのう"
+   },
+   {
+    "id": "t-kodai-0166",
+    "name": "加墾禁止令の撤回",
+    "col": "policy",
+    "when": {
+     "from": 772
+    },
+    "importance": 4,
+    "yomi": "かこんきんしれい"
+   },
+   {
+    "id": "t-kodai-0167",
+    "name": "桓武天皇",
+    "col": "ruler",
+    "when": {
+     "from": 781,
+     "to": 806
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "かんむてんのう"
+   },
+   {
+    "id": "t-kodai-0168",
+    "name": "長岡京へ遷都",
+    "col": "event",
+    "when": {
+     "from": 784
+    },
+    "importance": 8,
+    "yomi": "ながおかきょう"
+   },
+   {
+    "id": "t-kodai-0169",
+    "name": "藤原種継の暗殺",
+    "col": "event",
+    "when": {
+     "from": 785
+    },
+    "importance": 6,
+    "yomi": "ふじわらのたねつぐ"
+   },
+   {
+    "id": "t-kodai-0170",
+    "name": "最澄が比叡山寺を開く",
+    "col": "culture",
+    "when": {
+     "from": 788
+    },
+    "importance": 5,
+    "yomi": "さいちょう"
+   },
+   {
+    "id": "t-kodai-0171",
+    "name": "健児の制",
+    "col": "system",
+    "when": {
+     "from": 792
+    },
+    "importance": 7,
+    "yomi": "こんでい"
+   },
+   {
+    "id": "t-kodai-0172",
+    "name": "平安京へ遷都",
+    "col": "event",
+    "when": {
+     "from": 794
+    },
+    "importance": 10,
+    "yomi": "へいあんきょう"
+   },
+   {
+    "id": "t-kodai-0173",
+    "name": "弘仁・貞観文化",
+    "col": "culture",
+    "when": {
+     "from": 794,
+     "to": 894,
+     "approx": true,
+     "label": "9世紀"
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "こうにん・じょうがんぶんか"
+   },
+   {
+    "id": "t-kodai-0174",
+    "name": "坂上田村麻呂が征夷大将軍に",
+    "col": "policy",
+    "when": {
+     "from": 797
+    },
+    "importance": 8,
+    "yomi": "さかのうえのたむらまろ"
+   },
+   {
+    "id": "t-kodai-0175",
+    "name": "胆沢城",
+    "col": "policy",
+    "when": {
+     "from": 802
+    },
+    "importance": 7,
+    "yomi": "いさわじょう"
+   },
+   {
+    "id": "t-kodai-0176",
+    "name": "志波城",
+    "col": "policy",
+    "when": {
+     "from": 803
+    },
+    "importance": 3,
+    "yomi": "しわじょう"
+   },
+   {
+    "id": "t-kodai-0177",
+    "name": "最澄・空海が唐へ",
+    "col": "diplomacy",
+    "when": {
+     "from": 804
+    },
+    "importance": 7,
+    "yomi": "さいちょう・くうかい"
+   },
+   {
+    "id": "t-kodai-0178",
+    "name": "天台宗（最澄）",
+    "col": "culture",
+    "when": {
+     "from": 805
+    },
+    "importance": 8,
+    "yomi": "てんだいしゅう"
+   },
+   {
+    "id": "t-kodai-0179",
+    "name": "徳政相論",
+    "col": "policy",
+    "when": {
+     "from": 805
+    },
+    "importance": 7,
+    "yomi": "とくせいそうろん"
+   },
+   {
+    "id": "t-kodai-0180",
+    "name": "真言宗（空海）",
+    "col": "culture",
+    "when": {
+     "from": 806
+    },
+    "importance": 8,
+    "yomi": "しんごんしゅう"
+   },
+   {
+    "id": "t-kodai-0181",
+    "name": "平城天皇",
+    "col": "ruler",
+    "when": {
+     "from": 806,
+     "to": 809
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "へいぜいてんのう"
+   },
+   {
+    "id": "t-kodai-0182",
+    "name": "嵯峨天皇",
+    "col": "ruler",
+    "when": {
+     "from": 809,
+     "to": 823
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "さがてんのう"
+   },
+   {
+    "id": "t-kodai-0183",
+    "name": "平城太上天皇の変（薬子の変）",
+    "col": "event",
+    "when": {
+     "from": 810
+    },
+    "importance": 8,
+    "yomi": "へいぜいだいじょうてんのう（くすこ）"
+   },
+   {
+    "id": "t-kodai-0189",
+    "name": "三筆（嵯峨天皇・空海・橘逸勢）",
+    "col": "culture",
+    "when": {
+     "from": 810,
+     "to": 850,
+     "approx": true,
+     "label": "9世紀前半"
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "さんぴつ"
+   },
+   {
+    "id": "t-kodai-0184",
+    "name": "蔵人頭",
+    "col": "system",
+    "when": {
+     "from": 810
+    },
+    "importance": 7,
+    "yomi": "くろうどのとう"
+   },
+   {
+    "id": "t-kodai-0190",
+    "name": "密教（天台密教＝台密・真言密教＝東密）",
+    "col": "culture",
+    "when": {
+     "from": 810,
+     "to": 850,
+     "approx": true,
+     "label": "9世紀"
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "みっきょう"
+   },
+   {
+    "id": "t-kodai-0191",
+    "name": "藤原冬嗣",
+    "col": "ruler",
+    "when": {
+     "from": 810,
+     "to": 826
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "ふじわらのふゆつぐ"
+   },
+   {
+    "id": "t-kodai-0192",
+    "name": "曼荼羅",
+    "col": "culture",
+    "when": {
+     "from": 810,
+     "to": 894,
+     "approx": true,
+     "label": "9世紀"
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "まんだら"
+   },
+   {
+    "id": "t-kodai-0193",
+    "name": "凌雲集（勅撰漢詩文集）",
+    "col": "culture",
+    "when": {
+     "from": 814
+    },
+    "importance": 5,
+    "yomi": "りょううんしゅう"
+   },
+   {
+    "id": "t-kodai-0185",
+    "name": "検非違使",
+    "col": "system",
+    "when": {
+     "from": 816,
+     "approx": true,
+     "label": "9世紀前半"
+    },
+    "importance": 7,
+    "yomi": "けびいし"
+   },
+   {
+    "id": "t-kodai-0186",
+    "name": "空海が高野山を開く",
+    "col": "culture",
+    "when": {
+     "from": 816
+    },
+    "importance": 5,
+    "yomi": "こうやさん"
+   },
+   {
+    "id": "t-kodai-0194",
+    "name": "文華秀麗集・経国集",
+    "col": "culture",
+    "when": {
+     "from": 818,
+     "to": 827
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "ぶんかしゅうれいしゅう・けいこくしゅう"
+   },
+   {
+    "id": "t-kodai-0187",
+    "name": "弘仁格式",
+    "col": "system",
+    "when": {
+     "from": 820
+    },
+    "importance": 6,
+    "yomi": "こうにんきゃくしき"
+   },
+   {
+    "id": "t-kodai-0195",
+    "name": "勧学院（大学別曹）",
+    "col": "culture",
+    "when": {
+     "from": 821
+    },
+    "importance": 5,
+    "yomi": "かんがくいん"
+   },
+   {
+    "id": "t-kodai-0188",
+    "name": "空海に教王護国寺（東寺）",
+    "col": "culture",
+    "when": {
+     "from": 823
+    },
+    "importance": 4,
+    "yomi": "きょうおうごこくじ"
+   },
+   {
+    "id": "t-kodai-0196",
+    "name": "淳和天皇",
+    "col": "ruler",
+    "when": {
+     "from": 823,
+     "to": 833
+    },
+    "importance": 3,
+    "shape": "span",
+    "yomi": "じゅんなてんのう"
+   },
+   {
+    "id": "t-kodai-0197",
+    "name": "綜芸種智院",
+    "col": "culture",
+    "when": {
+     "from": 828
+    },
+    "importance": 5,
+    "yomi": "しゅげいしゅちいん"
+   },
+   {
+    "id": "t-kodai-0198",
+    "name": "仁明天皇",
+    "col": "ruler",
+    "when": {
+     "from": 833,
+     "to": 850
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "にんみょうてんのう"
+   },
+   {
+    "id": "t-kodai-0199",
+    "name": "最後の遣唐使（承和の遣唐使）・円仁が渡唐",
+    "col": "diplomacy",
+    "when": {
+     "from": 838
+    },
+    "importance": 5,
+    "yomi": "えんにん"
+   },
+   {
+    "id": "t-kodai-0200",
+    "name": "入唐求法巡礼行記（円仁）",
+    "col": "culture",
+    "when": {
+     "from": 838,
+     "to": 847
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "にっとうぐほうじゅんれいこうき"
+   },
+   {
+    "id": "t-kodai-0201",
+    "name": "承和の変",
+    "col": "event",
+    "when": {
+     "from": 842
+    },
+    "importance": 8,
+    "yomi": "じょうわのへん"
+   },
+   {
+    "id": "t-kodai-0202",
+    "name": "藤原良房（摂政）",
+    "col": "ruler",
+    "when": {
+     "from": 858,
+     "to": 872
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "ふじわらのよしふさ"
+   },
+   {
+    "id": "t-kodai-0203",
+    "name": "清和天皇",
+    "col": "ruler",
+    "when": {
+     "from": 858,
+     "to": 876
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "せいわてんのう"
+   },
+   {
+    "id": "t-kodai-0204",
+    "name": "神泉苑の御霊会",
+    "col": "culture",
+    "when": {
+     "from": 863
+    },
+    "importance": 6,
+    "yomi": "ごりょうえ"
+   },
+   {
+    "id": "t-kodai-0205",
+    "name": "応天門の変",
+    "col": "event",
+    "when": {
+     "from": 866
+    },
+    "importance": 9,
+    "yomi": "おうてんもんのへん"
+   },
+   {
+    "id": "t-kodai-0206",
+    "name": "貞観格式",
+    "col": "system",
+    "when": {
+     "from": 869
+    },
+    "importance": 4,
+    "yomi": "じょうがんきゃくしき"
+   },
+   {
+    "id": "t-kodai-0207",
+    "name": "藤原基経（関白）",
+    "col": "ruler",
+    "when": {
+     "from": 872,
+     "to": 891
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "ふじわらのもとつね"
+   },
+   {
+    "id": "t-kodai-0208",
+    "name": "宇多天皇",
+    "col": "ruler",
+    "when": {
+     "from": 887,
+     "to": 897
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "うだてんのう"
+   },
+   {
+    "id": "t-kodai-0209",
+    "name": "阿衡の紛議",
+    "col": "event",
+    "when": {
+     "from": 887
+    },
+    "importance": 7,
+    "yomi": "あこうのふんぎ"
+   },
+   {
+    "id": "t-kodai-0210",
+    "name": "遣唐使の派遣中止（菅原道真の建議）",
+    "col": "diplomacy",
+    "when": {
+     "from": 894
+    },
+    "importance": 10,
+    "yomi": "けんとうしのはけんちゅうし"
+   },
+   {
+    "id": "t-kodai-0211",
+    "name": "滝口の武士",
+    "col": "system",
+    "when": {
+     "from": 894,
+     "approx": true,
+     "label": "9世紀末"
+    },
+    "importance": 5,
+    "yomi": "たきぐちのぶし"
+   },
+   {
+    "id": "t-kodai-0212",
+    "name": "醍醐天皇",
+    "col": "ruler",
+    "when": {
+     "from": 897,
+     "to": 930
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "だいごてんのう"
+   },
+   {
+    "id": "t-kodai-0213",
+    "name": "延喜・天暦の治",
+    "col": "situation",
+    "when": {
+     "from": 897,
+     "to": 967,
+     "approx": true,
+     "label": "10世紀前半〜中頃"
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "えんぎ・てんりゃくのち"
+   },
+   {
+    "id": "t-kodai-0214",
+    "name": "国風文化",
+    "col": "culture",
+    "when": {
+     "from": 900,
+     "to": 1050,
+     "approx": true,
+     "label": "10〜11世紀"
+    },
+    "importance": 10,
+    "shape": "span",
+    "yomi": "こくふうぶんか"
+   },
+   {
+    "id": "t-kodai-0215",
+    "name": "かな文字（平がな・片かな）",
+    "col": "culture",
+    "when": {
+     "from": 900,
+     "approx": true,
+     "label": "9〜10世紀"
+    },
+    "importance": 9,
+    "yomi": "かなもじ"
+   },
+   {
+    "id": "t-kodai-0216",
+    "name": "受領",
+    "col": "system",
+    "when": {
+     "from": 900,
+     "approx": true,
+     "label": "10世紀"
+    },
+    "importance": 9,
+    "yomi": "ずりょう"
+   },
+   {
+    "id": "t-kodai-0217",
+    "name": "竹取物語",
+    "col": "culture",
+    "when": {
+     "from": 900,
+     "approx": true,
+     "label": "10世紀初め頃"
+    },
+    "importance": 8,
+    "yomi": "たけとりものがたり"
+   },
+   {
+    "id": "t-kodai-0218",
+    "name": "伊勢物語",
+    "col": "culture",
+    "when": {
+     "from": 900,
+     "approx": true,
+     "label": "10世紀"
+    },
+    "importance": 7,
+    "yomi": "いせものがたり"
+   },
+   {
+    "id": "t-kodai-0219",
+    "name": "負名・田堵",
+    "col": "system",
+    "when": {
+     "from": 900,
+     "approx": true,
+     "label": "10世紀"
+    },
+    "importance": 7,
+    "yomi": "ふみょう・たと"
+   },
+   {
+    "id": "t-kodai-0220",
+    "name": "名（名田）",
+    "col": "system",
+    "when": {
+     "from": 900,
+     "approx": true,
+     "label": "10世紀"
+    },
+    "importance": 6,
+    "yomi": "みょう"
+   },
+   {
+    "id": "t-kodai-0221",
+    "name": "昌泰の変（菅原道真の左遷）",
+    "col": "event",
+    "when": {
+     "from": 901
+    },
+    "importance": 8,
+    "yomi": "しょうたいのへん"
+   },
+   {
+    "id": "t-kodai-0222",
+    "name": "日本三代実録（六国史の最後）",
+    "col": "culture",
+    "when": {
+     "from": 901
+    },
+    "importance": 6,
+    "yomi": "にほんさんだいじつろく"
+   },
+   {
+    "id": "t-kodai-0223",
+    "name": "延喜の荘園整理令",
+    "col": "policy",
+    "when": {
+     "from": 902
+    },
+    "importance": 9,
+    "yomi": "えんぎのしょうえんせいりれい"
+   },
+   {
+    "id": "t-kodai-0224",
+    "name": "最後の班田の記録（延喜2年）",
+    "col": "system",
+    "when": {
+     "from": 902
+    },
+    "importance": 6,
+    "yomi": "はんでん"
+   },
+   {
+    "id": "t-kodai-0225",
+    "name": "古今和歌集",
+    "col": "culture",
+    "when": {
+     "from": 905
+    },
+    "importance": 10,
+    "yomi": "こきんわかしゅう"
+   },
+   {
+    "id": "t-kodai-0226",
+    "name": "唐の滅亡（五代十国へ）",
+    "col": "situation",
+    "when": {
+     "from": 907
+    },
+    "importance": 8,
+    "yomi": "とうのめつぼう"
+   },
+   {
+    "id": "t-kodai-0227",
+    "name": "契丹（遼）の建国",
+    "col": "situation",
+    "when": {
+     "from": 916
+    },
+    "importance": 6,
+    "yomi": "きったん（りょう）"
+   },
+   {
+    "id": "t-kodai-0228",
+    "name": "高麗の建国（936年に朝鮮半島を統一）",
+    "col": "situation",
+    "when": {
+     "from": 918
+    },
+    "importance": 7,
+    "yomi": "こうらい"
+   },
+   {
+    "id": "t-kodai-0229",
+    "name": "渤海の滅亡",
+    "col": "situation",
+    "when": {
+     "from": 926
+    },
+    "importance": 6,
+    "yomi": "ぼっかい"
+   },
+   {
+    "id": "t-kodai-0230",
+    "name": "延喜式",
+    "col": "system",
+    "when": {
+     "from": 927
+    },
+    "importance": 6,
+    "yomi": "えんぎしき"
+   },
+   {
+    "id": "t-kodai-0231",
+    "name": "藤原忠平（摂政・関白）",
+    "col": "ruler",
+    "when": {
+     "from": 930,
+     "to": 949
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "ふじわらのただひら"
+   },
+   {
+    "id": "t-kodai-0232",
+    "name": "土佐日記（紀貫之）",
+    "col": "culture",
+    "when": {
+     "from": 935
+    },
+    "importance": 9,
+    "yomi": "とさにっき"
+   },
+   {
+    "id": "t-kodai-0233",
+    "name": "空也が京で念仏を説く（市聖）",
+    "col": "culture",
+    "when": {
+     "from": 938
+    },
+    "importance": 8,
+    "yomi": "くうや"
+   },
+   {
+    "id": "t-kodai-0234",
+    "name": "平将門の乱",
+    "col": "event",
+    "when": {
+     "from": 939
+    },
+    "importance": 10,
+    "yomi": "たいらのまさかどのらん"
+   },
+   {
+    "id": "t-kodai-0235",
+    "name": "藤原純友の乱",
+    "col": "event",
+    "when": {
+     "from": 939
+    },
+    "importance": 9,
+    "yomi": "ふじわらのすみとものらん"
+   },
+   {
+    "id": "t-kodai-0236",
+    "name": "武士団の形成",
+    "col": "society",
+    "when": {
+     "from": 940,
+     "approx": true,
+     "label": "10世紀"
+    },
+    "importance": 7,
+    "yomi": "ぶしだん"
+   },
+   {
+    "id": "t-kodai-0237",
+    "name": "押領使・追捕使",
+    "col": "system",
+    "when": {
+     "from": 940,
+     "approx": true,
+     "label": "10世紀"
+    },
+    "importance": 6,
+    "yomi": "おうりょうし・ついぶし"
+   },
+   {
+    "id": "t-kodai-0238",
+    "name": "将門記",
+    "col": "culture",
+    "when": {
+     "from": 940,
+     "approx": true,
+     "label": "10世紀中頃"
+    },
+    "importance": 6,
+    "yomi": "しょうもんき"
+   },
+   {
+    "id": "t-kodai-0239",
+    "name": "村上天皇",
+    "col": "ruler",
+    "when": {
+     "from": 946,
+     "to": 967
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "むらかみてんのう"
+   },
+   {
+    "id": "t-kodai-0240",
+    "name": "乾元大宝（最後の皇朝十二銭）",
+    "col": "finance",
+    "when": {
+     "from": 958
+    },
+    "importance": 6,
+    "yomi": "けんげんたいほう"
+   },
+   {
+    "id": "t-kodai-0241",
+    "name": "宋の建国（979年に中国を統一）",
+    "col": "situation",
+    "when": {
+     "from": 960
+    },
+    "importance": 8,
+    "yomi": "そう"
+   },
+   {
+    "id": "t-kodai-0242",
+    "name": "藤原実頼（関白）",
+    "col": "ruler",
+    "when": {
+     "from": 967,
+     "to": 970
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "ふじわらのさねより"
+   },
+   {
+    "id": "t-kodai-0243",
+    "name": "摂関政治",
+    "col": "system",
+    "when": {
+     "from": 969,
+     "to": 1068
+    },
+    "importance": 10,
+    "shape": "span",
+    "yomi": "せっかんせいじ"
+   },
+   {
+    "id": "t-kodai-0244",
+    "name": "安和の変",
+    "col": "event",
+    "when": {
+     "from": 969
+    },
+    "importance": 9,
+    "yomi": "あんなのへん"
+   },
+   {
+    "id": "t-kodai-0245",
+    "name": "浄土教",
+    "col": "culture",
+    "when": {
+     "from": 970,
+     "approx": true,
+     "label": "10世紀"
+    },
+    "importance": 9,
+    "yomi": "じょうどきょう"
+   },
+   {
+    "id": "t-kodai-0246",
+    "name": "本地垂迹説",
+    "col": "culture",
+    "when": {
+     "from": 970,
+     "approx": true,
+     "label": "10世紀"
+    },
+    "importance": 8,
+    "yomi": "ほんじすいじゃくせつ"
+   },
+   {
+    "id": "t-kodai-0247",
+    "name": "蜻蛉日記",
+    "col": "culture",
+    "when": {
+     "from": 974,
+     "approx": true,
+     "label": "10世紀後半"
+    },
+    "importance": 6,
+    "yomi": "かげろうにっき"
+   },
+   {
+    "id": "t-kodai-0248",
+    "name": "奝然が宋へ渡る",
+    "col": "diplomacy",
+    "when": {
+     "from": 983
+    },
+    "importance": 4,
+    "yomi": "ちょうねん"
+   },
+   {
+    "id": "t-kodai-0249",
+    "name": "往生要集（源信）",
+    "col": "culture",
+    "when": {
+     "from": 985
+    },
+    "importance": 9,
+    "yomi": "おうじょうようしゅう"
+   },
+   {
+    "id": "t-kodai-0250",
+    "name": "日本往生極楽記（慶滋保胤）",
+    "col": "culture",
+    "when": {
+     "from": 985,
+     "approx": true,
+     "label": "10世紀後半"
+    },
+    "importance": 6,
+    "yomi": "にほんおうじょうごくらくき"
+   },
+   {
+    "id": "t-kodai-0251",
+    "name": "一条天皇",
+    "col": "ruler",
+    "when": {
+     "from": 986,
+     "to": 1011
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "いちじょうてんのう"
+   },
+   {
+    "id": "t-kodai-0252",
+    "name": "尾張国郡司百姓等解",
+    "col": "society",
+    "when": {
+     "from": 988
+    },
+    "importance": 8,
+    "yomi": "おわりのくにぐんじひゃくしょうらげ"
+   },
+   {
+    "id": "t-kodai-0253",
+    "name": "成功・重任",
+    "col": "system",
+    "when": {
+     "from": 990,
+     "approx": true,
+     "label": "10〜11世紀"
+    },
+    "importance": 8,
+    "yomi": "じょうごう・ちょうにん"
+   },
+   {
+    "id": "t-kodai-0254",
+    "name": "三蹟（小野道風・藤原佐理・藤原行成）",
+    "col": "culture",
+    "when": {
+     "from": 990,
+     "approx": true,
+     "label": "10世紀後半"
+    },
+    "importance": 8,
+    "yomi": "さんせき"
+   },
+   {
+    "id": "t-kodai-0255",
+    "name": "遙任・目代・留守所",
+    "col": "system",
+    "when": {
+     "from": 990,
+     "approx": true,
+     "label": "10〜11世紀"
+    },
+    "importance": 7,
+    "yomi": "ようにん・もくだい・るすどころ"
+   },
+   {
+    "id": "t-kodai-0256",
+    "name": "藤原道長",
+    "col": "ruler",
+    "when": {
+     "from": 995,
+     "to": 1027
+    },
+    "importance": 10,
+    "shape": "span",
+    "yomi": "ふじわらのみちなが"
+   },
+   {
+    "id": "t-kodai-0257",
+    "name": "枕草子（清少納言）",
+    "col": "culture",
+    "when": {
+     "from": 1000,
+     "approx": true,
+     "label": "1000年頃"
+    },
+    "importance": 9,
+    "yomi": "まくらのそうし"
+   },
+   {
+    "id": "t-kodai-0258",
+    "name": "寝殿造",
+    "col": "culture",
+    "when": {
+     "from": 1000,
+     "approx": true,
+     "label": "10〜11世紀"
+    },
+    "importance": 8,
+    "yomi": "しんでんづくり"
+   },
+   {
+    "id": "t-kodai-0259",
+    "name": "大和絵",
+    "col": "culture",
+    "when": {
+     "from": 1000,
+     "approx": true,
+     "label": "10〜11世紀"
+    },
+    "importance": 7,
+    "yomi": "やまとえ"
+   },
+   {
+    "id": "t-kodai-0260",
+    "name": "源氏物語（紫式部）",
+    "col": "culture",
+    "when": {
+     "from": 1008,
+     "approx": true,
+     "label": "11世紀初め"
+    },
+    "importance": 10,
+    "yomi": "げんじものがたり"
+   },
+   {
+    "id": "t-kodai-0261",
+    "name": "紫式部日記",
+    "col": "culture",
+    "when": {
+     "from": 1010,
+     "approx": true,
+     "label": "11世紀初め"
+    },
+    "importance": 5,
+    "yomi": "むらさきしきぶにっき"
+   },
+   {
+    "id": "t-kodai-0262",
+    "name": "和漢朗詠集",
+    "col": "culture",
+    "when": {
+     "from": 1013,
+     "approx": true,
+     "label": "11世紀初め"
+    },
+    "importance": 5,
+    "yomi": "わかんろうえいしゅう"
+   },
+   {
+    "id": "t-kodai-0263",
+    "name": "藤原頼通",
+    "col": "ruler",
+    "when": {
+     "from": 1017,
+     "to": 1067
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "ふじわらのよりみち"
+   },
+   {
+    "id": "t-kodai-0264",
+    "name": "刀伊の入寇",
+    "col": "diplomacy",
+    "when": {
+     "from": 1019
+    },
+    "importance": 7,
+    "yomi": "といのにゅうこう"
+   },
+   {
+    "id": "t-kodai-0265",
+    "name": "法成寺（藤原道長）",
+    "col": "culture",
+    "when": {
+     "from": 1020
+    },
+    "importance": 6,
+    "yomi": "ほうじょうじ"
+   },
+   {
+    "id": "t-kodai-0266",
+    "name": "平忠常の乱",
+    "col": "event",
+    "when": {
+     "from": 1028
+    },
+    "importance": 8,
+    "yomi": "たいらのただつねのらん"
+   },
+   {
+    "id": "t-kodai-0267",
+    "name": "定朝の寄木造（平等院鳳凰堂阿弥陀如来像）",
+    "col": "culture",
+    "when": {
+     "from": 1030,
+     "approx": true,
+     "label": "11世紀前半"
+    },
+    "importance": 8,
+    "yomi": "じょうちょう・よせぎづくり"
+   },
+   {
+    "id": "t-kodai-0268",
+    "name": "寄進地系荘園",
+    "col": "system",
+    "when": {
+     "from": 1040,
+     "approx": true,
+     "label": "11世紀"
+    },
+    "importance": 9,
+    "yomi": "きしんちけいしょうえん"
+   },
+   {
+    "id": "t-kodai-0269",
+    "name": "不輸・不入の権",
+    "col": "system",
+    "when": {
+     "from": 1040,
+     "approx": true,
+     "label": "11世紀"
+    },
+    "importance": 9,
+    "yomi": "ふゆ・ふにゅうのけん"
+   },
+   {
+    "id": "t-kodai-0270",
+    "name": "国衙領（公領）",
+    "col": "system",
+    "when": {
+     "from": 1040,
+     "approx": true,
+     "label": "11世紀"
+    },
+    "importance": 8,
+    "yomi": "こくがりょう"
+   },
+   {
+    "id": "t-kodai-0271",
+    "name": "前九年合戦",
+    "col": "event",
+    "when": {
+     "from": 1051
+    },
+    "importance": 9,
+    "yomi": "ぜんくねんかっせん"
+   },
+   {
+    "id": "t-kodai-0272",
+    "name": "末法思想（末法初年とされた年）",
+    "col": "culture",
+    "when": {
+     "from": 1052
+    },
+    "importance": 8,
+    "yomi": "まっぽうしそう"
+   },
+   {
+    "id": "t-kodai-0273",
+    "name": "平等院鳳凰堂",
+    "col": "culture",
+    "when": {
+     "from": 1053
+    },
+    "importance": 10,
+    "yomi": "びょうどういんほうおうどう"
+   },
+   {
+    "id": "t-kodai-0274",
+    "name": "栄花（栄華）物語",
+    "col": "culture",
+    "when": {
+     "from": 1060,
+     "approx": true,
+     "label": "11世紀"
+    },
+    "importance": 7,
+    "yomi": "えいがものがたり"
+   },
+   {
+    "id": "t-kodai-0275",
+    "name": "更級日記",
+    "col": "culture",
+    "when": {
+     "from": 1060,
+     "approx": true,
+     "label": "11世紀後半"
+    },
+    "importance": 6,
+    "yomi": "さらしなにっき"
+   },
+   {
+    "id": "t-kodai-0276",
+    "name": "後三条天皇",
+    "col": "ruler",
+    "when": {
+     "from": 1068,
+     "to": 1072
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "ごさんじょうてんのう"
+   },
+   {
+    "id": "t-kodai-0277",
+    "name": "延久の荘園整理令（記録荘園券契所）",
+    "col": "policy",
+    "when": {
+     "from": 1069
+    },
+    "importance": 10,
+    "yomi": "えんきゅうのしょうえんせいりれい"
+   },
+   {
+    "id": "t-kodai-0278",
+    "name": "白河天皇",
+    "col": "ruler",
+    "when": {
+     "from": 1072,
+     "to": 1086
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "しらかわてんのう"
+   },
+   {
+    "id": "t-kodai-0279",
+    "name": "宣旨枡",
+    "col": "system",
+    "when": {
+     "from": 1072
+    },
+    "importance": 5,
+    "yomi": "せんじます"
+   },
+   {
+    "id": "t-kodai-0280",
+    "name": "後三年合戦",
+    "col": "event",
+    "when": {
+     "from": 1083
+    },
+    "importance": 9,
+    "yomi": "ごさんねんかっせん"
+   },
+   {
+    "id": "t-kodai-0281",
+    "name": "院政の開始（白河上皇）",
+    "col": "system",
+    "when": {
+     "from": 1086
+    },
+    "importance": 10,
+    "yomi": "いんせい"
+   },
+   {
+    "id": "t-kodai-0282",
+    "name": "院政",
+    "col": "system",
+    "when": {
+     "from": 1086,
+     "to": 1185
+    },
+    "importance": 10,
+    "shape": "span",
+    "yomi": "いんせい"
+   },
+   {
+    "id": "t-kodai-0283",
+    "name": "白河上皇（院政）",
+    "col": "ruler",
+    "when": {
+     "from": 1086,
+     "to": 1129
+    },
+    "importance": 10,
+    "shape": "span",
+    "yomi": "しらかわじょうこう"
+   },
+   {
+    "id": "t-kodai-0284",
+    "name": "院政期の文化",
+    "col": "culture",
+    "when": {
+     "from": 1086,
+     "to": 1185,
+     "approx": true,
+     "label": "11世紀後半〜12世紀"
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "いんせいきのぶんか"
+   },
+   {
+    "id": "t-kodai-0285",
+    "name": "奥州藤原氏（平泉）",
+    "col": "situation",
+    "when": {
+     "from": 1087,
+     "to": 1189
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "おうしゅうふじわらし"
+   },
+   {
+    "id": "t-kodai-0286",
+    "name": "北面の武士",
+    "col": "system",
+    "when": {
+     "from": 1095,
+     "approx": true,
+     "label": "11世紀末"
+    },
+    "importance": 7,
+    "yomi": "ほくめんのぶし"
+   },
+   {
+    "id": "t-kodai-0287",
+    "name": "荘園公領制",
+    "col": "system",
+    "when": {
+     "from": 1100,
+     "approx": true,
+     "label": "12世紀"
+    },
+    "importance": 9,
+    "yomi": "しょうえんこうりょうせい"
+   },
+   {
+    "id": "t-kodai-0288",
+    "name": "知行国の制度",
+    "col": "system",
+    "when": {
+     "from": 1100,
+     "approx": true,
+     "label": "院政期"
+    },
+    "importance": 8,
+    "yomi": "ちぎょうこく"
+   },
+   {
+    "id": "t-kodai-0289",
+    "name": "僧兵の強訴（南都・北嶺）",
+    "col": "society",
+    "when": {
+     "from": 1100,
+     "approx": true,
+     "label": "院政期"
+    },
+    "importance": 7,
+    "yomi": "そうへい・ごうそ"
+   },
+   {
+    "id": "t-kodai-0290",
+    "name": "富貴寺大堂",
+    "col": "culture",
+    "when": {
+     "from": 1100,
+     "approx": true,
+     "label": "院政期"
+    },
+    "importance": 6,
+    "yomi": "ふきじおおどう"
+   },
+   {
+    "id": "t-kodai-0291",
+    "name": "今様・田楽",
+    "col": "culture",
+    "when": {
+     "from": 1100,
+     "approx": true,
+     "label": "院政期"
+    },
+    "importance": 6,
+    "yomi": "いまよう・でんがく"
+   },
+   {
+    "id": "t-kodai-0292",
+    "name": "平正盛が源義親を討つ",
+    "col": "event",
+    "when": {
+     "from": 1108
+    },
+    "importance": 4,
+    "yomi": "たいらのまさもり"
+   },
+   {
+    "id": "t-kodai-0293",
+    "name": "金の建国",
+    "col": "situation",
+    "when": {
+     "from": 1115
+    },
+    "importance": 6,
+    "yomi": "きん"
+   },
+   {
+    "id": "t-kodai-0294",
+    "name": "今昔物語集",
+    "col": "culture",
+    "when": {
+     "from": 1120,
+     "approx": true,
+     "label": "12世紀前半"
+    },
+    "importance": 8,
+    "yomi": "こんじゃくものがたりしゅう"
+   },
+   {
+    "id": "t-kodai-0295",
+    "name": "大鏡",
+    "col": "culture",
+    "when": {
+     "from": 1120,
+     "approx": true,
+     "label": "12世紀"
+    },
+    "importance": 8,
+    "yomi": "おおかがみ"
+   },
+   {
+    "id": "t-kodai-0296",
+    "name": "中尊寺金色堂",
+    "col": "culture",
+    "when": {
+     "from": 1124
+    },
+    "importance": 9,
+    "yomi": "ちゅうそんじこんじきどう"
+   },
+   {
+    "id": "t-kodai-0297",
+    "name": "宋が金に華北を奪われる（南宋へ）",
+    "col": "situation",
+    "when": {
+     "from": 1127
+    },
+    "importance": 6,
+    "yomi": "なんそう"
+   },
+   {
+    "id": "t-kodai-0298",
+    "name": "鳥羽上皇（院政）",
+    "col": "ruler",
+    "when": {
+     "from": 1129,
+     "to": 1156
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "とばじょうこう"
+   },
+   {
+    "id": "t-kodai-0299",
+    "name": "源氏物語絵巻",
+    "col": "culture",
+    "when": {
+     "from": 1130,
+     "approx": true,
+     "label": "12世紀"
+    },
+    "importance": 8,
+    "yomi": "げんじものがたりえまき"
+   },
+   {
+    "id": "t-kodai-0300",
+    "name": "鳥獣戯画",
+    "col": "culture",
+    "when": {
+     "from": 1150,
+     "approx": true,
+     "label": "12世紀"
+    },
+    "importance": 8,
+    "yomi": "ちょうじゅうぎが"
+   },
+   {
+    "id": "t-kodai-0301",
+    "name": "信貴山縁起絵巻",
+    "col": "culture",
+    "when": {
+     "from": 1150,
+     "approx": true,
+     "label": "12世紀"
+    },
+    "importance": 7,
+    "yomi": "しぎさんえんぎえまき"
+   },
+   {
+    "id": "t-kodai-0302",
+    "name": "扇面古写経",
+    "col": "culture",
+    "when": {
+     "from": 1150,
+     "approx": true,
+     "label": "12世紀"
+    },
+    "importance": 5,
+    "yomi": "せんめんこしゃきょう"
+   },
+   {
+    "id": "t-kodai-0303",
+    "name": "保元の乱",
+    "col": "event",
+    "when": {
+     "from": 1156
+    },
+    "importance": 10,
+    "yomi": "ほうげんのらん"
+   },
+   {
+    "id": "t-kodai-0304",
+    "name": "後白河上皇（院政）",
+    "col": "ruler",
+    "when": {
+     "from": 1158,
+     "to": 1192
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "ごしらかわじょうこう"
+   },
+   {
+    "id": "t-kodai-0305",
+    "name": "平治の乱",
+    "col": "event",
+    "when": {
+     "from": 1159
+    },
+    "importance": 10,
+    "yomi": "へいじのらん"
+   },
+   {
+    "id": "t-kodai-0306",
+    "name": "白水阿弥陀堂",
+    "col": "culture",
+    "when": {
+     "from": 1160,
+     "approx": true,
+     "label": "12世紀後半"
+    },
+    "importance": 5,
+    "yomi": "しらみずあみだどう"
+   },
+   {
+    "id": "t-kodai-0307",
+    "name": "平清盛（太政大臣・平氏政権）",
+    "col": "ruler",
+    "when": {
+     "from": 1167,
+     "to": 1181
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "たいらのきよもり"
+   },
+   {
+    "id": "t-kodai-0308",
+    "name": "日宋貿易（平清盛・大輪田泊）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1167,
+     "approx": true,
+     "label": "12世紀後半"
+    },
+    "importance": 9,
+    "yomi": "にっそうぼうえき"
+   },
+   {
+    "id": "t-kodai-0309",
+    "name": "伴大納言絵巻",
+    "col": "culture",
+    "when": {
+     "from": 1170,
+     "approx": true,
+     "label": "12世紀後半"
+    },
+    "importance": 8,
+    "yomi": "ばんだいなごんえまき"
+   },
+   {
+    "id": "t-kodai-0310",
+    "name": "鹿ケ谷の陰謀",
+    "col": "event",
+    "when": {
+     "from": 1177
+    },
+    "importance": 7,
+    "yomi": "ししがたにのいんぼう"
+   },
+   {
+    "id": "t-kodai-0311",
+    "name": "梁塵秘抄（後白河法皇）",
+    "col": "culture",
+    "when": {
+     "from": 1179,
+     "approx": true,
+     "label": "12世紀後半"
+    },
+    "importance": 8,
+    "yomi": "りょうじんひしょう"
+   },
+   {
+    "id": "t-kodai-0312",
+    "name": "平清盛が後白河法皇を幽閉",
+    "col": "event",
+    "when": {
+     "from": 1179
+    },
+    "importance": 7,
+    "yomi": "ゆうへい"
+   },
+   {
+    "id": "t-kodai-0313",
+    "name": "治承・寿永の乱（源平の争乱）",
+    "col": "event",
+    "when": {
+     "from": 1180
+    },
+    "importance": 10,
+    "yomi": "じしょう・じゅえいのらん"
+   },
+   {
+    "id": "t-kodai-0314",
+    "name": "以仁王の令旨・源頼朝の挙兵",
+    "col": "event",
+    "when": {
+     "from": 1180
+    },
+    "importance": 8,
+    "yomi": "もちひとおう"
+   },
+   {
+    "id": "t-kodai-0315",
+    "name": "安徳天皇",
+    "col": "ruler",
+    "when": {
+     "from": 1180,
+     "to": 1185
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "あんとくてんのう"
+   },
+   {
+    "id": "t-kodai-0316",
+    "name": "福原京への遷都",
+    "col": "event",
+    "when": {
+     "from": 1180
+    },
+    "importance": 6,
+    "yomi": "ふくはらきょう"
+   },
+   {
+    "id": "t-kodai-0317",
+    "name": "南都焼打ち",
+    "col": "event",
+    "when": {
+     "from": 1180
+    },
+    "importance": 6,
+    "yomi": "なんとやきうち"
+   },
+   {
+    "id": "t-kodai-0318",
+    "name": "養和の飢饉",
+    "col": "society",
+    "when": {
+     "from": 1181
+    },
+    "importance": 4,
+    "yomi": "ようわのききん"
+   },
+   {
+    "id": "t-kodai-0319",
+    "name": "寿永二年十月宣旨",
+    "col": "event",
+    "when": {
+     "from": 1183
+    },
+    "importance": 7,
+    "yomi": "じゅえいにねんじゅうがつのせんじ"
+   },
+   {
+    "id": "t-kodai-0320",
+    "name": "一の谷の戦い",
+    "col": "event",
+    "when": {
+     "from": 1184
+    },
+    "importance": 6,
+    "yomi": "いちのたに"
+   },
+   {
+    "id": "t-kodai-0321",
+    "name": "壇の浦の戦い（平氏の滅亡）",
+    "col": "event",
+    "when": {
+     "from": 1185
+    },
+    "importance": 9,
+    "yomi": "だんのうら"
+   },
+   {
+    "id": "t-kodai-0322",
+    "name": "屋島の戦い",
+    "col": "event",
+    "when": {
+     "from": 1185
+    },
+    "importance": 6,
+    "yomi": "やしま"
+   }
+  ]
+ }
+}
