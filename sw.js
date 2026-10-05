@@ -4,7 +4,7 @@
    - 新しい版はすぐには切り替えず、アプリの「更新する」ボタンで切り替える
    - キャッシュが何かの理由で消えていても、ネットにつながれば自動で取り直す
    ========================================================= */
-const VERSION = 'abdc0e4e9058';
+const VERSION = 'ee3023abf753';
 const PREFIX = 'nhnote-';
 const CACHE = PREFIX + VERSION;
 const FILES = [

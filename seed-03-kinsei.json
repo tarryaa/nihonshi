@@ -3,12 +3,22 @@
  "schemaVersion": 1,
  "seed": {
   "id": "kinsei",
-  "version": 1,
+  "version": 2,
   "title": "近世（安土桃山・江戸）"
  },
  "about": "初期データ（AI作成・未確認）。重要度の基準は DATA_SCHEMA.md。元ファイルは tools/seed-kinsei.txt",
  "upsert": {
   "terms": [
+   {
+    "id": "t-kinsei-0305",
+    "name": "「天下布武」の印判",
+    "col": "policy",
+    "when": {
+     "from": 1567
+    },
+    "importance": 6,
+    "yomi": "てんかふぶ"
+   },
    {
     "id": "t-kinsei-0001",
     "name": "関所の撤廃",
@@ -44,6 +54,16 @@
     "importance": 10,
     "shape": "span",
     "yomi": "ももやまぶんか"
+   },
+   {
+    "id": "t-kinsei-0432",
+    "name": "浅井氏・朝倉氏の滅亡",
+    "col": "event",
+    "when": {
+     "from": 1573
+    },
+    "importance": 6,
+    "yomi": "あざいし・あさくらし"
    },
    {
     "id": "t-kinsei-0004",
@@ -86,6 +106,16 @@
     },
     "importance": 10,
     "yomi": "らくいちれい"
+   },
+   {
+    "id": "t-kinsei-0306",
+    "name": "安土宗論",
+    "col": "event",
+    "when": {
+     "from": 1579
+    },
+    "importance": 4,
+    "yomi": "あづちしゅうろん"
    },
    {
     "id": "t-kinsei-0008",
@@ -144,6 +174,30 @@
     },
     "importance": 7,
     "yomi": "いしやまほんがんじ"
+   },
+   {
+    "id": "t-kinsei-0398",
+    "name": "堺の茶人（今井宗久・津田宗及）",
+    "col": "culture",
+    "when": {
+     "from": 1580,
+     "approx": true,
+     "label": "桃山時代"
+    },
+    "importance": 5,
+    "yomi": "いまいそうきゅう・つだそうぎゅう"
+   },
+   {
+    "id": "t-kinsei-0399",
+    "name": "南蛮寺",
+    "col": "culture",
+    "when": {
+     "from": 1580,
+     "approx": true,
+     "label": "桃山時代"
+    },
+    "importance": 4,
+    "yomi": "なんばんじ"
    },
    {
     "id": "t-kinsei-0013",
@@ -224,6 +278,18 @@
     "yomi": "やまざきのかっせん"
    },
    {
+    "id": "t-kinsei-0433",
+    "name": "明智光秀",
+    "col": "event",
+    "when": {
+     "from": 1582,
+     "approx": true,
+     "label": "1582年"
+    },
+    "importance": 7,
+    "yomi": "あけちみつひで"
+   },
+   {
     "id": "t-kinsei-0020",
     "name": "京枡",
     "col": "system",
@@ -234,6 +300,40 @@
     },
     "importance": 6,
     "yomi": "きょうます"
+   },
+   {
+    "id": "t-kinsei-0307",
+    "name": "ヴァリニャーニ",
+    "col": "diplomacy",
+    "when": {
+     "from": 1582,
+     "approx": true,
+     "label": "16世紀後半"
+    },
+    "importance": 6,
+    "yomi": "ばりにゃーに"
+   },
+   {
+    "id": "t-kinsei-0308",
+    "name": "妙喜庵待庵（千利休）",
+    "col": "culture",
+    "when": {
+     "from": 1582,
+     "approx": true,
+     "label": "桃山時代"
+    },
+    "importance": 6,
+    "yomi": "みょうきあんたいあん"
+   },
+   {
+    "id": "t-kinsei-0434",
+    "name": "武田氏の滅亡",
+    "col": "event",
+    "when": {
+     "from": 1582
+    },
+    "importance": 6,
+    "yomi": "たけだし"
    },
    {
     "id": "t-kinsei-0021",
@@ -284,6 +384,28 @@
     },
     "importance": 8,
     "yomi": "そうぶじれい"
+   },
+   {
+    "id": "t-kinsei-0309",
+    "name": "蔵入地（豊臣氏の直轄地）",
+    "col": "system",
+    "when": {
+     "from": 1585,
+     "approx": true,
+     "label": "豊臣政権"
+    },
+    "importance": 7,
+    "yomi": "くらいりち"
+   },
+   {
+    "id": "t-kinsei-0435",
+    "name": "徳川家康が秀吉に臣従",
+    "col": "event",
+    "when": {
+     "from": 1586
+    },
+    "importance": 5,
+    "yomi": "しんじゅう"
    },
    {
     "id": "t-kinsei-0026",
@@ -346,6 +468,18 @@
     "yomi": "かいぞくとりしまりれい"
    },
    {
+    "id": "t-kinsei-0310",
+    "name": "天正大判",
+    "col": "finance",
+    "when": {
+     "from": 1588,
+     "approx": true,
+     "label": "豊臣政権"
+    },
+    "importance": 5,
+    "yomi": "てんしょうおおばん"
+   },
+   {
     "id": "t-kinsei-0032",
     "name": "小田原攻め（全国統一）",
     "col": "event",
@@ -380,6 +514,18 @@
     "yomi": "かつじいんさつ"
    },
    {
+    "id": "t-kinsei-0311",
+    "name": "主な鉱山の直轄（佐渡・石見・生野）",
+    "col": "industry",
+    "when": {
+     "from": 1590,
+     "approx": true,
+     "label": "豊臣政権"
+    },
+    "importance": 6,
+    "yomi": "こうざんのちょっかつ"
+   },
+   {
     "id": "t-kinsei-0035",
     "name": "人掃令（身分統制令）",
     "col": "policy",
@@ -398,6 +544,52 @@
     },
     "importance": 10,
     "yomi": "ぶんろくのえき"
+   },
+   {
+    "id": "t-kinsei-0312",
+    "name": "名護屋城（肥前）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1592,
+     "approx": true,
+     "label": "朝鮮侵略"
+    },
+    "importance": 6,
+    "yomi": "なごやじょう"
+   },
+   {
+    "id": "t-kinsei-0313",
+    "name": "李舜臣（亀甲船）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1592,
+     "approx": true,
+     "label": "朝鮮侵略"
+    },
+    "importance": 6,
+    "yomi": "りしゅんしん"
+   },
+   {
+    "id": "t-kinsei-0314",
+    "name": "伏見城",
+    "col": "culture",
+    "when": {
+     "from": 1594,
+     "approx": true,
+     "label": "桃山時代"
+    },
+    "importance": 6,
+    "yomi": "ふしみじょう"
+   },
+   {
+    "id": "t-kinsei-0436",
+    "name": "豊臣秀次の自害",
+    "col": "event",
+    "when": {
+     "from": 1595
+    },
+    "importance": 4,
+    "yomi": "とよとみひでつぐ"
    },
    {
     "id": "t-kinsei-0037",
@@ -442,6 +634,16 @@
     "yomi": "ごたいろう・ごぶぎょう"
    },
    {
+    "id": "t-kinsei-0437",
+    "name": "豊臣秀吉の死（朝鮮から撤兵）",
+    "col": "event",
+    "when": {
+     "from": 1598
+    },
+    "importance": 6,
+    "yomi": "とよとみひでよしのし"
+   },
+   {
     "id": "t-kinsei-0041",
     "name": "関ヶ原の戦い",
     "col": "event",
@@ -484,6 +686,78 @@
     },
     "importance": 7,
     "yomi": "リーフデごう"
+   },
+   {
+    "id": "t-kinsei-0315",
+    "name": "改易・減封・転封",
+    "col": "system",
+    "when": {
+     "from": 1600,
+     "approx": true,
+     "label": "17世紀初め"
+    },
+    "importance": 7,
+    "yomi": "かいえき・げんぽう・てんぽう"
+   },
+   {
+    "id": "t-kinsei-0438",
+    "name": "石田三成",
+    "col": "event",
+    "when": {
+     "from": 1600,
+     "approx": true,
+     "label": "関ヶ原の戦い"
+    },
+    "importance": 6,
+    "yomi": "いしだみつなり"
+   },
+   {
+    "id": "t-kinsei-0316",
+    "name": "南蛮屛風",
+    "col": "culture",
+    "when": {
+     "from": 1600,
+     "approx": true,
+     "label": "桃山時代"
+    },
+    "importance": 5,
+    "yomi": "なんばんびょうぶ"
+   },
+   {
+    "id": "t-kinsei-0400",
+    "name": "天海・崇伝（家康の側近の僧）",
+    "col": "ruler",
+    "when": {
+     "from": 1600,
+     "to": 1643
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "てんかい・すうでん"
+   },
+   {
+    "id": "t-kinsei-0317",
+    "name": "狩野山楽・海北友松",
+    "col": "culture",
+    "when": {
+     "from": 1600,
+     "approx": true,
+     "label": "桃山時代"
+    },
+    "importance": 4,
+    "yomi": "かのうさんらく・かいほうゆうしょう"
+   },
+   {
+    "id": "t-kinsei-0318",
+    "name": "隆達節・人形浄瑠璃のはじまり",
+    "col": "culture",
+    "when": {
+     "from": 1600,
+     "approx": true,
+     "label": "16世紀末"
+    },
+    "importance": 4,
+    "yomi": "りゅうたつぶし"
    },
    {
     "id": "t-kinsei-0054",
@@ -590,6 +864,112 @@
     "yomi": "みぶんせい"
    },
    {
+    "id": "t-kinsei-0319",
+    "name": "幕領（天領）",
+    "col": "system",
+    "when": {
+     "from": 1603,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 7,
+    "yomi": "ばくりょう（てんりょう）"
+   },
+   {
+    "id": "t-kinsei-0320",
+    "name": "町人（地主・家持・地借・店借）",
+    "col": "society",
+    "when": {
+     "from": 1603,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 7,
+    "yomi": "ちょうにん"
+   },
+   {
+    "id": "t-kinsei-0321",
+    "name": "御三家",
+    "col": "system",
+    "when": {
+     "from": 1603,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "ごさんけ"
+   },
+   {
+    "id": "t-kinsei-0322",
+    "name": "苗字・帯刀（武士の特権）",
+    "col": "society",
+    "when": {
+     "from": 1603,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "みょうじ・たいとう"
+   },
+   {
+    "id": "t-kinsei-0323",
+    "name": "かわた（えた）・ひにん",
+    "col": "society",
+    "when": {
+     "from": 1603,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "かわた・ひにん"
+   },
+   {
+    "id": "t-kinsei-0324",
+    "name": "検地帳・高請地",
+    "col": "system",
+    "when": {
+     "from": 1603,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "けんちちょう・たかうけち"
+   },
+   {
+    "id": "t-kinsei-0439",
+    "name": "遠国奉行（長崎奉行など）",
+    "col": "system",
+    "when": {
+     "from": 1603,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "おんごくぶぎょう"
+   },
+   {
+    "id": "t-kinsei-0440",
+    "name": "郡代・代官",
+    "col": "system",
+    "when": {
+     "from": 1603,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "ぐんだい・だいかん"
+   },
+   {
+    "id": "t-kinsei-0401",
+    "name": "日葡辞書",
+    "col": "culture",
+    "when": {
+     "from": 1603
+    },
+    "importance": 4,
+    "yomi": "にっぽじしょ"
+   },
+   {
     "id": "t-kinsei-0066",
     "name": "糸割符制度",
     "col": "diplomacy",
@@ -624,6 +1004,18 @@
     "yomi": "にほんまち"
    },
    {
+    "id": "t-kinsei-0325",
+    "name": "商場知行制（松前藩）",
+    "col": "society",
+    "when": {
+     "from": 1604,
+     "approx": true,
+     "label": "17世紀"
+    },
+    "importance": 7,
+    "yomi": "あきないばちぎょうせい"
+   },
+   {
     "id": "t-kinsei-0069",
     "name": "徳川秀忠",
     "col": "ruler",
@@ -634,6 +1026,18 @@
     "importance": 8,
     "shape": "span",
     "yomi": "とくがわひでただ"
+   },
+   {
+    "id": "t-kinsei-0402",
+    "name": "大御所徳川家康（駿府）",
+    "col": "ruler",
+    "when": {
+     "from": 1605,
+     "to": 1616
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "おおごしょ"
    },
    {
     "id": "t-kinsei-0070",
@@ -700,6 +1104,18 @@
     "yomi": "オランダしょうかん"
    },
    {
+    "id": "t-kinsei-0326",
+    "name": "倭館（釜山）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1609,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "わかん"
+   },
+   {
     "id": "t-kinsei-0076",
     "name": "田中勝介をノビスパン（メキシコ）へ派遣",
     "col": "diplomacy",
@@ -708,6 +1124,42 @@
     },
     "importance": 5,
     "yomi": "たなかしょうすけ"
+   },
+   {
+    "id": "t-kinsei-0327",
+    "name": "山田長政（シャムの日本町）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1610,
+     "approx": true,
+     "label": "17世紀初め"
+    },
+    "importance": 5,
+    "yomi": "やまだながまさ"
+   },
+   {
+    "id": "t-kinsei-0328",
+    "name": "朱印船の商人（末次平蔵・茶屋四郎次郎など）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1610,
+     "approx": true,
+     "label": "17世紀初め"
+    },
+    "importance": 5,
+    "yomi": "しゅいんせんのしょうにん"
+   },
+   {
+    "id": "t-kinsei-0403",
+    "name": "後水尾天皇",
+    "col": "ruler",
+    "when": {
+     "from": 1611,
+     "to": 1629
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "ごみずのおてんのう"
    },
    {
     "id": "t-kinsei-0077",
@@ -770,6 +1222,40 @@
     "yomi": "いっこくいちじょうれい"
    },
    {
+    "id": "t-kinsei-0329",
+    "name": "寺院法度",
+    "col": "policy",
+    "when": {
+     "from": 1615,
+     "approx": true,
+     "label": "17世紀前半"
+    },
+    "importance": 6,
+    "yomi": "じいんはっと"
+   },
+   {
+    "id": "t-kinsei-0441",
+    "name": "豊臣秀頼",
+    "col": "event",
+    "when": {
+     "from": 1615
+    },
+    "importance": 6,
+    "yomi": "とよとみひでより"
+   },
+   {
+    "id": "t-kinsei-0330",
+    "name": "武家伝奏",
+    "col": "system",
+    "when": {
+     "from": 1615,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "ぶけてんそう"
+   },
+   {
     "id": "t-kinsei-0083",
     "name": "中国船以外の外国船の寄港を平戸・長崎に制限",
     "col": "diplomacy",
@@ -778,6 +1264,18 @@
     },
     "importance": 6,
     "yomi": "ひらど・ながさき"
+   },
+   {
+    "id": "t-kinsei-0442",
+    "name": "大坂城代",
+    "col": "system",
+    "when": {
+     "from": 1619,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "おおさかじょうだい"
    },
    {
     "id": "t-kinsei-0084",
@@ -816,6 +1314,16 @@
     },
     "importance": 7,
     "yomi": "せきしょ"
+   },
+   {
+    "id": "t-kinsei-0331",
+    "name": "元和の大殉教",
+    "col": "event",
+    "when": {
+     "from": 1622
+    },
+    "importance": 5,
+    "yomi": "げんなのだいじゅんきょう"
    },
    {
     "id": "t-kinsei-0086",
@@ -870,6 +1378,28 @@
     },
     "importance": 7,
     "yomi": "えぶみ"
+   },
+   {
+    "id": "t-kinsei-0404",
+    "name": "沢庵の処罰（紫衣事件）",
+    "col": "event",
+    "when": {
+     "from": 1629
+    },
+    "importance": 5,
+    "yomi": "たくあん"
+   },
+   {
+    "id": "t-kinsei-0405",
+    "name": "明正天皇",
+    "col": "ruler",
+    "when": {
+     "from": 1629,
+     "to": 1643
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "めいしょうてんのう"
    },
    {
     "id": "t-kinsei-0091",
@@ -1004,6 +1534,28 @@
     "yomi": "しまばらのらん"
    },
    {
+    "id": "t-kinsei-0332",
+    "name": "益田（天草四郎）時貞",
+    "col": "event",
+    "when": {
+     "from": 1637
+    },
+    "importance": 6,
+    "yomi": "あまくさしろう"
+   },
+   {
+    "id": "t-kinsei-0443",
+    "name": "大老",
+    "col": "system",
+    "when": {
+     "from": 1638,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 7,
+    "yomi": "たいろう"
+   },
+   {
     "id": "t-kinsei-0100",
     "name": "ポルトガル船の来航禁止",
     "col": "diplomacy",
@@ -1098,6 +1650,16 @@
     "yomi": "オランダふうせつがき"
    },
    {
+    "id": "t-kinsei-0444",
+    "name": "寛永の飢饉",
+    "col": "society",
+    "when": {
+     "from": 1641
+    },
+    "importance": 5,
+    "yomi": "かんえいのききん"
+   },
+   {
     "id": "t-kinsei-0107",
     "name": "田畑永代売買の禁止令",
     "col": "policy",
@@ -1106,6 +1668,18 @@
     },
     "importance": 9,
     "yomi": "でんぱたえいたいばいばいのきんしれい"
+   },
+   {
+    "id": "t-kinsei-0445",
+    "name": "田畑勝手作りの禁",
+    "col": "policy",
+    "when": {
+     "from": 1643,
+     "approx": true,
+     "label": "17世紀"
+    },
+    "importance": 5,
+    "yomi": "でんぱたかってづくりのきん"
    },
    {
     "id": "t-kinsei-0108",
@@ -1212,6 +1786,138 @@
     "yomi": "だいひょうおっそがたいっき"
    },
    {
+    "id": "t-kinsei-0333",
+    "name": "検見法",
+    "col": "system",
+    "when": {
+     "from": 1650,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "けみほう"
+   },
+   {
+    "id": "t-kinsei-0334",
+    "name": "四公六民・五公五民",
+    "col": "system",
+    "when": {
+     "from": 1650,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "しこうろくみん・ごこうごみん"
+   },
+   {
+    "id": "t-kinsei-0335",
+    "name": "九十九里浜の地曳網（いわし→干鰯）",
+    "col": "industry",
+    "when": {
+     "from": 1650,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "くじゅうくりはま"
+   },
+   {
+    "id": "t-kinsei-0336",
+    "name": "主な鉱山（佐渡金山・石見銀山・足尾銅山・別子銅山）",
+    "col": "industry",
+    "when": {
+     "from": 1650,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "こうざん"
+   },
+   {
+    "id": "t-kinsei-0446",
+    "name": "地方知行制から俸禄制度へ",
+    "col": "system",
+    "when": {
+     "from": 1650,
+     "approx": true,
+     "label": "17世紀"
+    },
+    "importance": 6,
+    "yomi": "じかたちぎょうせい・ほうろくせいど"
+   },
+   {
+    "id": "t-kinsei-0447",
+    "name": "綿作の広まり",
+    "col": "industry",
+    "when": {
+     "from": 1650,
+     "approx": true,
+     "label": "17世紀〜"
+    },
+    "importance": 6,
+    "yomi": "めんさく"
+   },
+   {
+    "id": "t-kinsei-0337",
+    "name": "村掟（村法）・村八分",
+    "col": "system",
+    "when": {
+     "from": 1650,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "むらおきて"
+   },
+   {
+    "id": "t-kinsei-0338",
+    "name": "町年寄・町名主",
+    "col": "system",
+    "when": {
+     "from": 1650,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "まちどしより・まちなぬし"
+   },
+   {
+    "id": "t-kinsei-0339",
+    "name": "上方漁法（網漁）",
+    "col": "industry",
+    "when": {
+     "from": 1650,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "かみがたぎょほう"
+   },
+   {
+    "id": "t-kinsei-0340",
+    "name": "南学（谷時中・山崎闇斎）",
+    "col": "culture",
+    "when": {
+     "from": 1650,
+     "approx": true,
+     "label": "17世紀"
+    },
+    "importance": 5,
+    "yomi": "なんがく"
+   },
+   {
+    "id": "t-kinsei-0341",
+    "name": "結・もやい",
+    "col": "society",
+    "when": {
+     "from": 1650,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 4,
+    "yomi": "ゆい・もやい"
+   },
+   {
     "id": "t-kinsei-0112",
     "name": "徳川家綱",
     "col": "ruler",
@@ -1244,6 +1950,30 @@
     "yomi": "まつごようし"
    },
    {
+    "id": "t-kinsei-0342",
+    "name": "武断政治から文治政治へ",
+    "col": "policy",
+    "when": {
+     "from": 1651,
+     "approx": true,
+     "label": "17世紀後半"
+    },
+    "importance": 8,
+    "yomi": "ぶだんせいじ・ぶんちせいじ"
+   },
+   {
+    "id": "t-kinsei-0343",
+    "name": "保科正之",
+    "col": "ruler",
+    "when": {
+     "from": 1651,
+     "to": 1669
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "ほしなまさゆき"
+   },
+   {
     "id": "t-kinsei-0115",
     "name": "大日本史の編纂開始（徳川光圀）",
     "col": "culture",
@@ -1274,6 +2004,18 @@
     },
     "importance": 8,
     "yomi": "ようめいがく"
+   },
+   {
+    "id": "t-kinsei-0344",
+    "name": "住吉如慶・具慶",
+    "col": "culture",
+    "when": {
+     "from": 1660,
+     "approx": true,
+     "label": "17世紀"
+    },
+    "importance": 4,
+    "yomi": "すみよしじょけい"
    },
    {
     "id": "t-kinsei-0118",
@@ -1310,6 +2052,28 @@
     "yomi": "こがく"
    },
    {
+    "id": "t-kinsei-0345",
+    "name": "諸宗寺院法度",
+    "col": "policy",
+    "when": {
+     "from": 1665
+    },
+    "importance": 5,
+    "yomi": "しょしゅうじいんはっと"
+   },
+   {
+    "id": "t-kinsei-0346",
+    "name": "本末制度",
+    "col": "system",
+    "when": {
+     "from": 1665,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "ほんまつせいど"
+   },
+   {
     "id": "t-kinsei-0121",
     "name": "シャクシャインの戦い",
     "col": "society",
@@ -1328,6 +2092,18 @@
     },
     "importance": 6,
     "yomi": "しずたにがっこう"
+   },
+   {
+    "id": "t-kinsei-0347",
+    "name": "用水（箱根用水・見沼代用水）",
+    "col": "industry",
+    "when": {
+     "from": 1670,
+     "approx": true,
+     "label": "17世紀後半"
+    },
+    "importance": 5,
+    "yomi": "ようすい"
    },
    {
     "id": "t-kinsei-0123",
@@ -1352,6 +2128,18 @@
     "yomi": "てらうけせいど・しゅうもんあらためちょう"
    },
    {
+    "id": "t-kinsei-0348",
+    "name": "垂加神道（山崎闇斎）",
+    "col": "culture",
+    "when": {
+     "from": 1671,
+     "approx": true,
+     "label": "17世紀後半"
+    },
+    "importance": 5,
+    "yomi": "すいかしんとう"
+   },
+   {
     "id": "t-kinsei-0125",
     "name": "分地制限令",
     "col": "policy",
@@ -1360,6 +2148,16 @@
     },
     "importance": 8,
     "yomi": "ぶんちせいげんれい"
+   },
+   {
+    "id": "t-kinsei-0349",
+    "name": "三井越後屋呉服店（三井高利）",
+    "col": "industry",
+    "when": {
+     "from": 1673
+    },
+    "importance": 5,
+    "yomi": "みついえちごや"
    },
    {
     "id": "t-kinsei-0126",
@@ -1432,6 +2230,30 @@
     "yomi": "ののむらにんせい"
    },
    {
+    "id": "t-kinsei-0350",
+    "name": "側用人",
+    "col": "system",
+    "when": {
+     "from": 1680,
+     "approx": true,
+     "label": "17世紀後半〜"
+    },
+    "importance": 7,
+    "yomi": "そばようにん"
+   },
+   {
+    "id": "t-kinsei-0351",
+    "name": "木下順庵・室鳩巣",
+    "col": "culture",
+    "when": {
+     "from": 1680,
+     "approx": true,
+     "label": "17世紀後半"
+    },
+    "importance": 4,
+    "yomi": "きのしたじゅんあん・むろきゅうそう"
+   },
+   {
     "id": "t-kinsei-0130",
     "name": "浮世草子（井原西鶴『好色一代男』）",
     "col": "culture",
@@ -1462,6 +2284,16 @@
     "yomi": "じょうきょうれき"
    },
    {
+    "id": "t-kinsei-0352",
+    "name": "服忌令",
+    "col": "policy",
+    "when": {
+     "from": 1684
+    },
+    "importance": 5,
+    "yomi": "ぶっきりょう"
+   },
+   {
     "id": "t-kinsei-0133",
     "name": "生類憐みの令",
     "col": "policy",
@@ -1484,6 +2316,28 @@
     "importance": 10,
     "shape": "span",
     "yomi": "げんろくぶんか"
+   },
+   {
+    "id": "t-kinsei-0353",
+    "name": "柳沢吉保（側用人）",
+    "col": "ruler",
+    "when": {
+     "from": 1688,
+     "to": 1709
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "やなぎさわよしやす"
+   },
+   {
+    "id": "t-kinsei-0406",
+    "name": "日本永代蔵（井原西鶴）",
+    "col": "culture",
+    "when": {
+     "from": 1688
+    },
+    "importance": 5,
+    "yomi": "にっぽんえいたいぐら"
    },
    {
     "id": "t-kinsei-0135",
@@ -1566,6 +2420,40 @@
     "yomi": "ゆうぜんぞめ"
    },
    {
+    "id": "t-kinsei-0354",
+    "name": "湯島聖堂（林鳳岡を大学頭に）",
+    "col": "culture",
+    "when": {
+     "from": 1690
+    },
+    "importance": 6,
+    "yomi": "ゆしませいどう"
+   },
+   {
+    "id": "t-kinsei-0448",
+    "name": "万葉代匠記（契沖）",
+    "col": "culture",
+    "when": {
+     "from": 1690,
+     "approx": true,
+     "label": "17世紀末"
+    },
+    "importance": 5,
+    "yomi": "まんようだいしょうき"
+   },
+   {
+    "id": "t-kinsei-0407",
+    "name": "ケンペル（日本誌）",
+    "col": "culture",
+    "when": {
+     "from": 1690,
+     "approx": true,
+     "label": "17世紀末"
+    },
+    "importance": 4,
+    "yomi": "けんぺる"
+   },
+   {
     "id": "t-kinsei-0142",
     "name": "十組問屋（江戸）・二十四組問屋（大坂）",
     "col": "industry",
@@ -1632,6 +2520,222 @@
     "yomi": "しょうひんさくもつ"
    },
    {
+    "id": "t-kinsei-0355",
+    "name": "江戸の金遣い・大坂の銀遣い",
+    "col": "finance",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 7,
+    "yomi": "きんづかい・ぎんづかい"
+   },
+   {
+    "id": "t-kinsei-0356",
+    "name": "西陣織・桐生絹",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "にしじんおり・きりゅうぎぬ"
+   },
+   {
+    "id": "t-kinsei-0357",
+    "name": "俵物（いりこ・干し鮑・ふかひれ）",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "たわらもの"
+   },
+   {
+    "id": "t-kinsei-0358",
+    "name": "蔵元・掛屋",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "くらもと・かけや"
+   },
+   {
+    "id": "t-kinsei-0359",
+    "name": "札差",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "ふださし"
+   },
+   {
+    "id": "t-kinsei-0449",
+    "name": "北前船",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "18世紀〜"
+    },
+    "importance": 6,
+    "yomi": "きたまえぶね"
+   },
+   {
+    "id": "t-kinsei-0360",
+    "name": "家父長制・長子単独相続",
+    "col": "society",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "かふちょうせい"
+   },
+   {
+    "id": "t-kinsei-0361",
+    "name": "灘・伊丹の酒",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "なだ・いたみのさけ"
+   },
+   {
+    "id": "t-kinsei-0362",
+    "name": "たたら製鉄",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "たたらせいてつ"
+   },
+   {
+    "id": "t-kinsei-0363",
+    "name": "飛脚",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "ひきゃく"
+   },
+   {
+    "id": "t-kinsei-0364",
+    "name": "問屋・仲買・小売",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "とんや・なかがい・こうり"
+   },
+   {
+    "id": "t-kinsei-0365",
+    "name": "本両替・脇両替（鴻池・三井）",
+    "col": "finance",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "ほんりょうがえ"
+   },
+   {
+    "id": "t-kinsei-0408",
+    "name": "本草学（稲生若水『庶物類纂』）",
+    "col": "culture",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "17世紀末〜18世紀"
+    },
+    "importance": 5,
+    "yomi": "ほんぞうがく"
+   },
+   {
+    "id": "t-kinsei-0450",
+    "name": "醤油（野田・銚子）",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "しょうゆ"
+   },
+   {
+    "id": "t-kinsei-0451",
+    "name": "陶磁器（有田・瀬戸・九谷）",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "とうじき"
+   },
+   {
+    "id": "t-kinsei-0452",
+    "name": "入浜塩田（赤穂など）",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 5,
+    "yomi": "いりはまえんでん"
+   },
+   {
+    "id": "t-kinsei-0453",
+    "name": "紙（越前・美濃）",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 4,
+    "yomi": "かみ"
+   },
+   {
+    "id": "t-kinsei-0454",
+    "name": "漆器（輪島）",
+    "col": "industry",
+    "when": {
+     "from": 1700,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 4,
+    "yomi": "しっき"
+   },
+   {
     "id": "t-kinsei-0148",
     "name": "赤穂事件",
     "col": "event",
@@ -1672,6 +2776,18 @@
     },
     "importance": 6,
     "yomi": "やまとほんぞう"
+   },
+   {
+    "id": "t-kinsei-0366",
+    "name": "間部詮房",
+    "col": "ruler",
+    "when": {
+     "from": 1709,
+     "to": 1716
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "まなべあきふさ"
    },
    {
     "id": "t-kinsei-0152",
@@ -1726,6 +2842,16 @@
     "yomi": "かいはくごしんれい"
    },
    {
+    "id": "t-kinsei-0409",
+    "name": "国性爺合戦（近松門左衛門）",
+    "col": "culture",
+    "when": {
+     "from": 1715
+    },
+    "importance": 5,
+    "yomi": "こくせんやかっせん"
+   },
+   {
     "id": "t-kinsei-0157",
     "name": "徳川吉宗",
     "col": "ruler",
@@ -1748,6 +2874,30 @@
     "importance": 10,
     "shape": "span",
     "yomi": "きょうほうのかいかく"
+   },
+   {
+    "id": "t-kinsei-0367",
+    "name": "女大学",
+    "col": "culture",
+    "when": {
+     "from": 1716,
+     "approx": true,
+     "label": "18世紀"
+    },
+    "importance": 4,
+    "yomi": "おんなだいがく"
+   },
+   {
+    "id": "t-kinsei-0368",
+    "name": "大岡忠相（江戸町奉行）",
+    "col": "ruler",
+    "when": {
+     "from": 1717,
+     "to": 1736
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "おおおかただすけ"
    },
    {
     "id": "t-kinsei-0159",
@@ -1780,6 +2930,18 @@
     },
     "importance": 8,
     "yomi": "かんやくようしょ"
+   },
+   {
+    "id": "t-kinsei-0369",
+    "name": "場所請負制",
+    "col": "society",
+    "when": {
+     "from": 1720,
+     "approx": true,
+     "label": "18世紀〜"
+    },
+    "importance": 7,
+    "yomi": "ばしょうけおいせい"
    },
    {
     "id": "t-kinsei-0162",
@@ -1836,6 +2998,16 @@
     "yomi": "しんでんかいはつ"
    },
    {
+    "id": "t-kinsei-0370",
+    "name": "小石川養生所",
+    "col": "policy",
+    "when": {
+     "from": 1722
+    },
+    "importance": 6,
+    "yomi": "こいしかわようじょうしょ"
+   },
+   {
     "id": "t-kinsei-0167",
     "name": "足高の制",
     "col": "policy",
@@ -1868,6 +3040,28 @@
     "yomi": "しんがく"
    },
    {
+    "id": "t-kinsei-0410",
+    "name": "経済録（太宰春台）",
+    "col": "culture",
+    "when": {
+     "from": 1729,
+     "approx": true,
+     "label": "18世紀前半"
+    },
+    "importance": 5,
+    "yomi": "けいざいろく"
+   },
+   {
+    "id": "t-kinsei-0371",
+    "name": "堂島米市場",
+    "col": "industry",
+    "when": {
+     "from": 1730
+    },
+    "importance": 6,
+    "yomi": "どうじまこめいちば"
+   },
+   {
     "id": "t-kinsei-0170",
     "name": "享保の飢饉",
     "col": "society",
@@ -1886,6 +3080,30 @@
     },
     "importance": 7,
     "yomi": "うちこわし"
+   },
+   {
+    "id": "t-kinsei-0372",
+    "name": "甘藷の栽培（青木昆陽）",
+    "col": "policy",
+    "when": {
+     "from": 1735,
+     "approx": true,
+     "label": "享保の改革"
+    },
+    "importance": 6,
+    "yomi": "かんしょ・あおきこんよう"
+   },
+   {
+    "id": "t-kinsei-0411",
+    "name": "野呂元丈",
+    "col": "culture",
+    "when": {
+     "from": 1740,
+     "approx": true,
+     "label": "18世紀"
+    },
+    "importance": 4,
+    "yomi": "のろげんじょう"
    },
    {
     "id": "t-kinsei-0172",
@@ -1992,6 +3210,18 @@
     "yomi": "せんりゅう・きょうか"
    },
    {
+    "id": "t-kinsei-0455",
+    "name": "国意考（賀茂真淵）",
+    "col": "culture",
+    "when": {
+     "from": 1765,
+     "approx": true,
+     "label": "18世紀"
+    },
+    "importance": 4,
+    "yomi": "こくいこう"
+   },
+   {
     "id": "t-kinsei-0181",
     "name": "田沼意次",
     "col": "ruler",
@@ -2016,6 +3246,18 @@
     "yomi": "たぬまじだい"
    },
    {
+    "id": "t-kinsei-0456",
+    "name": "長崎貿易の拡大（銅・俵物の輸出）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1767,
+     "approx": true,
+     "label": "田沼時代"
+    },
+    "importance": 6,
+    "yomi": "ながさきぼうえき"
+   },
+   {
     "id": "t-kinsei-0183",
     "name": "明和事件（山県大弐）",
     "col": "culture",
@@ -2024,6 +3266,18 @@
     },
     "importance": 5,
     "yomi": "めいわじけん"
+   },
+   {
+    "id": "t-kinsei-0373",
+    "name": "蘭学",
+    "col": "culture",
+    "when": {
+     "from": 1770,
+     "approx": true,
+     "label": "18世紀後半"
+    },
+    "importance": 8,
+    "yomi": "らんがく"
    },
    {
     "id": "t-kinsei-0184",
@@ -2060,6 +3314,18 @@
     },
     "importance": 6,
     "yomi": "ひらがげんない"
+   },
+   {
+    "id": "t-kinsei-0412",
+    "name": "上杉治憲（鷹山）の藩政改革",
+    "col": "policy",
+    "when": {
+     "from": 1770,
+     "approx": true,
+     "label": "18世紀後半"
+    },
+    "importance": 5,
+    "yomi": "うえすぎはるのり"
    },
    {
     "id": "t-kinsei-0187",
@@ -2116,6 +3382,30 @@
     "yomi": "うげつものがたり"
    },
    {
+    "id": "t-kinsei-0457",
+    "name": "主な藩校（明倫館・時習館・弘道館）",
+    "col": "culture",
+    "when": {
+     "from": 1780,
+     "approx": true,
+     "label": "18世紀〜"
+    },
+    "importance": 5,
+    "yomi": "はんこう"
+   },
+   {
+    "id": "t-kinsei-0374",
+    "name": "恋川春町（黄表紙）",
+    "col": "culture",
+    "when": {
+     "from": 1780,
+     "approx": true,
+     "label": "18世紀後半"
+    },
+    "importance": 4,
+    "yomi": "こいかわはるまち"
+   },
+   {
     "id": "t-kinsei-0192",
     "name": "天明の飢饉",
     "col": "society",
@@ -2146,6 +3436,18 @@
     "yomi": "あさまやま"
    },
    {
+    "id": "t-kinsei-0413",
+    "name": "司馬江漢（銅版画）",
+    "col": "culture",
+    "when": {
+     "from": 1783,
+     "approx": true,
+     "label": "18世紀後半"
+    },
+    "importance": 5,
+    "yomi": "しばこうかん"
+   },
+   {
     "id": "t-kinsei-0195",
     "name": "蝦夷地の調査（工藤平助『赤蝦夷風説考』）",
     "col": "policy",
@@ -2154,6 +3456,16 @@
     },
     "importance": 7,
     "yomi": "あかえぞふうせつこう"
+   },
+   {
+    "id": "t-kinsei-0414",
+    "name": "最上徳内の蝦夷地調査",
+    "col": "society",
+    "when": {
+     "from": 1785
+    },
+    "importance": 5,
+    "yomi": "もがみとくない"
    },
    {
     "id": "t-kinsei-0196",
@@ -2212,6 +3524,18 @@
     },
     "importance": 7,
     "yomi": "てんめいのうちこわし"
+   },
+   {
+    "id": "t-kinsei-0375",
+    "name": "山東京伝（洒落本・黄表紙）",
+    "col": "culture",
+    "when": {
+     "from": 1787,
+     "approx": true,
+     "label": "18世紀後半"
+    },
+    "importance": 6,
+    "yomi": "さんとうきょうでん"
    },
    {
     "id": "t-kinsei-0201",
@@ -2274,6 +3598,18 @@
     "yomi": "にんそくよせば"
    },
    {
+    "id": "t-kinsei-0415",
+    "name": "寛政の三博士（柴野栗山・尾藤二洲・岡田寒泉）",
+    "col": "culture",
+    "when": {
+     "from": 1790,
+     "approx": true,
+     "label": "18世紀末"
+    },
+    "importance": 4,
+    "yomi": "かんせいのさんはかせ"
+   },
+   {
     "id": "t-kinsei-0207",
     "name": "七分積金",
     "col": "policy",
@@ -2316,6 +3652,30 @@
     "yomi": "はやししへい"
    },
    {
+    "id": "t-kinsei-0458",
+    "name": "大黒屋光太夫",
+    "col": "diplomacy",
+    "when": {
+     "from": 1792,
+     "approx": true,
+     "label": "18世紀末"
+    },
+    "importance": 5,
+    "yomi": "だいこくやこうだゆう"
+   },
+   {
+    "id": "t-kinsei-0376",
+    "name": "大御所時代（徳川家斉）",
+    "col": "ruler",
+    "when": {
+     "from": 1793,
+     "to": 1841
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "おおごしょじだい"
+   },
+   {
     "id": "t-kinsei-0211",
     "name": "和学講談所（塙保己一）",
     "col": "culture",
@@ -2334,6 +3694,16 @@
     },
     "importance": 5,
     "yomi": "ハルマわげ"
+   },
+   {
+    "id": "t-kinsei-0377",
+    "name": "昌平坂学問所（昌平黌）",
+    "col": "culture",
+    "when": {
+     "from": 1797
+    },
+    "importance": 7,
+    "yomi": "しょうへいざかがくもんじょ"
    },
    {
     "id": "t-kinsei-0213",
@@ -2412,6 +3782,30 @@
     "yomi": "けいせいろん"
    },
    {
+    "id": "t-kinsei-0378",
+    "name": "寄席",
+    "col": "culture",
+    "when": {
+     "from": 1800,
+     "approx": true,
+     "label": "化政期"
+    },
+    "importance": 5,
+    "yomi": "よせ"
+   },
+   {
+    "id": "t-kinsei-0379",
+    "name": "富突・開帳・縁日",
+    "col": "society",
+    "when": {
+     "from": 1800,
+     "approx": true,
+     "label": "江戸時代後期"
+    },
+    "importance": 4,
+    "yomi": "とみつき・かいちょう"
+   },
+   {
     "id": "t-kinsei-0220",
     "name": "滑稽本（十返舎一九『東海道中膝栗毛』）",
     "col": "culture",
@@ -2488,6 +3882,28 @@
     "yomi": "まみやりんぞう"
    },
    {
+    "id": "t-kinsei-0416",
+    "name": "浮世風呂（式亭三馬）",
+    "col": "culture",
+    "when": {
+     "from": 1809
+    },
+    "importance": 5,
+    "yomi": "うきよぶろ"
+   },
+   {
+    "id": "t-kinsei-0417",
+    "name": "呉春（四条派）・谷文晁",
+    "col": "culture",
+    "when": {
+     "from": 1810,
+     "approx": true,
+     "label": "19世紀前半"
+    },
+    "importance": 4,
+    "yomi": "ごしゅん・たにぶんちょう"
+   },
+   {
     "id": "t-kinsei-0227",
     "name": "ゴローウニン事件",
     "col": "diplomacy",
@@ -2520,6 +3936,16 @@
     "yomi": "よみほん"
    },
    {
+    "id": "t-kinsei-0418",
+    "name": "蘭学事始（杉田玄白）",
+    "col": "culture",
+    "when": {
+     "from": 1815
+    },
+    "importance": 5,
+    "yomi": "らんがくことはじめ"
+   },
+   {
     "id": "t-kinsei-0230",
     "name": "咸宜園（広瀬淡窓）",
     "col": "culture",
@@ -2528,6 +3954,30 @@
     },
     "importance": 6,
     "yomi": "かんぎえん"
+   },
+   {
+    "id": "t-kinsei-0380",
+    "name": "文政金銀（貨幣改鋳）",
+    "col": "finance",
+    "when": {
+     "from": 1818,
+     "approx": true,
+     "label": "文政期"
+    },
+    "importance": 5,
+    "yomi": "ぶんせいきんぎん"
+   },
+   {
+    "id": "t-kinsei-0459",
+    "name": "群書類従（塙保己一）",
+    "col": "culture",
+    "when": {
+     "from": 1819,
+     "approx": true,
+     "label": "19世紀前半"
+    },
+    "importance": 5,
+    "yomi": "ぐんしょるいじゅう"
    },
    {
     "id": "t-kinsei-0231",
@@ -2564,6 +4014,30 @@
     },
     "importance": 7,
     "yomi": "こくそ"
+   },
+   {
+    "id": "t-kinsei-0381",
+    "name": "復古神道（平田篤胤）",
+    "col": "culture",
+    "when": {
+     "from": 1820,
+     "approx": true,
+     "label": "19世紀前半"
+    },
+    "importance": 7,
+    "yomi": "ふっこしんとう"
+   },
+   {
+    "id": "t-kinsei-0419",
+    "name": "夢の代（山片蟠桃）",
+    "col": "culture",
+    "when": {
+     "from": 1820,
+     "approx": true,
+     "label": "19世紀前半"
+    },
+    "importance": 4,
+    "yomi": "ゆめのしろ"
    },
    {
     "id": "t-kinsei-0234",
@@ -2672,6 +4146,30 @@
     "yomi": "にんじょうぼん"
    },
    {
+    "id": "t-kinsei-0382",
+    "name": "伊勢参り（お蔭参り）",
+    "col": "society",
+    "when": {
+     "from": 1830,
+     "approx": true,
+     "label": "江戸時代"
+    },
+    "importance": 6,
+    "yomi": "いせまいり（おかげまいり）"
+   },
+   {
+    "id": "t-kinsei-0420",
+    "name": "二宮尊徳（報徳仕法）・大原幽学",
+    "col": "society",
+    "when": {
+     "from": 1830,
+     "approx": true,
+     "label": "19世紀前半"
+    },
+    "importance": 5,
+    "yomi": "にのみやそんとく"
+   },
+   {
     "id": "t-kinsei-0244",
     "name": "葛飾北斎（富嶽三十六景）",
     "col": "culture",
@@ -2746,6 +4244,18 @@
     "yomi": "いくたよろず"
    },
    {
+    "id": "t-kinsei-0460",
+    "name": "北越雪譜（鈴木牧之）",
+    "col": "culture",
+    "when": {
+     "from": 1837,
+     "approx": true,
+     "label": "19世紀前半"
+    },
+    "importance": 4,
+    "yomi": "ほくえつせっぷ"
+   },
+   {
     "id": "t-kinsei-0251",
     "name": "適塾（緒方洪庵）",
     "col": "culture",
@@ -2766,6 +4276,16 @@
     },
     "importance": 6,
     "yomi": "みんしゅうしゅうきょう"
+   },
+   {
+    "id": "t-kinsei-0421",
+    "name": "慎機論（渡辺崋山）・戊戌夢物語（高野長英）",
+    "col": "culture",
+    "when": {
+     "from": 1838
+    },
+    "importance": 6,
+    "yomi": "しんきろん・ぼじゅつゆめものがたり"
    },
    {
     "id": "t-kinsei-0253",
@@ -2796,6 +4316,18 @@
     },
     "importance": 6,
     "yomi": "さんぽうりょうちがえ"
+   },
+   {
+    "id": "t-kinsei-0422",
+    "name": "肥前藩（鍋島直正）の改革（均田制・反射炉）",
+    "col": "policy",
+    "when": {
+     "from": 1840,
+     "approx": true,
+     "label": "19世紀前半"
+    },
+    "importance": 5,
+    "yomi": "ひぜんはん"
    },
    {
     "id": "t-kinsei-0256",
@@ -2832,6 +4364,18 @@
     "yomi": "かぶなかまのかいさん"
    },
    {
+    "id": "t-kinsei-0423",
+    "name": "水戸藩（徳川斉昭）の改革",
+    "col": "policy",
+    "when": {
+     "from": 1841,
+     "approx": true,
+     "label": "19世紀前半"
+    },
+    "importance": 6,
+    "yomi": "みとはん"
+   },
+   {
     "id": "t-kinsei-0259",
     "name": "天保の薪水給与令",
     "col": "policy",
@@ -2840,6 +4384,16 @@
     },
     "importance": 9,
     "yomi": "てんぽうのしんすいきゅうよれい"
+   },
+   {
+    "id": "t-kinsei-0383",
+    "name": "為永春水・柳亭種彦の処罰（天保の改革）",
+    "col": "policy",
+    "when": {
+     "from": 1842
+    },
+    "importance": 6,
+    "yomi": "ためながしゅんすい・りゅうていたねひこ"
    },
    {
     "id": "t-kinsei-0260",
@@ -2872,6 +4426,18 @@
     "yomi": "かいこくかんこく"
    },
    {
+    "id": "t-kinsei-0384",
+    "name": "広益国産考（大蔵永常）",
+    "col": "culture",
+    "when": {
+     "from": 1844,
+     "approx": true,
+     "label": "19世紀前半"
+    },
+    "importance": 5,
+    "yomi": "こうえきこくさんこう"
+   },
+   {
     "id": "t-kinsei-0263",
     "name": "阿部正弘（老中首座）",
     "col": "ruler",
@@ -2894,6 +4460,42 @@
     "yomi": "ビッドル"
    },
    {
+    "id": "t-kinsei-0424",
+    "name": "孝明天皇",
+    "col": "ruler",
+    "when": {
+     "from": 1846,
+     "to": 1866
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "こうめいてんのう"
+   },
+   {
+    "id": "t-kinsei-0425",
+    "name": "反射炉（江川太郎左衛門）",
+    "col": "industry",
+    "when": {
+     "from": 1850,
+     "approx": true,
+     "label": "19世紀中頃"
+    },
+    "importance": 5,
+    "yomi": "はんしゃろ"
+   },
+   {
+    "id": "t-kinsei-0426",
+    "name": "佐久間象山・横井小楠",
+    "col": "culture",
+    "when": {
+     "from": 1850,
+     "approx": true,
+     "label": "幕末"
+    },
+    "importance": 5,
+    "yomi": "さくましょうざん・よこいしょうなん"
+   },
+   {
     "id": "t-kinsei-0265",
     "name": "ペリーの浦賀来航",
     "col": "diplomacy",
@@ -2912,6 +4514,18 @@
     },
     "importance": 8,
     "yomi": "プチャーチン"
+   },
+   {
+    "id": "t-kinsei-0427",
+    "name": "徳川家定",
+    "col": "ruler",
+    "when": {
+     "from": 1853,
+     "to": 1858
+    },
+    "importance": 4,
+    "shape": "span",
+    "yomi": "とくがわいえさだ"
    },
    {
     "id": "t-kinsei-0267",
@@ -2944,6 +4558,18 @@
     },
     "importance": 8,
     "yomi": "あんせいのかいかく"
+   },
+   {
+    "id": "t-kinsei-0461",
+    "name": "下田・箱館の開港と片務的最恵国待遇",
+    "col": "diplomacy",
+    "when": {
+     "from": 1854,
+     "approx": true,
+     "label": "日米和親条約"
+    },
+    "importance": 7,
+    "yomi": "しもだ・はこだて"
    },
    {
     "id": "t-kinsei-0270",
@@ -3040,6 +4666,52 @@
     "yomi": "しょうぐんけいしもんだい"
    },
    {
+    "id": "t-kinsei-0385",
+    "name": "尊王攘夷論",
+    "col": "society",
+    "when": {
+     "from": 1858,
+     "approx": true,
+     "label": "幕末"
+    },
+    "importance": 8,
+    "yomi": "そんのうじょういろん"
+   },
+   {
+    "id": "t-kinsei-0462",
+    "name": "開港（箱館のほか神奈川・長崎・新潟・兵庫）・領事裁判権・協定関税",
+    "col": "diplomacy",
+    "when": {
+     "from": 1858,
+     "approx": true,
+     "label": "日米修好通商条約"
+    },
+    "importance": 8,
+    "yomi": "かいこう・りょうじさいばんけん・きょうていかんぜい"
+   },
+   {
+    "id": "t-kinsei-0428",
+    "name": "徳川家茂",
+    "col": "ruler",
+    "when": {
+     "from": 1858,
+     "to": 1866
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "とくがわいえもち"
+   },
+   {
+    "id": "t-kinsei-0429",
+    "name": "堀田正睦の条約勅許の失敗",
+    "col": "diplomacy",
+    "when": {
+     "from": 1858
+    },
+    "importance": 5,
+    "yomi": "ほったまさよし"
+   },
+   {
     "id": "t-kinsei-0279",
     "name": "貿易の開始（横浜・長崎・箱館）",
     "col": "industry",
@@ -3048,6 +4720,30 @@
     },
     "importance": 9,
     "yomi": "ぼうえきのかいし"
+   },
+   {
+    "id": "t-kinsei-0386",
+    "name": "輸出品（生糸・茶）と輸入品（毛織物・綿織物）",
+    "col": "industry",
+    "when": {
+     "from": 1859,
+     "approx": true,
+     "label": "開国後"
+    },
+    "importance": 7,
+    "yomi": "ゆしゅつひん・ゆにゅうひん"
+   },
+   {
+    "id": "t-kinsei-0387",
+    "name": "金貨の流出（金銀比価の違い）",
+    "col": "finance",
+    "when": {
+     "from": 1859,
+     "approx": true,
+     "label": "開国後"
+    },
+    "importance": 7,
+    "yomi": "きんかのりゅうしゅつ"
    },
    {
     "id": "t-kinsei-0280",
@@ -3070,6 +4766,18 @@
     "yomi": "ごひんえどかいそうれい"
    },
    {
+    "id": "t-kinsei-0388",
+    "name": "公武合体",
+    "col": "policy",
+    "when": {
+     "from": 1860,
+     "approx": true,
+     "label": "幕末"
+    },
+    "importance": 8,
+    "yomi": "こうぶがったい"
+   },
+   {
     "id": "t-kinsei-0282",
     "name": "万延小判（貨幣改鋳）",
     "col": "finance",
@@ -3088,6 +4796,18 @@
     },
     "importance": 6,
     "yomi": "かんりんまる"
+   },
+   {
+    "id": "t-kinsei-0389",
+    "name": "物価の高騰",
+    "col": "society",
+    "when": {
+     "from": 1860,
+     "approx": true,
+     "label": "開国後"
+    },
+    "importance": 6,
+    "yomi": "ぶっかのこうとう"
    },
    {
     "id": "t-kinsei-0284",
@@ -3130,6 +4850,28 @@
     "yomi": "さかしたもんがいのへん"
    },
    {
+    "id": "t-kinsei-0390",
+    "name": "将軍後見職・政事総裁職・京都守護職",
+    "col": "system",
+    "when": {
+     "from": 1862,
+     "approx": true,
+     "label": "文久の改革"
+    },
+    "importance": 6,
+    "yomi": "しょうぐんこうけんしょく"
+   },
+   {
+    "id": "t-kinsei-0430",
+    "name": "島津久光（文久の改革を求める）",
+    "col": "policy",
+    "when": {
+     "from": 1862
+    },
+    "importance": 6,
+    "yomi": "しまづひさみつ"
+   },
+   {
     "id": "t-kinsei-0288",
     "name": "八月十八日の政変",
     "col": "event",
@@ -3158,6 +4900,30 @@
     },
     "importance": 8,
     "yomi": "さつえいせんそう"
+   },
+   {
+    "id": "t-kinsei-0391",
+    "name": "高杉晋作・奇兵隊",
+    "col": "society",
+    "when": {
+     "from": 1863,
+     "approx": true,
+     "label": "幕末"
+    },
+    "importance": 7,
+    "yomi": "たかすぎしんさく・きへいたい"
+   },
+   {
+    "id": "t-kinsei-0392",
+    "name": "新選組",
+    "col": "society",
+    "when": {
+     "from": 1863,
+     "approx": true,
+     "label": "幕末"
+    },
+    "importance": 6,
+    "yomi": "しんせんぐみ"
    },
    {
     "id": "t-kinsei-0291",
@@ -3198,6 +4964,16 @@
     },
     "importance": 7,
     "yomi": "いけだやじけん"
+   },
+   {
+    "id": "t-kinsei-0431",
+    "name": "天狗党の乱",
+    "col": "event",
+    "when": {
+     "from": 1864
+    },
+    "importance": 4,
+    "yomi": "てんぐとうのらん"
    },
    {
     "id": "t-kinsei-0295",
@@ -3262,6 +5038,30 @@
     "yomi": "よなおしいっき"
    },
    {
+    "id": "t-kinsei-0393",
+    "name": "坂本竜馬・中岡慎太郎",
+    "col": "society",
+    "when": {
+     "from": 1866,
+     "approx": true,
+     "label": "幕末"
+    },
+    "importance": 7,
+    "yomi": "さかもとりょうま"
+   },
+   {
+    "id": "t-kinsei-0394",
+    "name": "西郷隆盛・大久保利通（薩摩藩）",
+    "col": "society",
+    "when": {
+     "from": 1866,
+     "approx": true,
+     "label": "幕末"
+    },
+    "importance": 7,
+    "yomi": "さいごうたかもり・おおくぼとしみち"
+   },
+   {
     "id": "t-kinsei-0301",
     "name": "大政奉還",
     "col": "event",
@@ -3300,6 +5100,38 @@
     },
     "importance": 8,
     "yomi": "こごしょかいぎ"
+   },
+   {
+    "id": "t-kinsei-0395",
+    "name": "討幕の密勅",
+    "col": "event",
+    "when": {
+     "from": 1867
+    },
+    "importance": 6,
+    "yomi": "とうばくのみっちょく"
+   },
+   {
+    "id": "t-kinsei-0396",
+    "name": "公議政体論（土佐藩・後藤象二郎）",
+    "col": "policy",
+    "when": {
+     "from": 1867,
+     "approx": true,
+     "label": "幕末"
+    },
+    "importance": 6,
+    "yomi": "こうぎせいたいろん"
+   },
+   {
+    "id": "t-kinsei-0397",
+    "name": "兵庫の開港の勅許",
+    "col": "diplomacy",
+    "when": {
+     "from": 1867
+    },
+    "importance": 5,
+    "yomi": "ひょうご"
    }
   ]
  }

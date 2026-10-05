@@ -3,7 +3,7 @@
  "schemaVersion": 1,
  "seed": {
   "id": "chusei",
-  "version": 1,
+  "version": 2,
   "title": "中世（鎌倉〜戦国）"
  },
  "about": "初期データ（AI作成・未確認）。重要度の基準は DATA_SCHEMA.md。元ファイルは tools/seed-chusei.txt",
@@ -18,6 +18,18 @@
     },
     "importance": 10,
     "yomi": "じょうどしゅう"
+   },
+   {
+    "id": "t-chusei-0265",
+    "name": "専修念仏",
+    "col": "culture",
+    "when": {
+     "from": 1175,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 7,
+    "yomi": "せんじゅねんぶつ"
    },
    {
     "id": "t-chusei-0002",
@@ -42,6 +54,18 @@
     "yomi": "さむらいどころ"
    },
    {
+    "id": "t-chusei-0355",
+    "name": "鶴岡八幡宮",
+    "col": "culture",
+    "when": {
+     "from": 1180,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 5,
+    "yomi": "つるがおかはちまんぐう"
+   },
+   {
     "id": "t-chusei-0004",
     "name": "公文所（のち政所。別当：大江広元）",
     "col": "system",
@@ -60,6 +84,18 @@
     },
     "importance": 9,
     "yomi": "もんちゅうじょ"
+   },
+   {
+    "id": "t-chusei-0266",
+    "name": "大江広元",
+    "col": "ruler",
+    "when": {
+     "from": 1184,
+     "to": 1225
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "おおえのひろもと"
    },
    {
     "id": "t-chusei-0006",
@@ -110,6 +146,18 @@
     "yomi": "かまくらぶんか"
    },
    {
+    "id": "t-chusei-0267",
+    "name": "大犯三カ条（守護の職務）",
+    "col": "system",
+    "when": {
+     "from": 1185,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 9,
+    "yomi": "だいぼんさんかじょう"
+   },
+   {
     "id": "t-chusei-0010",
     "name": "封建制度",
     "col": "system",
@@ -122,6 +170,18 @@
     "yomi": "ほうけんせいど"
    },
    {
+    "id": "t-chusei-0268",
+    "name": "鎌倉殿",
+    "col": "system",
+    "when": {
+     "from": 1185,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 7,
+    "yomi": "かまくらどの"
+   },
+   {
     "id": "t-chusei-0013",
     "name": "京都守護",
     "col": "system",
@@ -130,6 +190,30 @@
     },
     "importance": 6,
     "yomi": "きょうとしゅご"
+   },
+   {
+    "id": "t-chusei-0269",
+    "name": "地頭の職務（年貢の徴収・土地の管理・治安）",
+    "col": "system",
+    "when": {
+     "from": 1185,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 6,
+    "yomi": "じとう"
+   },
+   {
+    "id": "t-chusei-0377",
+    "name": "平氏没官領",
+    "col": "system",
+    "when": {
+     "from": 1185,
+     "approx": true,
+     "label": "鎌倉時代初め"
+    },
+    "importance": 5,
+    "yomi": "へいしもっかんりょう"
    },
    {
     "id": "t-chusei-0014",
@@ -188,6 +272,30 @@
     "yomi": "さんかしゅう"
    },
    {
+    "id": "t-chusei-0378",
+    "name": "伝源頼朝像（似絵の代表）",
+    "col": "culture",
+    "when": {
+     "from": 1190,
+     "approx": true,
+     "label": "12世紀末〜"
+    },
+    "importance": 6,
+    "yomi": "でんみなもとのよりともぞう"
+   },
+   {
+    "id": "t-chusei-0270",
+    "name": "九条兼実（玉葉）",
+    "col": "culture",
+    "when": {
+     "from": 1190,
+     "approx": true,
+     "label": "12世紀末"
+    },
+    "importance": 5,
+    "yomi": "くじょうかねざね"
+   },
+   {
     "id": "t-chusei-0017",
     "name": "奥州総奉行",
     "col": "system",
@@ -208,6 +316,18 @@
     "yomi": "りんざいしゅう"
    },
    {
+    "id": "t-chusei-0271",
+    "name": "公案（坐禅）",
+    "col": "culture",
+    "when": {
+     "from": 1191,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 5,
+    "yomi": "こうあん"
+   },
+   {
     "id": "t-chusei-0019",
     "name": "源頼朝が征夷大将軍に",
     "col": "event",
@@ -226,6 +346,18 @@
     },
     "importance": 8,
     "yomi": "とうだいじ・ちょうげん"
+   },
+   {
+    "id": "t-chusei-0272",
+    "name": "水鏡",
+    "col": "culture",
+    "when": {
+     "from": 1195,
+     "approx": true,
+     "label": "12世紀末"
+    },
+    "importance": 4,
+    "yomi": "みずかがみ"
    },
    {
     "id": "t-chusei-0021",
@@ -278,6 +410,18 @@
     },
     "importance": 7,
     "yomi": "じゅうさんにんのごうぎせい"
+   },
+   {
+    "id": "t-chusei-0273",
+    "name": "西面の武士（後鳥羽上皇）",
+    "col": "system",
+    "when": {
+     "from": 1199,
+     "approx": true,
+     "label": "12世紀末"
+    },
+    "importance": 6,
+    "yomi": "さいめんのぶし"
    },
    {
     "id": "t-chusei-0026",
@@ -340,6 +484,28 @@
     "yomi": "かさがけ・いぬおうもの・やぶさめ"
    },
    {
+    "id": "t-chusei-0274",
+    "name": "東大寺僧形八幡神像（快慶）",
+    "col": "culture",
+    "when": {
+     "from": 1201,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 4,
+    "yomi": "そうぎょうはちまんしんぞう"
+   },
+   {
+    "id": "t-chusei-0275",
+    "name": "建仁寺",
+    "col": "culture",
+    "when": {
+     "from": 1202
+    },
+    "importance": 4,
+    "yomi": "けんにんじ"
+   },
+   {
     "id": "t-chusei-0031",
     "name": "東大寺南大門金剛力士像（運慶・快慶）",
     "col": "culture",
@@ -348,6 +514,18 @@
     },
     "importance": 9,
     "yomi": "こんごうりきしぞう"
+   },
+   {
+    "id": "t-chusei-0379",
+    "name": "執権政治",
+    "col": "system",
+    "when": {
+     "from": 1203,
+     "to": 1333
+    },
+    "importance": 9,
+    "shape": "span",
+    "yomi": "しっけんせいじ"
    },
    {
     "id": "t-chusei-0032",
@@ -406,6 +584,18 @@
     "yomi": "ほうじょうよしとき"
    },
    {
+    "id": "t-chusei-0276",
+    "name": "六波羅蜜寺空也上人像（康勝）",
+    "col": "culture",
+    "when": {
+     "from": 1210,
+     "approx": true,
+     "label": "13世紀初め"
+    },
+    "importance": 7,
+    "yomi": "くうやしょうにんぞう"
+   },
+   {
     "id": "t-chusei-0037",
     "name": "喫茶養生記（栄西）",
     "col": "culture",
@@ -424,6 +614,18 @@
     },
     "importance": 9,
     "yomi": "ほうじょうき"
+   },
+   {
+    "id": "t-chusei-0277",
+    "name": "興福寺無著・世親像（運慶）",
+    "col": "culture",
+    "when": {
+     "from": 1212,
+     "approx": true,
+     "label": "13世紀初め"
+    },
+    "importance": 7,
+    "yomi": "むじゃく・せしんぞう"
    },
    {
     "id": "t-chusei-0039",
@@ -446,6 +648,18 @@
     "yomi": "わだかっせん"
    },
    {
+    "id": "t-chusei-0278",
+    "name": "興福寺天灯鬼・竜灯鬼像",
+    "col": "culture",
+    "when": {
+     "from": 1215,
+     "approx": true,
+     "label": "13世紀初め"
+    },
+    "importance": 4,
+    "yomi": "てんとうき・りゅうとうき"
+   },
+   {
     "id": "t-chusei-0041",
     "name": "源実朝の暗殺",
     "col": "event",
@@ -454,6 +668,28 @@
     },
     "importance": 8,
     "yomi": "さねともあんさつ"
+   },
+   {
+    "id": "t-chusei-0279",
+    "name": "北条政子（尼将軍）",
+    "col": "ruler",
+    "when": {
+     "from": 1219,
+     "to": 1225
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "ほうじょうまさこ"
+   },
+   {
+    "id": "t-chusei-0356",
+    "name": "公暁（源実朝を暗殺）",
+    "col": "event",
+    "when": {
+     "from": 1219
+    },
+    "importance": 5,
+    "yomi": "くぎょう"
    },
    {
     "id": "t-chusei-0042",
@@ -586,6 +822,42 @@
     "yomi": "かわせ"
    },
    {
+    "id": "t-chusei-0280",
+    "name": "女性の地位（分割相続・女性の地頭）",
+    "col": "society",
+    "when": {
+     "from": 1220,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 6,
+    "yomi": "じょせいのちい"
+   },
+   {
+    "id": "t-chusei-0281",
+    "name": "庶子",
+    "col": "society",
+    "when": {
+     "from": 1220,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 6,
+    "yomi": "しょし"
+   },
+   {
+    "id": "t-chusei-0282",
+    "name": "門田・佃（武士の直営地）",
+    "col": "industry",
+    "when": {
+     "from": 1220,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 6,
+    "yomi": "かどた・つくだ"
+   },
+   {
     "id": "t-chusei-0053",
     "name": "見世棚",
     "col": "industry",
@@ -596,6 +868,54 @@
     },
     "importance": 5,
     "yomi": "みせだな"
+   },
+   {
+    "id": "t-chusei-0283",
+    "name": "「弓馬の道」「武家のならい」",
+    "col": "society",
+    "when": {
+     "from": 1220,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 5,
+    "yomi": "きゅうばのみち"
+   },
+   {
+    "id": "t-chusei-0284",
+    "name": "鍛冶・鋳物師・紺屋",
+    "col": "industry",
+    "when": {
+     "from": 1220,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 5,
+    "yomi": "かじ・いもじ・こうや"
+   },
+   {
+    "id": "t-chusei-0285",
+    "name": "和様（蓮華王院本堂）・折衷様（観心寺金堂）",
+    "col": "culture",
+    "when": {
+     "from": 1220,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 5,
+    "yomi": "わよう・せっちゅうよう"
+   },
+   {
+    "id": "t-chusei-0286",
+    "name": "荏胡麻",
+    "col": "industry",
+    "when": {
+     "from": 1220,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 4,
+    "yomi": "えごま"
    },
    {
     "id": "t-chusei-0054",
@@ -616,6 +936,62 @@
     },
     "importance": 10,
     "yomi": "ろくはらたんだい"
+   },
+   {
+    "id": "t-chusei-0287",
+    "name": "上皇方の所領3000余カ所を没収",
+    "col": "system",
+    "when": {
+     "from": 1221,
+     "approx": true,
+     "label": "承久の乱後"
+    },
+    "importance": 6,
+    "yomi": "もっしゅう"
+   },
+   {
+    "id": "t-chusei-0380",
+    "name": "後鳥羽・土御門・順徳上皇の配流",
+    "col": "event",
+    "when": {
+     "from": 1221
+    },
+    "importance": 5,
+    "yomi": "はいる"
+   },
+   {
+    "id": "t-chusei-0381",
+    "name": "北条泰時・時房（初代の六波羅探題）",
+    "col": "ruler",
+    "when": {
+     "from": 1221,
+     "to": 1224
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "ほうじょうやすとき・ときふさ"
+   },
+   {
+    "id": "t-chusei-0382",
+    "name": "仲恭天皇の廃位",
+    "col": "event",
+    "when": {
+     "from": 1221
+    },
+    "importance": 4,
+    "yomi": "ちゅうきょうてんのう"
+   },
+   {
+    "id": "t-chusei-0383",
+    "name": "禁秘抄（有職故実）",
+    "col": "culture",
+    "when": {
+     "from": 1221,
+     "approx": true,
+     "label": "13世紀"
+    },
+    "importance": 4,
+    "yomi": "きんぴしょう"
    },
    {
     "id": "t-chusei-0056",
@@ -650,6 +1026,18 @@
     "yomi": "ほうじょうやすとき"
    },
    {
+    "id": "t-chusei-0288",
+    "name": "他力本願",
+    "col": "culture",
+    "when": {
+     "from": 1224,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 6,
+    "yomi": "たりきほんがん"
+   },
+   {
     "id": "t-chusei-0059",
     "name": "連署・評定衆",
     "col": "system",
@@ -682,6 +1070,18 @@
     "yomi": "そうとうしゅう"
    },
    {
+    "id": "t-chusei-0289",
+    "name": "只管打坐",
+    "col": "culture",
+    "when": {
+     "from": 1227,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 6,
+    "yomi": "しかんたざ"
+   },
+   {
     "id": "t-chusei-0062",
     "name": "正法眼蔵（道元）",
     "col": "culture",
@@ -706,6 +1106,62 @@
     "yomi": "ごせいばいしきもく"
    },
    {
+    "id": "t-chusei-0290",
+    "name": "道理・先例（御成敗式目の基準）",
+    "col": "system",
+    "when": {
+     "from": 1232,
+     "approx": true,
+     "label": "13世紀"
+    },
+    "importance": 6,
+    "yomi": "どうり・せんれい"
+   },
+   {
+    "id": "t-chusei-0291",
+    "name": "式目追加",
+    "col": "system",
+    "when": {
+     "from": 1232,
+     "approx": true,
+     "label": "13世紀"
+    },
+    "importance": 5,
+    "yomi": "しきもくついか"
+   },
+   {
+    "id": "t-chusei-0357",
+    "name": "和賀江島",
+    "col": "industry",
+    "when": {
+     "from": 1232
+    },
+    "importance": 4,
+    "yomi": "わかえじま"
+   },
+   {
+    "id": "t-chusei-0292",
+    "name": "藤原定家",
+    "col": "culture",
+    "when": {
+     "from": 1235,
+     "approx": true,
+     "label": "13世紀前半"
+    },
+    "importance": 6,
+    "yomi": "ふじわらのていか"
+   },
+   {
+    "id": "t-chusei-0293",
+    "name": "永平寺",
+    "col": "culture",
+    "when": {
+     "from": 1244
+    },
+    "importance": 6,
+    "yomi": "えいへいじ"
+   },
+   {
     "id": "t-chusei-0064",
     "name": "北条時頼（執権）",
     "col": "ruler",
@@ -716,6 +1172,18 @@
     "importance": 9,
     "shape": "span",
     "yomi": "ほうじょうときより"
+   },
+   {
+    "id": "t-chusei-0358",
+    "name": "後嵯峨上皇の院政（院評定衆）",
+    "col": "system",
+    "when": {
+     "from": 1246,
+     "approx": true,
+     "label": "13世紀中頃"
+    },
+    "importance": 5,
+    "yomi": "ごさがじょうこう"
    },
    {
     "id": "t-chusei-0065",
@@ -786,6 +1254,54 @@
     "yomi": "うじしゅういものがたり"
    },
    {
+    "id": "t-chusei-0294",
+    "name": "一期分",
+    "col": "society",
+    "when": {
+     "from": 1250,
+     "approx": true,
+     "label": "鎌倉時代後期"
+    },
+    "importance": 6,
+    "yomi": "いちごぶん"
+   },
+   {
+    "id": "t-chusei-0295",
+    "name": "平治物語絵巻",
+    "col": "culture",
+    "when": {
+     "from": 1250,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 5,
+    "yomi": "へいじものがたりえまき"
+   },
+   {
+    "id": "t-chusei-0296",
+    "name": "刀剣（岡崎正宗・粟田口吉光・長船長光）",
+    "col": "culture",
+    "when": {
+     "from": 1250,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 5,
+    "yomi": "とうけん"
+   },
+   {
+    "id": "t-chusei-0384",
+    "name": "海道記・東関紀行（紀行文）",
+    "col": "culture",
+    "when": {
+     "from": 1250,
+     "approx": true,
+     "label": "13世紀"
+    },
+    "importance": 4,
+    "yomi": "かいどうき・とうかんこうき"
+   },
+   {
     "id": "t-chusei-0071",
     "name": "宗尊親王（皇族将軍）",
     "col": "ruler",
@@ -816,6 +1332,18 @@
     },
     "importance": 7,
     "yomi": "けんちょうじ"
+   },
+   {
+    "id": "t-chusei-0297",
+    "name": "題目（南無妙法蓮華経）",
+    "col": "culture",
+    "when": {
+     "from": 1253,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 6,
+    "yomi": "だいもく"
    },
    {
     "id": "t-chusei-0074",
@@ -914,6 +1442,30 @@
     },
     "importance": 9,
     "yomi": "じしゅう"
+   },
+   {
+    "id": "t-chusei-0298",
+    "name": "竹崎季長",
+    "col": "diplomacy",
+    "when": {
+     "from": 1274,
+     "approx": true,
+     "label": "元寇"
+    },
+    "importance": 6,
+    "yomi": "たけざきすえなが"
+   },
+   {
+    "id": "t-chusei-0299",
+    "name": "踊念仏",
+    "col": "culture",
+    "when": {
+     "from": 1274,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 6,
+    "yomi": "おどりねんぶつ"
    },
    {
     "id": "t-chusei-0083",
@@ -1036,6 +1588,16 @@
     "yomi": "えんがくじ"
    },
    {
+    "id": "t-chusei-0300",
+    "name": "沙石集（無住）",
+    "col": "culture",
+    "when": {
+     "from": 1283
+    },
+    "importance": 5,
+    "yomi": "しゃせきしゅう"
+   },
+   {
     "id": "t-chusei-0094",
     "name": "北条貞時（執権）",
     "col": "ruler",
@@ -1082,6 +1644,16 @@
     "yomi": "みうちびと・うちかんれい"
    },
    {
+    "id": "t-chusei-0301",
+    "name": "安達泰盛・平頼綱",
+    "col": "event",
+    "when": {
+     "from": 1285
+    },
+    "importance": 5,
+    "yomi": "あだちやすもり・たいらのよりつな"
+   },
+   {
     "id": "t-chusei-0098",
     "name": "蒙古襲来絵詞",
     "col": "culture",
@@ -1092,6 +1664,18 @@
     },
     "importance": 8,
     "yomi": "もうこしゅうらいえことば"
+   },
+   {
+    "id": "t-chusei-0302",
+    "name": "御家人の窮乏（分割相続・貨幣経済）",
+    "col": "society",
+    "when": {
+     "from": 1290,
+     "approx": true,
+     "label": "13世紀後半〜"
+    },
+    "importance": 7,
+    "yomi": "ごけにんのきゅうぼう"
    },
    {
     "id": "t-chusei-0099",
@@ -1172,6 +1756,18 @@
     "yomi": "そうがく"
    },
    {
+    "id": "t-chusei-0303",
+    "name": "神本仏迹説",
+    "col": "culture",
+    "when": {
+     "from": 1300,
+     "approx": true,
+     "label": "鎌倉時代後期"
+    },
+    "importance": 6,
+    "yomi": "しんぽんぶつじゃくせつ"
+   },
+   {
     "id": "t-chusei-0106",
     "name": "北野天神縁起絵巻・春日権現験記",
     "col": "culture",
@@ -1194,6 +1790,30 @@
     },
     "importance": 5,
     "yomi": "せとやき"
+   },
+   {
+    "id": "t-chusei-0304",
+    "name": "法然上人絵伝",
+    "col": "culture",
+    "when": {
+     "from": 1300,
+     "approx": true,
+     "label": "鎌倉時代"
+    },
+    "importance": 4,
+    "yomi": "ほうねんしょうにんえでん"
+   },
+   {
+    "id": "t-chusei-0359",
+    "name": "長崎高資（内管領）",
+    "col": "ruler",
+    "when": {
+     "from": 1316,
+     "to": 1333
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "ながさきたかすけ"
    },
    {
     "id": "t-chusei-0108",
@@ -1270,6 +1890,16 @@
     "yomi": "げんこうのへん"
    },
    {
+    "id": "t-chusei-0385",
+    "name": "後醍醐天皇の隠岐配流",
+    "col": "event",
+    "when": {
+     "from": 1332
+    },
+    "importance": 5,
+    "yomi": "おき"
+   },
+   {
     "id": "t-chusei-0115",
     "name": "鎌倉幕府の滅亡",
     "col": "event",
@@ -1298,6 +1928,62 @@
     },
     "importance": 8,
     "yomi": "ざっそけつだんしょ"
+   },
+   {
+    "id": "t-chusei-0305",
+    "name": "楠木正成",
+    "col": "event",
+    "when": {
+     "from": 1333,
+     "approx": true,
+     "label": "1333年"
+    },
+    "importance": 7,
+    "yomi": "くすのきまさしげ"
+   },
+   {
+    "id": "t-chusei-0306",
+    "name": "新田義貞",
+    "col": "event",
+    "when": {
+     "from": 1333,
+     "approx": true,
+     "label": "1333年"
+    },
+    "importance": 7,
+    "yomi": "にったよしさだ"
+   },
+   {
+    "id": "t-chusei-0307",
+    "name": "綸旨による個別安堵",
+    "col": "policy",
+    "when": {
+     "from": 1333,
+     "approx": true,
+     "label": "建武の新政"
+    },
+    "importance": 6,
+    "yomi": "りんじ"
+   },
+   {
+    "id": "t-chusei-0386",
+    "name": "足利高氏の六波羅攻め",
+    "col": "event",
+    "when": {
+     "from": 1333
+    },
+    "importance": 6,
+    "yomi": "ろくはらぜめ"
+   },
+   {
+    "id": "t-chusei-0387",
+    "name": "護良親王",
+    "col": "event",
+    "when": {
+     "from": 1333
+    },
+    "importance": 5,
+    "yomi": "もりよししんのう"
    },
    {
     "id": "t-chusei-0118",
@@ -1364,6 +2050,54 @@
     "yomi": "よしの"
    },
    {
+    "id": "t-chusei-0308",
+    "name": "南朝（吉野）と北朝（京都）",
+    "col": "situation",
+    "when": {
+     "from": 1336,
+     "approx": true,
+     "label": "1336〜92年"
+    },
+    "importance": 7,
+    "yomi": "なんちょう・ほくちょう"
+   },
+   {
+    "id": "t-chusei-0360",
+    "name": "南北朝文化",
+    "col": "culture",
+    "when": {
+     "from": 1336,
+     "to": 1392,
+     "approx": true,
+     "label": "南北朝時代"
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "なんぼくちょうぶんか"
+   },
+   {
+    "id": "t-chusei-0361",
+    "name": "光明天皇（北朝）",
+    "col": "ruler",
+    "when": {
+     "from": 1336,
+     "to": 1348
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "こうみょうてんのう"
+   },
+   {
+    "id": "t-chusei-0388",
+    "name": "湊川の戦い",
+    "col": "event",
+    "when": {
+     "from": 1336
+    },
+    "importance": 5,
+    "yomi": "みなとがわのたたかい"
+   },
+   {
     "id": "t-chusei-0124",
     "name": "足利尊氏",
     "col": "ruler",
@@ -1396,6 +2130,30 @@
     "yomi": "てんりゅうじ"
    },
    {
+    "id": "t-chusei-0309",
+    "name": "西芳寺庭園",
+    "col": "culture",
+    "when": {
+     "from": 1339,
+     "approx": true,
+     "label": "14世紀"
+    },
+    "importance": 4,
+    "yomi": "さいほうじていえん"
+   },
+   {
+    "id": "t-chusei-0310",
+    "name": "夢窓疎石",
+    "col": "culture",
+    "when": {
+     "from": 1340,
+     "approx": true,
+     "label": "14世紀"
+    },
+    "importance": 6,
+    "yomi": "むそうそせき"
+   },
+   {
     "id": "t-chusei-0127",
     "name": "天龍寺船",
     "col": "diplomacy",
@@ -1404,6 +2162,18 @@
     },
     "importance": 7,
     "yomi": "てんりゅうじぶね"
+   },
+   {
+    "id": "t-chusei-0311",
+    "name": "刈田狼藉の取締り・使節遵行（守護の権限）",
+    "col": "system",
+    "when": {
+     "from": 1346,
+     "approx": true,
+     "label": "14世紀中頃"
+    },
+    "importance": 8,
+    "yomi": "かりたろうぜき・しせつじゅんぎょう"
    },
    {
     "id": "t-chusei-0128",
@@ -1462,6 +2232,18 @@
     "yomi": "こくじんいっき"
    },
    {
+    "id": "t-chusei-0312",
+    "name": "国人",
+    "col": "society",
+    "when": {
+     "from": 1350,
+     "approx": true,
+     "label": "南北朝・室町時代"
+    },
+    "importance": 7,
+    "yomi": "こくじん"
+   },
+   {
     "id": "t-chusei-0133",
     "name": "バサラ・闘茶",
     "col": "culture",
@@ -1484,6 +2266,54 @@
     },
     "importance": 6,
     "yomi": "ますかがみ・ばいしょうろん"
+   },
+   {
+    "id": "t-chusei-0313",
+    "name": "足利直義・高師直",
+    "col": "event",
+    "when": {
+     "from": 1350,
+     "approx": true,
+     "label": "観応の擾乱"
+    },
+    "importance": 6,
+    "yomi": "あしかがただよし・こうのもろなお"
+   },
+   {
+    "id": "t-chusei-0389",
+    "name": "守護代",
+    "col": "system",
+    "when": {
+     "from": 1350,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 6,
+    "yomi": "しゅごだい"
+   },
+   {
+    "id": "t-chusei-0314",
+    "name": "青蓮院流（尊円入道親王）",
+    "col": "culture",
+    "when": {
+     "from": 1350,
+     "approx": true,
+     "label": "14世紀"
+    },
+    "importance": 5,
+    "yomi": "しょうれんいんりゅう"
+   },
+   {
+    "id": "t-chusei-0362",
+    "name": "茶寄合",
+    "col": "culture",
+    "when": {
+     "from": 1350,
+     "approx": true,
+     "label": "14世紀"
+    },
+    "importance": 5,
+    "yomi": "ちゃよりあい"
    },
    {
     "id": "t-chusei-0135",
@@ -1540,6 +2370,42 @@
     "importance": 5,
     "shape": "span",
     "yomi": "あしかがよしあきら"
+   },
+   {
+    "id": "t-chusei-0315",
+    "name": "守護領国制",
+    "col": "system",
+    "when": {
+     "from": 1360,
+     "approx": true,
+     "label": "14世紀後半"
+    },
+    "importance": 7,
+    "yomi": "しゅごりょうごくせい"
+   },
+   {
+    "id": "t-chusei-0363",
+    "name": "懐良親王（征西将軍）",
+    "col": "event",
+    "when": {
+     "from": 1361,
+     "approx": true,
+     "label": "14世紀後半"
+    },
+    "importance": 5,
+    "yomi": "かねよししんのう"
+   },
+   {
+    "id": "t-chusei-0364",
+    "name": "細川頼之（管領）",
+    "col": "ruler",
+    "when": {
+     "from": 1367,
+     "to": 1379
+    },
+    "importance": 5,
+    "shape": "span",
+    "yomi": "ほそかわよりゆき"
    },
    {
     "id": "t-chusei-0140",
@@ -1600,6 +2466,40 @@
     "yomi": "さむらいどころ"
    },
    {
+    "id": "t-chusei-0390",
+    "name": "政所（室町幕府）",
+    "col": "system",
+    "when": {
+     "from": 1368,
+     "approx": true,
+     "label": "室町幕府"
+    },
+    "importance": 5,
+    "yomi": "まんどころ"
+   },
+   {
+    "id": "t-chusei-0365",
+    "name": "今川了俊（九州探題）",
+    "col": "system",
+    "when": {
+     "from": 1371
+    },
+    "importance": 5,
+    "yomi": "いまがわりょうしゅん"
+   },
+   {
+    "id": "t-chusei-0391",
+    "name": "応安新式（連歌の規則）",
+    "col": "culture",
+    "when": {
+     "from": 1372,
+     "approx": true,
+     "label": "14世紀後半"
+    },
+    "importance": 4,
+    "yomi": "おうあんしんしき"
+   },
+   {
     "id": "t-chusei-0145",
     "name": "能（観阿弥・世阿弥）",
     "col": "culture",
@@ -1646,6 +2546,18 @@
     },
     "importance": 8,
     "yomi": "ござん・じっさつ"
+   },
+   {
+    "id": "t-chusei-0392",
+    "name": "京都五山・鎌倉五山（南禅寺は別格）",
+    "col": "culture",
+    "when": {
+     "from": 1386,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 5,
+    "yomi": "きょうとござん・かまくらござん"
    },
    {
     "id": "t-chusei-0149",
@@ -1722,6 +2634,18 @@
     "importance": 6,
     "shape": "span",
     "yomi": "あしかがよしもち"
+   },
+   {
+    "id": "t-chusei-0316",
+    "name": "明兆",
+    "col": "culture",
+    "when": {
+     "from": 1394,
+     "approx": true,
+     "label": "14世紀末〜15世紀"
+    },
+    "importance": 4,
+    "yomi": "みんちょう"
    },
    {
     "id": "t-chusei-0156",
@@ -1912,6 +2836,186 @@
     "yomi": "せきせん・つりょう"
    },
    {
+    "id": "t-chusei-0317",
+    "name": "御料所（幕府の直轄地）",
+    "col": "finance",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 6,
+    "yomi": "ごりょうしょ"
+   },
+   {
+    "id": "t-chusei-0318",
+    "name": "倭寇の禁圧",
+    "col": "diplomacy",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 6,
+    "yomi": "わこうのきんあつ"
+   },
+   {
+    "id": "t-chusei-0319",
+    "name": "十三湊（安藤氏）",
+    "col": "society",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "14〜15世紀"
+    },
+    "importance": 6,
+    "yomi": "とさみなと"
+   },
+   {
+    "id": "t-chusei-0320",
+    "name": "肥料（刈敷・草木灰・下肥）",
+    "col": "industry",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 6,
+    "yomi": "ひりょう"
+   },
+   {
+    "id": "t-chusei-0321",
+    "name": "乙名・沙汰人（惣村の指導者）",
+    "col": "society",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 6,
+    "yomi": "おとな・さたにん"
+   },
+   {
+    "id": "t-chusei-0322",
+    "name": "入会地",
+    "col": "society",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 6,
+    "yomi": "いりあいち"
+   },
+   {
+    "id": "t-chusei-0323",
+    "name": "観世座（大和猿楽四座）",
+    "col": "culture",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 6,
+    "yomi": "かんぜざ"
+   },
+   {
+    "id": "t-chusei-0324",
+    "name": "商品作物（苧・桑・楮・漆・藍・茶）",
+    "col": "industry",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 5,
+    "yomi": "しょうひんさくもつ"
+   },
+   {
+    "id": "t-chusei-0325",
+    "name": "行商人（連雀商人・振売）",
+    "col": "industry",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 5,
+    "yomi": "ぎょうしょうにん"
+   },
+   {
+    "id": "t-chusei-0326",
+    "name": "割符",
+    "col": "finance",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 5,
+    "yomi": "さいふ"
+   },
+   {
+    "id": "t-chusei-0327",
+    "name": "宮座",
+    "col": "society",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 5,
+    "yomi": "みやざ"
+   },
+   {
+    "id": "t-chusei-0328",
+    "name": "製塩（揚浜・古式入浜）",
+    "col": "industry",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 4,
+    "yomi": "せいえん"
+   },
+   {
+    "id": "t-chusei-0329",
+    "name": "大原女・桂女",
+    "col": "industry",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 4,
+    "yomi": "おはらめ・かつらめ"
+   },
+   {
+    "id": "t-chusei-0330",
+    "name": "頼母子・無尽",
+    "col": "finance",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 4,
+    "yomi": "たのもし・むじん"
+   },
+   {
+    "id": "t-chusei-0331",
+    "name": "幽玄",
+    "col": "culture",
+    "when": {
+     "from": 1400,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 4,
+    "yomi": "ゆうげん"
+   },
+   {
     "id": "t-chusei-0172",
     "name": "足利義満が明に使者を送る",
     "col": "diplomacy",
@@ -1920,6 +3024,16 @@
     },
     "importance": 7,
     "yomi": "みん"
+   },
+   {
+    "id": "t-chusei-0332",
+    "name": "足利義満が「日本国王」として明と国交",
+    "col": "diplomacy",
+    "when": {
+     "from": 1402
+    },
+    "importance": 7,
+    "yomi": "にほんこくおう"
    },
    {
     "id": "t-chusei-0173",
@@ -1944,6 +3058,42 @@
     "yomi": "かんごう・ちょうこう"
    },
    {
+    "id": "t-chusei-0333",
+    "name": "遣明船（のち大内氏・細川氏）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1404,
+     "approx": true,
+     "label": "15世紀"
+    },
+    "importance": 7,
+    "yomi": "けんみんせん"
+   },
+   {
+    "id": "t-chusei-0334",
+    "name": "明からの輸入品（銅銭・生糸）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1404,
+     "approx": true,
+     "label": "15世紀"
+    },
+    "importance": 6,
+    "yomi": "みんからのゆにゅうひん"
+   },
+   {
+    "id": "t-chusei-0335",
+    "name": "抽分銭",
+    "col": "finance",
+    "when": {
+     "from": 1404,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 5,
+    "yomi": "ちゅうぶんせん"
+   },
+   {
     "id": "t-chusei-0175",
     "name": "水墨画（如拙・周文）",
     "col": "culture",
@@ -1954,6 +3104,16 @@
     },
     "importance": 7,
     "yomi": "すいぼくが"
+   },
+   {
+    "id": "t-chusei-0393",
+    "name": "足利義持が勘合貿易を中断",
+    "col": "diplomacy",
+    "when": {
+     "from": 1411
+    },
+    "importance": 6,
+    "yomi": "かんごうぼうえきのちゅうだん"
    },
    {
     "id": "t-chusei-0176",
@@ -2012,6 +3172,18 @@
     "yomi": "さんもうさく"
    },
    {
+    "id": "t-chusei-0336",
+    "name": "朝鮮からの輸入品（木綿・大蔵経）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1420,
+     "approx": true,
+     "label": "15世紀"
+    },
+    "importance": 6,
+    "yomi": "ちょうせんからのゆにゅうひん"
+   },
+   {
     "id": "t-chusei-0181",
     "name": "正長の徳政一揆（土一揆）",
     "col": "society",
@@ -2066,6 +3238,28 @@
     "yomi": "はりまのつちいっき"
    },
    {
+    "id": "t-chusei-0366",
+    "name": "申楽談儀",
+    "col": "culture",
+    "when": {
+     "from": 1430,
+     "approx": true,
+     "label": "15世紀"
+    },
+    "importance": 4,
+    "yomi": "さるがくだんぎ"
+   },
+   {
+    "id": "t-chusei-0394",
+    "name": "足利義教が勘合貿易を再開",
+    "col": "diplomacy",
+    "when": {
+     "from": 1432
+    },
+    "importance": 5,
+    "yomi": "かんごうぼうえきのさいかい"
+   },
+   {
     "id": "t-chusei-0186",
     "name": "永享の乱",
     "col": "event",
@@ -2074,6 +3268,16 @@
     },
     "importance": 8,
     "yomi": "えいきょうのらん"
+   },
+   {
+    "id": "t-chusei-0367",
+    "name": "足利持氏",
+    "col": "event",
+    "when": {
+     "from": 1438
+    },
+    "importance": 5,
+    "yomi": "あしかがもちうじ"
    },
    {
     "id": "t-chusei-0187",
@@ -2096,6 +3300,18 @@
     "yomi": "ゆうきかっせん"
    },
    {
+    "id": "t-chusei-0337",
+    "name": "日親（日蓮宗）",
+    "col": "culture",
+    "when": {
+     "from": 1440,
+     "approx": true,
+     "label": "15世紀"
+    },
+    "importance": 5,
+    "yomi": "にっしん"
+   },
+   {
     "id": "t-chusei-0189",
     "name": "嘉吉の変（嘉吉の乱）",
     "col": "event",
@@ -2114,6 +3330,16 @@
     },
     "importance": 8,
     "yomi": "かきつのとくせいいっき"
+   },
+   {
+    "id": "t-chusei-0368",
+    "name": "赤松満祐",
+    "col": "event",
+    "when": {
+     "from": 1441
+    },
+    "importance": 6,
+    "yomi": "あかまつみつすけ"
    },
    {
     "id": "t-chusei-0191",
@@ -2198,6 +3424,18 @@
     "yomi": "ぼんおどり・ふりゅう"
    },
    {
+    "id": "t-chusei-0338",
+    "name": "私鋳銭",
+    "col": "finance",
+    "when": {
+     "from": 1450,
+     "approx": true,
+     "label": "室町時代"
+    },
+    "importance": 6,
+    "yomi": "しちゅうせん"
+   },
+   {
     "id": "t-chusei-0198",
     "name": "享徳の乱",
     "col": "event",
@@ -2216,6 +3454,28 @@
     },
     "importance": 8,
     "yomi": "こしゃまいん"
+   },
+   {
+    "id": "t-chusei-0369",
+    "name": "古河公方・堀越公方",
+    "col": "system",
+    "when": {
+     "from": 1457,
+     "approx": true,
+     "label": "15世紀後半"
+    },
+    "importance": 6,
+    "yomi": "こがくぼう・ほりごえくぼう"
+   },
+   {
+    "id": "t-chusei-0370",
+    "name": "太田道灌（江戸城）",
+    "col": "event",
+    "when": {
+     "from": 1457
+    },
+    "importance": 4,
+    "yomi": "おおたどうかん"
    },
    {
     "id": "t-chusei-0200",
@@ -2250,6 +3510,18 @@
     },
     "importance": 5,
     "yomi": "りんか"
+   },
+   {
+    "id": "t-chusei-0339",
+    "name": "講（浄土真宗の門徒組織）",
+    "col": "culture",
+    "when": {
+     "from": 1460,
+     "approx": true,
+     "label": "15世紀後半"
+    },
+    "importance": 5,
+    "yomi": "こう"
    },
    {
     "id": "t-chusei-0203",
@@ -2302,6 +3574,60 @@
     "yomi": "あしがる"
    },
    {
+    "id": "t-chusei-0371",
+    "name": "細川勝元・山名持豊（宗全）",
+    "col": "event",
+    "when": {
+     "from": 1467
+    },
+    "importance": 7,
+    "yomi": "ほそかわかつもと・やまなもちとよ"
+   },
+   {
+    "id": "t-chusei-0372",
+    "name": "足利義視・足利義尚",
+    "col": "event",
+    "when": {
+     "from": 1467
+    },
+    "importance": 6,
+    "yomi": "あしかがよしみ・よしひさ"
+   },
+   {
+    "id": "t-chusei-0395",
+    "name": "東軍・西軍",
+    "col": "event",
+    "when": {
+     "from": 1467,
+     "approx": true,
+     "label": "応仁の乱"
+    },
+    "importance": 6,
+    "yomi": "とうぐん・せいぐん"
+   },
+   {
+    "id": "t-chusei-0373",
+    "name": "畠山氏・斯波氏の家督争い",
+    "col": "event",
+    "when": {
+     "from": 1467
+    },
+    "importance": 5,
+    "yomi": "はたけやまし・しばし"
+   },
+   {
+    "id": "t-chusei-0374",
+    "name": "日野富子",
+    "col": "event",
+    "when": {
+     "from": 1467,
+     "approx": true,
+     "label": "15世紀後半"
+    },
+    "importance": 5,
+    "yomi": "ひのとみこ"
+   },
+   {
     "id": "t-chusei-0207",
     "name": "桂庵玄樹（薩南学派）",
     "col": "culture",
@@ -2312,6 +3638,30 @@
     },
     "importance": 5,
     "yomi": "けいあんげんじゅ"
+   },
+   {
+    "id": "t-chusei-0340",
+    "name": "公事根源・花鳥余情（一条兼良）",
+    "col": "culture",
+    "when": {
+     "from": 1470,
+     "approx": true,
+     "label": "15世紀後半"
+    },
+    "importance": 5,
+    "yomi": "くじこんげん・かちょうよせい"
+   },
+   {
+    "id": "t-chusei-0396",
+    "name": "大内氏の城下町山口（文化人が集まる）",
+    "col": "culture",
+    "when": {
+     "from": 1470,
+     "approx": true,
+     "label": "15世紀後半"
+    },
+    "importance": 5,
+    "yomi": "やまぐち"
    },
    {
     "id": "t-chusei-0208",
@@ -2422,6 +3772,54 @@
     "yomi": "あさくらたかかげじょうじょう"
    },
    {
+    "id": "t-chusei-0341",
+    "name": "違い棚・付書院・床の間",
+    "col": "culture",
+    "when": {
+     "from": 1480,
+     "approx": true,
+     "label": "15世紀後半"
+    },
+    "importance": 6,
+    "yomi": "ちがいだな・つけしょいん・とこのま"
+   },
+   {
+    "id": "t-chusei-0375",
+    "name": "茶の湯",
+    "col": "culture",
+    "when": {
+     "from": 1480,
+     "approx": true,
+     "label": "15世紀後半"
+    },
+    "importance": 6,
+    "yomi": "ちゃのゆ"
+   },
+   {
+    "id": "t-chusei-0342",
+    "name": "善阿弥（山水河原者）",
+    "col": "culture",
+    "when": {
+     "from": 1480,
+     "approx": true,
+     "label": "15世紀後半"
+    },
+    "importance": 5,
+    "yomi": "ぜんあみ"
+   },
+   {
+    "id": "t-chusei-0376",
+    "name": "同朋衆（能阿弥・芸阿弥・相阿弥）",
+    "col": "culture",
+    "when": {
+     "from": 1480,
+     "approx": true,
+     "label": "15世紀後半"
+    },
+    "importance": 5,
+    "yomi": "どうぼうしゅう"
+   },
+   {
     "id": "t-chusei-0217",
     "name": "山城の国一揆",
     "col": "society",
@@ -2524,6 +3922,18 @@
     },
     "importance": 8,
     "yomi": "しんせんつくばしゅう"
+   },
+   {
+    "id": "t-chusei-0397",
+    "name": "雪舟（秋冬山水図・天橋立図）",
+    "col": "culture",
+    "when": {
+     "from": 1495,
+     "approx": true,
+     "label": "15世紀末"
+    },
+    "importance": 5,
+    "yomi": "しゅうとうさんすいず"
    },
    {
     "id": "t-chusei-0227",
@@ -2658,6 +4068,28 @@
     "yomi": "もんぜんまち・みなとまち"
    },
    {
+    "id": "t-chusei-0398",
+    "name": "戦国大名の城下町（小田原・山口・一乗谷・春日山など）",
+    "col": "society",
+    "when": {
+     "from": 1500,
+     "approx": true,
+     "label": "16世紀"
+    },
+    "importance": 5,
+    "yomi": "じょうかまち"
+   },
+   {
+    "id": "t-chusei-0399",
+    "name": "祇園祭の再興（町衆）",
+    "col": "society",
+    "when": {
+     "from": 1500
+    },
+    "importance": 5,
+    "yomi": "ぎおんまつり"
+   },
+   {
     "id": "t-chusei-0238",
     "name": "三浦の乱",
     "col": "diplomacy",
@@ -2666,6 +4098,18 @@
     },
     "importance": 6,
     "yomi": "さんぽのらん"
+   },
+   {
+    "id": "t-chusei-0400",
+    "name": "大徳寺大仙院花鳥図（狩野元信）",
+    "col": "culture",
+    "when": {
+     "from": 1513,
+     "approx": true,
+     "label": "16世紀前半"
+    },
+    "importance": 4,
+    "yomi": "だいせんいんかちょうず"
    },
    {
     "id": "t-chusei-0239",
@@ -2722,6 +4166,18 @@
     "yomi": "はいかいれんが"
    },
    {
+    "id": "t-chusei-0343",
+    "name": "武野紹鷗",
+    "col": "culture",
+    "when": {
+     "from": 1530,
+     "approx": true,
+     "label": "16世紀前半"
+    },
+    "importance": 6,
+    "yomi": "たけのじょうおう"
+   },
+   {
     "id": "t-chusei-0244",
     "name": "法華一揆",
     "col": "society",
@@ -2752,6 +4208,18 @@
     "yomi": "じんかいしゅう"
    },
    {
+    "id": "t-chusei-0344",
+    "name": "喧嘩両成敗",
+    "col": "policy",
+    "when": {
+     "from": 1536,
+     "approx": true,
+     "label": "16世紀"
+    },
+    "importance": 7,
+    "yomi": "けんかりょうせいばい"
+   },
+   {
     "id": "t-chusei-0247",
     "name": "天文法華の乱",
     "col": "society",
@@ -2760,6 +4228,18 @@
     },
     "importance": 6,
     "yomi": "てんぶんほっけのらん"
+   },
+   {
+    "id": "t-chusei-0401",
+    "name": "海南学派（南村梅軒）",
+    "col": "culture",
+    "when": {
+     "from": 1540,
+     "approx": true,
+     "label": "16世紀"
+    },
+    "importance": 4,
+    "yomi": "かいなんがくは"
    },
    {
     "id": "t-chusei-0248",
@@ -2792,6 +4272,28 @@
     "yomi": "キリストきょう"
    },
    {
+    "id": "t-chusei-0345",
+    "name": "三好長慶・松永久秀",
+    "col": "situation",
+    "when": {
+     "from": 1549,
+     "approx": true,
+     "label": "16世紀"
+    },
+    "importance": 6,
+    "yomi": "みよしながよし・まつながひさひで"
+   },
+   {
+    "id": "t-chusei-0346",
+    "name": "六角氏の楽市令",
+    "col": "policy",
+    "when": {
+     "from": 1549
+    },
+    "importance": 6,
+    "yomi": "ろっかくし・らくいち"
+   },
+   {
     "id": "t-chusei-0251",
     "name": "南蛮貿易",
     "col": "diplomacy",
@@ -2802,6 +4304,66 @@
     },
     "importance": 10,
     "yomi": "なんばんぼうえき"
+   },
+   {
+    "id": "t-chusei-0347",
+    "name": "主な戦国大名（武田・上杉・北条・今川・毛利・大友・島津など）",
+    "col": "situation",
+    "when": {
+     "from": 1550,
+     "approx": true,
+     "label": "16世紀"
+    },
+    "importance": 7,
+    "yomi": "せんごくだいみょう"
+   },
+   {
+    "id": "t-chusei-0348",
+    "name": "鉄砲の生産（堺・国友・根来）",
+    "col": "industry",
+    "when": {
+     "from": 1550,
+     "approx": true,
+     "label": "16世紀後半"
+    },
+    "importance": 7,
+    "yomi": "てっぽうのせいさん"
+   },
+   {
+    "id": "t-chusei-0349",
+    "name": "南蛮貿易の輸出品（銀）と輸入品（生糸・鉄砲・火薬）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1550,
+     "approx": true,
+     "label": "16世紀後半"
+    },
+    "importance": 7,
+    "yomi": "なんばんぼうえき"
+   },
+   {
+    "id": "t-chusei-0350",
+    "name": "武田信玄・上杉謙信",
+    "col": "situation",
+    "when": {
+     "from": 1550,
+     "approx": true,
+     "label": "16世紀"
+    },
+    "importance": 6,
+    "yomi": "たけだしんげん・うえすぎけんしん"
+   },
+   {
+    "id": "t-chusei-0351",
+    "name": "南蛮人（ポルトガル人・スペイン人）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1550,
+     "approx": true,
+     "label": "16世紀後半"
+    },
+    "importance": 6,
+    "yomi": "なんばんじん"
    },
    {
     "id": "t-chusei-0264",
@@ -2834,6 +4396,18 @@
     "yomi": "いつくしまのたたかい"
    },
    {
+    "id": "t-chusei-0352",
+    "name": "毛利元就",
+    "col": "situation",
+    "when": {
+     "from": 1557,
+     "approx": true,
+     "label": "16世紀"
+    },
+    "importance": 6,
+    "yomi": "もうりもとなり"
+   },
+   {
     "id": "t-chusei-0255",
     "name": "桶狭間の戦い",
     "col": "event",
@@ -2842,6 +4416,16 @@
     },
     "importance": 9,
     "yomi": "おけはざまのたたかい"
+   },
+   {
+    "id": "t-chusei-0353",
+    "name": "将軍足利義輝の暗殺",
+    "col": "event",
+    "when": {
+     "from": 1565
+    },
+    "importance": 5,
+    "yomi": "あしかがよしてる"
    },
    {
     "id": "t-chusei-0256",
@@ -2930,6 +4514,18 @@
     },
     "importance": 8,
     "yomi": "えんりゃくじのやきうち"
+   },
+   {
+    "id": "t-chusei-0354",
+    "name": "セミナリオ・コレジオ",
+    "col": "culture",
+    "when": {
+     "from": 1580,
+     "approx": true,
+     "label": "16世紀後半"
+    },
+    "importance": 6,
+    "yomi": "せみなりお・これじお"
    }
   ]
  }

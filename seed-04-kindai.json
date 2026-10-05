@@ -3,12 +3,24 @@
  "schemaVersion": 1,
  "seed": {
   "id": "kindai",
-  "version": 1,
+  "version": 2,
   "title": "近代（明治〜終戦）"
  },
  "about": "初期データ（AI作成・未確認）。重要度の基準は DATA_SCHEMA.md。元ファイルは tools/seed-kindai.txt",
  "upsert": {
   "terms": [
+   {
+    "id": "t-kindai-0460",
+    "name": "西洋事情（福沢諭吉）",
+    "col": "culture",
+    "when": {
+     "from": 1866,
+     "approx": true,
+     "label": "幕末〜明治初め"
+    },
+    "importance": 5,
+    "yomi": "せいようじじょう"
+   },
    {
     "id": "t-kindai-0001",
     "name": "明治天皇",
@@ -112,6 +124,28 @@
     "yomi": "おううえつれっぱんどうめい"
    },
    {
+    "id": "t-kindai-0425",
+    "name": "木戸孝允",
+    "col": "ruler",
+    "when": {
+     "from": 1868,
+     "to": 1877
+    },
+    "importance": 6,
+    "shape": "span",
+    "yomi": "きどたかよし"
+   },
+   {
+    "id": "t-kindai-0426",
+    "name": "五箇条の誓文の起草（由利公正・福岡孝弟・木戸孝允）",
+    "col": "policy",
+    "when": {
+     "from": 1868
+    },
+    "importance": 5,
+    "yomi": "ゆりきみまさ"
+   },
+   {
     "id": "t-kindai-0011",
     "name": "版籍奉還",
     "col": "policy",
@@ -164,6 +198,26 @@
     "yomi": "かぞく・しぞく・へいみん"
    },
    {
+    "id": "t-kindai-0328",
+    "name": "電信（東京・横浜）",
+    "col": "industry",
+    "when": {
+     "from": 1869
+    },
+    "importance": 6,
+    "yomi": "でんしん"
+   },
+   {
+    "id": "t-kindai-0461",
+    "name": "知藩事",
+    "col": "system",
+    "when": {
+     "from": 1869
+    },
+    "importance": 6,
+    "yomi": "ちはんじ"
+   },
+   {
     "id": "t-kindai-0016",
     "name": "文明開化",
     "col": "culture",
@@ -198,6 +252,18 @@
     "yomi": "こうぶしょう"
    },
    {
+    "id": "t-kindai-0329",
+    "name": "神道国教化の政策",
+    "col": "culture",
+    "when": {
+     "from": 1870,
+     "approx": true,
+     "label": "明治初め"
+    },
+    "importance": 6,
+    "yomi": "しんとうこっきょうか"
+   },
+   {
     "id": "t-kindai-0019",
     "name": "大教宣布の詔",
     "col": "policy",
@@ -206,6 +272,16 @@
     },
     "importance": 5,
     "yomi": "たいきょうせんぷのみことのり"
+   },
+   {
+    "id": "t-kindai-0462",
+    "name": "日刊新聞のはじまり（横浜毎日新聞）",
+    "col": "culture",
+    "when": {
+     "from": 1870
+    },
+    "importance": 4,
+    "yomi": "にっかんしんぶん"
    },
    {
     "id": "t-kindai-0020",
@@ -268,6 +344,64 @@
     "yomi": "ゆうびんせいど"
    },
    {
+    "id": "t-kindai-0330",
+    "name": "藩閥政府（薩長土肥）",
+    "col": "system",
+    "when": {
+     "from": 1871,
+     "approx": true,
+     "label": "明治時代"
+    },
+    "importance": 8,
+    "yomi": "はんばつせいふ"
+   },
+   {
+    "id": "t-kindai-0331",
+    "name": "四民平等",
+    "col": "society",
+    "when": {
+     "from": 1871,
+     "approx": true,
+     "label": "明治初め"
+    },
+    "importance": 8,
+    "yomi": "しみんびょうどう"
+   },
+   {
+    "id": "t-kindai-0332",
+    "name": "太政官三院制（正院・左院・右院）",
+    "col": "system",
+    "when": {
+     "from": 1871
+    },
+    "importance": 7,
+    "yomi": "だじょうかんさんいんせい"
+   },
+   {
+    "id": "t-kindai-0427",
+    "name": "岩倉具視",
+    "col": "ruler",
+    "when": {
+     "from": 1871,
+     "to": 1883
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "いわくらともみ"
+   },
+   {
+    "id": "t-kindai-0463",
+    "name": "中央集権体制",
+    "col": "system",
+    "when": {
+     "from": 1871,
+     "approx": true,
+     "label": "明治初め"
+    },
+    "importance": 7,
+    "yomi": "ちゅうおうしゅうけん"
+   },
+   {
     "id": "t-kindai-0026",
     "name": "戸籍法（翌年、壬申戸籍）",
     "col": "system",
@@ -276,6 +410,40 @@
     },
     "importance": 6,
     "yomi": "こせきほう"
+   },
+   {
+    "id": "t-kindai-0333",
+    "name": "府知事・県令",
+    "col": "system",
+    "when": {
+     "from": 1871
+    },
+    "importance": 6,
+    "yomi": "ふちじ・けんれい"
+   },
+   {
+    "id": "t-kindai-0334",
+    "name": "ざんぎり頭・ガス灯・人力車",
+    "col": "culture",
+    "when": {
+     "from": 1871,
+     "approx": true,
+     "label": "明治初め"
+    },
+    "importance": 5,
+    "yomi": "ざんぎりあたま"
+   },
+   {
+    "id": "t-kindai-0335",
+    "name": "中村正直（西国立志編）",
+    "col": "culture",
+    "when": {
+     "from": 1871,
+     "approx": true,
+     "label": "明治初め"
+    },
+    "importance": 5,
+    "yomi": "なかむらまさなお"
    },
    {
     "id": "t-kindai-0027",
@@ -408,6 +576,16 @@
     "yomi": "めいろくしゃ"
    },
    {
+    "id": "t-kindai-0336",
+    "name": "地租は地価の3％（金納）",
+    "col": "policy",
+    "when": {
+     "from": 1873
+    },
+    "importance": 8,
+    "yomi": "ちそ"
+   },
+   {
     "id": "t-kindai-0040",
     "name": "キリスト教禁止の高札の撤廃",
     "col": "policy",
@@ -416,6 +594,30 @@
     },
     "importance": 7,
     "yomi": "こうさつ"
+   },
+   {
+    "id": "t-kindai-0428",
+    "name": "大久保利通（内務卿）",
+    "col": "ruler",
+    "when": {
+     "from": 1873,
+     "to": 1878
+    },
+    "importance": 7,
+    "shape": "span",
+    "yomi": "おおくぼとしみち"
+   },
+   {
+    "id": "t-kindai-0337",
+    "name": "血税一揆（徴兵反対一揆）",
+    "col": "society",
+    "when": {
+     "from": 1873,
+     "approx": true,
+     "label": "1873年〜"
+    },
+    "importance": 6,
+    "yomi": "けつぜいいっき"
    },
    {
     "id": "t-kindai-0041",
@@ -470,6 +672,48 @@
     },
     "importance": 8,
     "yomi": "りっししゃ"
+   },
+   {
+    "id": "t-kindai-0338",
+    "name": "屯田兵",
+    "col": "system",
+    "when": {
+     "from": 1874
+    },
+    "importance": 7,
+    "yomi": "とんでんへい"
+   },
+   {
+    "id": "t-kindai-0429",
+    "name": "板垣退助",
+    "col": "society",
+    "when": {
+     "from": 1874,
+     "approx": true,
+     "label": "自由民権運動"
+    },
+    "importance": 7,
+    "yomi": "いたがきたいすけ"
+   },
+   {
+    "id": "t-kindai-0430",
+    "name": "江藤新平（佐賀の乱）",
+    "col": "event",
+    "when": {
+     "from": 1874
+    },
+    "importance": 5,
+    "yomi": "えとうしんぺい"
+   },
+   {
+    "id": "t-kindai-0464",
+    "name": "明六雑誌",
+    "col": "culture",
+    "when": {
+     "from": 1874
+    },
+    "importance": 4,
+    "yomi": "めいろくざっし"
    },
    {
     "id": "t-kindai-0046",
@@ -542,6 +786,30 @@
     "yomi": "あいこくしゃ"
    },
    {
+    "id": "t-kindai-0339",
+    "name": "三菱（岩崎弥太郎）と海運",
+    "col": "industry",
+    "when": {
+     "from": 1875,
+     "approx": true,
+     "label": "1870年代"
+    },
+    "importance": 6,
+    "yomi": "みつびし・いわさきやたろう"
+   },
+   {
+    "id": "t-kindai-0340",
+    "name": "慶應義塾・同志社",
+    "col": "culture",
+    "when": {
+     "from": 1875,
+     "approx": true,
+     "label": "明治時代"
+    },
+    "importance": 6,
+    "yomi": "けいおうぎじゅく・どうししゃ"
+   },
+   {
     "id": "t-kindai-0053",
     "name": "日朝修好条規",
     "col": "diplomacy",
@@ -582,6 +850,16 @@
     "yomi": "しんぷうれんのらん"
    },
    {
+    "id": "t-kindai-0341",
+    "name": "地租改正反対一揆（伊勢暴動など）",
+    "col": "society",
+    "when": {
+     "from": 1876
+    },
+    "importance": 7,
+    "yomi": "ちそかいせいはんたいいっき"
+   },
+   {
     "id": "t-kindai-0057",
     "name": "小笠原諸島の領有",
     "col": "diplomacy",
@@ -590,6 +868,40 @@
     },
     "importance": 6,
     "yomi": "おがさわらしょとう"
+   },
+   {
+    "id": "t-kindai-0342",
+    "name": "士族授産",
+    "col": "society",
+    "when": {
+     "from": 1876,
+     "approx": true,
+     "label": "明治初め"
+    },
+    "importance": 5,
+    "yomi": "しぞくじゅさん"
+   },
+   {
+    "id": "t-kindai-0343",
+    "name": "寺島宗則（税権回復の交渉）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1876,
+     "approx": true,
+     "label": "1870年代後半"
+    },
+    "importance": 5,
+    "yomi": "てらしまむねのり"
+   },
+   {
+    "id": "t-kindai-0465",
+    "name": "札幌農学校（クラーク）",
+    "col": "culture",
+    "when": {
+     "from": 1876
+    },
+    "importance": 5,
+    "yomi": "さっぽろのうがっこう"
    },
    {
     "id": "t-kindai-0058",
@@ -612,6 +924,38 @@
     "yomi": "ちそのけいげん"
    },
    {
+    "id": "t-kindai-0344",
+    "name": "内国勧業博覧会",
+    "col": "industry",
+    "when": {
+     "from": 1877
+    },
+    "importance": 6,
+    "yomi": "ないこくかんぎょうはくらんかい"
+   },
+   {
+    "id": "t-kindai-0345",
+    "name": "東京大学",
+    "col": "culture",
+    "when": {
+     "from": 1877
+    },
+    "importance": 6,
+    "yomi": "とうきょうだいがく"
+   },
+   {
+    "id": "t-kindai-0346",
+    "name": "高橋由一（鮭）",
+    "col": "culture",
+    "when": {
+     "from": 1877,
+     "approx": true,
+     "label": "1870年代"
+    },
+    "importance": 5,
+    "yomi": "たかはしゆいち"
+   },
+   {
     "id": "t-kindai-0060",
     "name": "地方三新法",
     "col": "system",
@@ -630,6 +974,16 @@
     },
     "importance": 7,
     "yomi": "おおくぼとしみち"
+   },
+   {
+    "id": "t-kindai-0431",
+    "name": "参謀本部",
+    "col": "system",
+    "when": {
+     "from": 1878
+    },
+    "importance": 5,
+    "yomi": "さんぼうほんぶ"
    },
    {
     "id": "t-kindai-0062",
@@ -670,6 +1024,16 @@
     },
     "importance": 8,
     "yomi": "しゅうかいじょうれい"
+   },
+   {
+    "id": "t-kindai-0347",
+    "name": "刑法・治罪法（ボアソナード）",
+    "col": "system",
+    "when": {
+     "from": 1880
+    },
+    "importance": 5,
+    "yomi": "けいほう・ちざいほう"
    },
    {
     "id": "t-kindai-0066",
@@ -724,6 +1088,40 @@
     "yomi": "かいたくしかんゆうぶつはらいさげじけん"
    },
    {
+    "id": "t-kindai-0348",
+    "name": "私擬憲法（五日市憲法草案・東洋大日本国国憲按）",
+    "col": "society",
+    "when": {
+     "from": 1881,
+     "approx": true,
+     "label": "1880年代"
+    },
+    "importance": 7,
+    "yomi": "しぎけんぽう"
+   },
+   {
+    "id": "t-kindai-0349",
+    "name": "日本鉄道会社",
+    "col": "industry",
+    "when": {
+     "from": 1881
+    },
+    "importance": 6,
+    "yomi": "にっぽんてつどうがいしゃ"
+   },
+   {
+    "id": "t-kindai-0432",
+    "name": "植木枝盛",
+    "col": "society",
+    "when": {
+     "from": 1881,
+     "approx": true,
+     "label": "1880年代"
+    },
+    "importance": 5,
+    "yomi": "うえきえもり"
+   },
+   {
     "id": "t-kindai-0071",
     "name": "立憲改進党（大隈重信）",
     "col": "society",
@@ -764,6 +1162,36 @@
     "yomi": "ふくしまじけん"
    },
    {
+    "id": "t-kindai-0433",
+    "name": "軍人勅諭",
+    "col": "system",
+    "when": {
+     "from": 1882
+    },
+    "importance": 7,
+    "yomi": "ぐんじんちょくゆ"
+   },
+   {
+    "id": "t-kindai-0350",
+    "name": "伊藤博文の憲法調査（グナイスト・シュタイン）",
+    "col": "event",
+    "when": {
+     "from": 1882
+    },
+    "importance": 6,
+    "yomi": "けんぽうちょうさ"
+   },
+   {
+    "id": "t-kindai-0434",
+    "name": "中江兆民（民約訳解）",
+    "col": "culture",
+    "when": {
+     "from": 1882
+    },
+    "importance": 6,
+    "yomi": "なかえちょうみん"
+   },
+   {
     "id": "t-kindai-0075",
     "name": "立憲帝政党",
     "col": "society",
@@ -772,6 +1200,16 @@
     },
     "importance": 5,
     "yomi": "りっけんていせいとう"
+   },
+   {
+    "id": "t-kindai-0435",
+    "name": "大院君（壬午軍乱）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1882
+    },
+    "importance": 5,
+    "yomi": "だいいんくん"
    },
    {
     "id": "t-kindai-0076",
@@ -824,6 +1262,36 @@
     },
     "importance": 8,
     "yomi": "かぞくれい"
+   },
+   {
+    "id": "t-kindai-0351",
+    "name": "自由党の解党",
+    "col": "society",
+    "when": {
+     "from": 1884
+    },
+    "importance": 6,
+    "yomi": "じゆうとうのかいとう"
+   },
+   {
+    "id": "t-kindai-0352",
+    "name": "加波山事件",
+    "col": "society",
+    "when": {
+     "from": 1884
+    },
+    "importance": 5,
+    "yomi": "かばさんじけん"
+   },
+   {
+    "id": "t-kindai-0436",
+    "name": "金玉均（甲申事変）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1884
+    },
+    "importance": 5,
+    "yomi": "きんぎょくきん"
    },
    {
     "id": "t-kindai-0081",
@@ -888,6 +1356,18 @@
     "yomi": "おおさかじけん"
    },
    {
+    "id": "t-kindai-0353",
+    "name": "硯友社（尾崎紅葉）",
+    "col": "culture",
+    "when": {
+     "from": 1885,
+     "approx": true,
+     "label": "1880年代"
+    },
+    "importance": 5,
+    "yomi": "けんゆうしゃ"
+   },
+   {
     "id": "t-kindai-0087",
     "name": "産業革命（紡績・製糸から重工業へ）",
     "col": "industry",
@@ -932,6 +1412,40 @@
     },
     "importance": 8,
     "yomi": "きぎょうぼっこう"
+   },
+   {
+    "id": "t-kindai-0354",
+    "name": "帝国大学",
+    "col": "culture",
+    "when": {
+     "from": 1886
+    },
+    "importance": 6,
+    "yomi": "ていこくだいがく"
+   },
+   {
+    "id": "t-kindai-0437",
+    "name": "森有礼（学校令）",
+    "col": "culture",
+    "when": {
+     "from": 1886,
+     "approx": true,
+     "label": "1880年代"
+    },
+    "importance": 5,
+    "yomi": "もりありのり"
+   },
+   {
+    "id": "t-kindai-0438",
+    "name": "井上毅・伊東巳代治・金子堅太郎（憲法の起草）",
+    "col": "system",
+    "when": {
+     "from": 1886,
+     "approx": true,
+     "label": "1880年代"
+    },
+    "importance": 5,
+    "yomi": "いのうえこわし"
    },
    {
     "id": "t-kindai-0091",
@@ -1038,6 +1552,38 @@
     "yomi": "くろだきよたか"
    },
    {
+    "id": "t-kindai-0355",
+    "name": "狩野芳崖（悲母観音）",
+    "col": "culture",
+    "when": {
+     "from": 1888,
+     "approx": true,
+     "label": "1880年代"
+    },
+    "importance": 6,
+    "yomi": "かのうほうがい"
+   },
+   {
+    "id": "t-kindai-0439",
+    "name": "鎮台から師団へ",
+    "col": "system",
+    "when": {
+     "from": 1888
+    },
+    "importance": 4,
+    "yomi": "しだん"
+   },
+   {
+    "id": "t-kindai-0440",
+    "name": "高島炭鉱事件",
+    "col": "society",
+    "when": {
+     "from": 1888
+    },
+    "importance": 4,
+    "yomi": "たかしまたんこう"
+   },
+   {
     "id": "t-kindai-0101",
     "name": "大日本帝国憲法",
     "col": "policy",
@@ -1088,6 +1634,66 @@
     "importance": 8,
     "shape": "span",
     "yomi": "やまがたありとも"
+   },
+   {
+    "id": "t-kindai-0356",
+    "name": "天皇大権・統帥権の独立",
+    "col": "system",
+    "when": {
+     "from": 1889,
+     "approx": true,
+     "label": "明治憲法"
+    },
+    "importance": 8,
+    "yomi": "てんのうたいけん・とうすいけん"
+   },
+   {
+    "id": "t-kindai-0357",
+    "name": "帝国議会（貴族院・衆議院）",
+    "col": "system",
+    "when": {
+     "from": 1889,
+     "approx": true,
+     "label": "明治憲法"
+    },
+    "importance": 8,
+    "yomi": "ていこくぎかい"
+   },
+   {
+    "id": "t-kindai-0358",
+    "name": "欽定憲法",
+    "col": "system",
+    "when": {
+     "from": 1889,
+     "approx": true,
+     "label": "明治憲法"
+    },
+    "importance": 7,
+    "yomi": "きんていけんぽう"
+   },
+   {
+    "id": "t-kindai-0359",
+    "name": "臣民の権利（法律の範囲内）",
+    "col": "system",
+    "when": {
+     "from": 1889,
+     "approx": true,
+     "label": "明治憲法"
+    },
+    "importance": 6,
+    "yomi": "しんみんのけんり"
+   },
+   {
+    "id": "t-kindai-0360",
+    "name": "ロエスレル",
+    "col": "system",
+    "when": {
+     "from": 1889,
+     "approx": true,
+     "label": "明治憲法"
+    },
+    "importance": 5,
+    "yomi": "ろえすれる"
    },
    {
     "id": "t-kindai-0106",
@@ -1192,6 +1798,30 @@
     "yomi": "こうじょ"
    },
    {
+    "id": "t-kindai-0361",
+    "name": "民力休養・政費節減（民党の主張）",
+    "col": "system",
+    "when": {
+     "from": 1890,
+     "approx": true,
+     "label": "初期議会"
+    },
+    "importance": 7,
+    "yomi": "みんりょくきゅうよう"
+   },
+   {
+    "id": "t-kindai-0362",
+    "name": "器械製糸と座繰製糸",
+    "col": "industry",
+    "when": {
+     "from": 1890,
+     "approx": true,
+     "label": "明治時代"
+    },
+    "importance": 7,
+    "yomi": "きかいせいし・ざぐりせいし"
+   },
+   {
     "id": "t-kindai-0115",
     "name": "府県制・郡制",
     "col": "system",
@@ -1244,6 +1874,28 @@
     "yomi": "うちむらかんぞう"
    },
    {
+    "id": "t-kindai-0363",
+    "name": "青木周蔵",
+    "col": "diplomacy",
+    "when": {
+     "from": 1891,
+     "approx": true,
+     "label": "1890年前後"
+    },
+    "importance": 6,
+    "yomi": "あおきしゅうぞう"
+   },
+   {
+    "id": "t-kindai-0364",
+    "name": "「民法出デテ忠孝亡ブ」（穂積八束）",
+    "col": "culture",
+    "when": {
+     "from": 1891
+    },
+    "importance": 5,
+    "yomi": "ほづみやつか"
+   },
+   {
     "id": "t-kindai-0120",
     "name": "伊藤博文（第2次内閣）",
     "col": "ruler",
@@ -1264,6 +1916,40 @@
     },
     "importance": 6,
     "yomi": "せんきょかんしょう"
+   },
+   {
+    "id": "t-kindai-0365",
+    "name": "和協の詔書",
+    "col": "event",
+    "when": {
+     "from": 1893
+    },
+    "importance": 5,
+    "yomi": "わきょうのしょうしょ"
+   },
+   {
+    "id": "t-kindai-0366",
+    "name": "北村透谷（文学界）",
+    "col": "culture",
+    "when": {
+     "from": 1893,
+     "approx": true,
+     "label": "1890年代"
+    },
+    "importance": 5,
+    "yomi": "きたむらとうこく"
+   },
+   {
+    "id": "t-kindai-0367",
+    "name": "高村光雲（老猿）",
+    "col": "culture",
+    "when": {
+     "from": 1893,
+     "approx": true,
+     "label": "1890年代"
+    },
+    "importance": 5,
+    "yomi": "たかむらこううん"
    },
    {
     "id": "t-kindai-0122",
@@ -1336,6 +2022,42 @@
     "yomi": "びんひさつがいじけん"
    },
    {
+    "id": "t-kindai-0368",
+    "name": "遼東半島・台湾・澎湖諸島・賠償金2億両",
+    "col": "diplomacy",
+    "when": {
+     "from": 1895,
+     "approx": true,
+     "label": "下関条約"
+    },
+    "importance": 7,
+    "yomi": "しものせきじょうやく"
+   },
+   {
+    "id": "t-kindai-0369",
+    "name": "臥薪嘗胆",
+    "col": "society",
+    "when": {
+     "from": 1895,
+     "approx": true,
+     "label": "三国干渉後"
+    },
+    "importance": 6,
+    "yomi": "がしんしょうたん"
+   },
+   {
+    "id": "t-kindai-0370",
+    "name": "正岡子規（俳句・短歌の革新）",
+    "col": "culture",
+    "when": {
+     "from": 1895,
+     "approx": true,
+     "label": "1890年代"
+    },
+    "importance": 6,
+    "yomi": "まさおかしき"
+   },
+   {
     "id": "t-kindai-0129",
     "name": "松方正義（第2次内閣）",
     "col": "ruler",
@@ -1346,6 +2068,16 @@
     "importance": 5,
     "shape": "span",
     "yomi": "まつかたまさよし"
+   },
+   {
+    "id": "t-kindai-0371",
+    "name": "造船奨励法・航海奨励法",
+    "col": "industry",
+    "when": {
+     "from": 1896
+    },
+    "importance": 5,
+    "yomi": "ぞうせんしょうれいほう"
    },
    {
     "id": "t-kindai-0130",
@@ -1390,6 +2122,50 @@
     "yomi": "だいかんていこく"
    },
    {
+    "id": "t-kindai-0372",
+    "name": "綿糸の輸出量が輸入量を上回る",
+    "col": "industry",
+    "when": {
+     "from": 1897
+    },
+    "importance": 6,
+    "yomi": "めんし"
+   },
+   {
+    "id": "t-kindai-0373",
+    "name": "黒田清輝（湖畔）",
+    "col": "culture",
+    "when": {
+     "from": 1897,
+     "approx": true,
+     "label": "1890年代"
+    },
+    "importance": 6,
+    "yomi": "くろだせいき"
+   },
+   {
+    "id": "t-kindai-0374",
+    "name": "ホトトギス",
+    "col": "culture",
+    "when": {
+     "from": 1897
+    },
+    "importance": 5,
+    "yomi": "ほととぎす"
+   },
+   {
+    "id": "t-kindai-0441",
+    "name": "片山潜・高野房太郎",
+    "col": "society",
+    "when": {
+     "from": 1897,
+     "approx": true,
+     "label": "1890年代"
+    },
+    "importance": 5,
+    "yomi": "かたやません"
+   },
+   {
     "id": "t-kindai-0134",
     "name": "大隈重信（第1次内閣・隈板内閣）",
     "col": "ruler",
@@ -1420,6 +2196,38 @@
     },
     "importance": 7,
     "yomi": "にほんびじゅついん"
+   },
+   {
+    "id": "t-kindai-0375",
+    "name": "明治民法（戸主権・家督相続）",
+    "col": "system",
+    "when": {
+     "from": 1898
+    },
+    "importance": 7,
+    "yomi": "めいじみんぽう"
+   },
+   {
+    "id": "t-kindai-0376",
+    "name": "列強の中国分割（租借地）",
+    "col": "situation",
+    "when": {
+     "from": 1898,
+     "approx": true,
+     "label": "19世紀末"
+    },
+    "importance": 7,
+    "yomi": "ちゅうごくぶんかつ"
+   },
+   {
+    "id": "t-kindai-0377",
+    "name": "憲政党",
+    "col": "society",
+    "when": {
+     "from": 1898
+    },
+    "importance": 6,
+    "yomi": "けんせいとう"
    },
    {
     "id": "t-kindai-0137",
@@ -1460,6 +2268,16 @@
     },
     "importance": 7,
     "yomi": "にほんのかそうしゃかい"
+   },
+   {
+    "id": "t-kindai-0378",
+    "name": "門戸開放宣言（アメリカ）",
+    "col": "situation",
+    "when": {
+     "from": 1899
+    },
+    "importance": 6,
+    "yomi": "もんこかいほうせんげん"
    },
    {
     "id": "t-kindai-0141",
@@ -1514,6 +2332,18 @@
     "yomi": "げんろう"
    },
    {
+    "id": "t-kindai-0379",
+    "name": "主な財閥（三井・三菱・住友・安田）",
+    "col": "industry",
+    "when": {
+     "from": 1900,
+     "approx": true,
+     "label": "明治時代"
+    },
+    "importance": 7,
+    "yomi": "ざいばつ"
+   },
+   {
     "id": "t-kindai-0146",
     "name": "伊藤博文（第4次内閣）",
     "col": "ruler",
@@ -1524,6 +2354,28 @@
     "importance": 6,
     "shape": "span",
     "yomi": "いとうひろぶみ"
+   },
+   {
+    "id": "t-kindai-0380",
+    "name": "明星（与謝野鉄幹・晶子）",
+    "col": "culture",
+    "when": {
+     "from": 1900
+    },
+    "importance": 6,
+    "yomi": "みょうじょう"
+   },
+   {
+    "id": "t-kindai-0442",
+    "name": "小作料（現物納）",
+    "col": "society",
+    "when": {
+     "from": 1900,
+     "approx": true,
+     "label": "明治時代"
+    },
+    "importance": 5,
+    "yomi": "こさくりょう"
    },
    {
     "id": "t-kindai-0147",
@@ -1558,6 +2410,18 @@
     "yomi": "しゃかいみんしゅとう"
    },
    {
+    "id": "t-kindai-0381",
+    "name": "桂園時代（桂太郎・西園寺公望）",
+    "col": "ruler",
+    "when": {
+     "from": 1901,
+     "to": 1913
+    },
+    "importance": 8,
+    "shape": "span",
+    "yomi": "けいえんじだい"
+   },
+   {
     "id": "t-kindai-0150",
     "name": "日英同盟",
     "col": "diplomacy",
@@ -1588,6 +2452,38 @@
     "yomi": "へいみんしゃ"
    },
    {
+    "id": "t-kindai-0382",
+    "name": "職工事情",
+    "col": "culture",
+    "when": {
+     "from": 1903
+    },
+    "importance": 5,
+    "yomi": "しょっこうじじょう"
+   },
+   {
+    "id": "t-kindai-0383",
+    "name": "長岡半太郎・大森房吉・木村栄",
+    "col": "culture",
+    "when": {
+     "from": 1903,
+     "approx": true,
+     "label": "明治後期"
+    },
+    "importance": 4,
+    "yomi": "ながおかはんたろう"
+   },
+   {
+    "id": "t-kindai-0466",
+    "name": "七博士の主戦論",
+    "col": "society",
+    "when": {
+     "from": 1903
+    },
+    "importance": 4,
+    "yomi": "しちはくしのしゅせんろん"
+   },
+   {
     "id": "t-kindai-0153",
     "name": "日露戦争",
     "col": "diplomacy",
@@ -1606,6 +2502,18 @@
     },
     "importance": 8,
     "yomi": "にっかんきょうやく"
+   },
+   {
+    "id": "t-kindai-0384",
+    "name": "非戦論・反戦論（内村鑑三・幸徳秋水・与謝野晶子）",
+    "col": "society",
+    "when": {
+     "from": 1904,
+     "approx": true,
+     "label": "日露戦争"
+    },
+    "importance": 7,
+    "yomi": "ひせんろん"
    },
    {
     "id": "t-kindai-0155",
@@ -1648,6 +2556,18 @@
     },
     "importance": 9,
     "yomi": "なつめそうせき"
+   },
+   {
+    "id": "t-kindai-0385",
+    "name": "旅順・奉天の戦い・日本海海戦",
+    "col": "diplomacy",
+    "when": {
+     "from": 1905,
+     "approx": true,
+     "label": "日露戦争"
+    },
+    "importance": 7,
+    "yomi": "にほんかいかいせん"
    },
    {
     "id": "t-kindai-0159",
@@ -1724,6 +2644,18 @@
     "yomi": "にほんしゃかいとう"
    },
    {
+    "id": "t-kindai-0386",
+    "name": "新派劇・新劇（文芸協会・自由劇場）",
+    "col": "culture",
+    "when": {
+     "from": 1906,
+     "approx": true,
+     "label": "明治末"
+    },
+    "importance": 5,
+    "yomi": "しんぱげき・しんげき"
+   },
+   {
     "id": "t-kindai-0166",
     "name": "第3次日韓協約",
     "col": "diplomacy",
@@ -1774,6 +2706,18 @@
     "yomi": "ぶんてん"
    },
    {
+    "id": "t-kindai-0387",
+    "name": "義兵運動（韓国）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1907,
+     "approx": true,
+     "label": "1907年〜"
+    },
+    "importance": 6,
+    "yomi": "ぎへいうんどう"
+   },
+   {
     "id": "t-kindai-0171",
     "name": "桂太郎（第2次内閣）",
     "col": "ruler",
@@ -1796,6 +2740,16 @@
     "yomi": "ぼしんしょうしょ"
    },
    {
+    "id": "t-kindai-0388",
+    "name": "東洋拓殖会社",
+    "col": "industry",
+    "when": {
+     "from": 1908
+    },
+    "importance": 5,
+    "yomi": "とうようたくしょくがいしゃ"
+   },
+   {
     "id": "t-kindai-0173",
     "name": "伊藤博文の暗殺",
     "col": "diplomacy",
@@ -1816,6 +2770,28 @@
     },
     "importance": 6,
     "yomi": "ちほうかいりょううんどう"
+   },
+   {
+    "id": "t-kindai-0389",
+    "name": "安重根",
+    "col": "diplomacy",
+    "when": {
+     "from": 1909
+    },
+    "importance": 6,
+    "yomi": "あんじゅうこん"
+   },
+   {
+    "id": "t-kindai-0390",
+    "name": "荻原守衛",
+    "col": "culture",
+    "when": {
+     "from": 1909,
+     "approx": true,
+     "label": "明治末"
+    },
+    "importance": 4,
+    "yomi": "おぎわらもりえ"
    },
    {
     "id": "t-kindai-0175",
@@ -1874,6 +2850,42 @@
     "yomi": "しらかばは"
    },
    {
+    "id": "t-kindai-0391",
+    "name": "土地調査事業（朝鮮）",
+    "col": "policy",
+    "when": {
+     "from": 1910,
+     "approx": true,
+     "label": "1910年代"
+    },
+    "importance": 6,
+    "yomi": "とちちょうさじぎょう"
+   },
+   {
+    "id": "t-kindai-0392",
+    "name": "石川啄木",
+    "col": "culture",
+    "when": {
+     "from": 1910,
+     "approx": true,
+     "label": "明治末"
+    },
+    "importance": 6,
+    "yomi": "いしかわたくぼく"
+   },
+   {
+    "id": "t-kindai-0393",
+    "name": "民俗学（柳田国男）",
+    "col": "culture",
+    "when": {
+     "from": 1910,
+     "approx": true,
+     "label": "明治末〜大正"
+    },
+    "importance": 5,
+    "yomi": "みんぞくがく"
+   },
+   {
     "id": "t-kindai-0180",
     "name": "関税自主権の回復（小村寿太郎）",
     "col": "diplomacy",
@@ -1924,6 +2936,26 @@
     "importance": 7,
     "shape": "span",
     "yomi": "さいおんじきんもち"
+   },
+   {
+    "id": "t-kindai-0443",
+    "name": "特別高等警察（特高）",
+    "col": "system",
+    "when": {
+     "from": 1911
+    },
+    "importance": 6,
+    "yomi": "とくべつこうとうけいさつ"
+   },
+   {
+    "id": "t-kindai-0394",
+    "name": "善の研究（西田幾多郎）",
+    "col": "culture",
+    "when": {
+     "from": 1911
+    },
+    "importance": 5,
+    "yomi": "ぜんのけんきゅう"
    },
    {
     "id": "t-kindai-0185",
@@ -2022,6 +3054,42 @@
     "yomi": "やまもとごんべえ"
    },
    {
+    "id": "t-kindai-0444",
+    "name": "尾崎行雄・犬養毅（第一次護憲運動）",
+    "col": "society",
+    "when": {
+     "from": 1913,
+     "approx": true,
+     "label": "大正政変"
+    },
+    "importance": 6,
+    "yomi": "おざきゆきお・いぬかいつよし"
+   },
+   {
+    "id": "t-kindai-0395",
+    "name": "津田左右吉（古代史の研究）",
+    "col": "culture",
+    "when": {
+     "from": 1913,
+     "approx": true,
+     "label": "大正時代"
+    },
+    "importance": 5,
+    "yomi": "つだそうきち"
+   },
+   {
+    "id": "t-kindai-0396",
+    "name": "大衆文学（中里介山『大菩薩峠』）",
+    "col": "culture",
+    "when": {
+     "from": 1913,
+     "approx": true,
+     "label": "大正時代"
+    },
+    "importance": 4,
+    "yomi": "たいしゅうぶんがく"
+   },
+   {
     "id": "t-kindai-0194",
     "name": "第一次世界大戦への参戦",
     "col": "diplomacy",
@@ -2054,6 +3122,18 @@
     "yomi": "シーメンスじけん"
    },
    {
+    "id": "t-kindai-0397",
+    "name": "山東省のドイツ権益・南洋諸島の占領",
+    "col": "diplomacy",
+    "when": {
+     "from": 1914,
+     "approx": true,
+     "label": "第一次世界大戦"
+    },
+    "importance": 6,
+    "yomi": "さんとうしょう"
+   },
+   {
     "id": "t-kindai-0197",
     "name": "二十一カ条の要求",
     "col": "diplomacy",
@@ -2074,6 +3154,18 @@
     "importance": 9,
     "shape": "span",
     "yomi": "たいせんけいき"
+   },
+   {
+    "id": "t-kindai-0398",
+    "name": "重化学工業の発達（海運・造船・鉄鋼・化学）",
+    "col": "industry",
+    "when": {
+     "from": 1915,
+     "approx": true,
+     "label": "大戦景気"
+    },
+    "importance": 6,
+    "yomi": "じゅうかがくこうぎょう"
    },
    {
     "id": "t-kindai-0199",
@@ -2150,6 +3242,16 @@
     "yomi": "にしはらしゃっかん"
    },
    {
+    "id": "t-kindai-0399",
+    "name": "貧乏物語（河上肇）",
+    "col": "culture",
+    "when": {
+     "from": 1917
+    },
+    "importance": 5,
+    "yomi": "びんぼうものがたり"
+   },
+   {
     "id": "t-kindai-0206",
     "name": "米騒動",
     "col": "society",
@@ -2182,6 +3284,26 @@
     "yomi": "シベリアしゅっぺい"
    },
    {
+    "id": "t-kindai-0400",
+    "name": "大学令",
+    "col": "policy",
+    "when": {
+     "from": 1918
+    },
+    "importance": 5,
+    "yomi": "だいがくれい"
+   },
+   {
+    "id": "t-kindai-0401",
+    "name": "黎明会（吉野作造）",
+    "col": "society",
+    "when": {
+     "from": 1918
+    },
+    "importance": 4,
+    "yomi": "れいめいかい"
+   },
+   {
     "id": "t-kindai-0209",
     "name": "パリ講和会議・ヴェルサイユ条約",
     "col": "diplomacy",
@@ -2210,6 +3332,28 @@
     },
     "importance": 9,
     "yomi": "ご・しうんどう"
+   },
+   {
+    "id": "t-kindai-0402",
+    "name": "選挙法改正（納税資格3円以上）",
+    "col": "policy",
+    "when": {
+     "from": 1919
+    },
+    "importance": 6,
+    "yomi": "せんきょほうかいせい"
+   },
+   {
+    "id": "t-kindai-0403",
+    "name": "総合雑誌（中央公論・改造）",
+    "col": "culture",
+    "when": {
+     "from": 1919,
+     "approx": true,
+     "label": "大正時代"
+    },
+    "importance": 5,
+    "yomi": "そうごうざっし"
    },
    {
     "id": "t-kindai-0212",
@@ -2286,6 +3430,50 @@
     "yomi": "サラリーマン"
    },
    {
+    "id": "t-kindai-0404",
+    "name": "野口英世・本多光太郎",
+    "col": "culture",
+    "when": {
+     "from": 1920,
+     "approx": true,
+     "label": "大正時代"
+    },
+    "importance": 5,
+    "yomi": "のぐちひでよ"
+   },
+   {
+    "id": "t-kindai-0405",
+    "name": "森戸事件",
+    "col": "society",
+    "when": {
+     "from": 1920
+    },
+    "importance": 4,
+    "yomi": "もりとじけん"
+   },
+   {
+    "id": "t-kindai-0406",
+    "name": "文化住宅・洋食",
+    "col": "society",
+    "when": {
+     "from": 1920,
+     "approx": true,
+     "label": "大正時代"
+    },
+    "importance": 4,
+    "yomi": "ぶんかじゅうたく"
+   },
+   {
+    "id": "t-kindai-0445",
+    "name": "尼港事件",
+    "col": "diplomacy",
+    "when": {
+     "from": 1920
+    },
+    "importance": 4,
+    "yomi": "にこうじけん"
+   },
+   {
     "id": "t-kindai-0219",
     "name": "ワシントン会議（1921〜22年）",
     "col": "diplomacy",
@@ -2326,6 +3514,16 @@
     "importance": 6,
     "shape": "span",
     "yomi": "たかはしこれきよ"
+   },
+   {
+    "id": "t-kindai-0407",
+    "name": "赤瀾会",
+    "col": "society",
+    "when": {
+     "from": 1921
+    },
+    "importance": 5,
+    "yomi": "せきらんかい"
    },
    {
     "id": "t-kindai-0223",
@@ -2376,6 +3574,18 @@
     },
     "importance": 7,
     "yomi": "にほんのうみんくみあい"
+   },
+   {
+    "id": "t-kindai-0446",
+    "name": "ワシントン体制",
+    "col": "diplomacy",
+    "when": {
+     "from": 1922,
+     "approx": true,
+     "label": "1920年代"
+    },
+    "importance": 7,
+    "yomi": "わしんとんたいせい"
    },
    {
     "id": "t-kindai-0228",
@@ -2488,6 +3698,28 @@
     "yomi": "きようらけいご"
    },
    {
+    "id": "t-kindai-0408",
+    "name": "婦人参政権獲得期成同盟会",
+    "col": "society",
+    "when": {
+     "from": 1924
+    },
+    "importance": 5,
+    "yomi": "ふじんさんせいけんかくとくきせいどうめいかい"
+   },
+   {
+    "id": "t-kindai-0409",
+    "name": "新感覚派（横光利一・川端康成）",
+    "col": "culture",
+    "when": {
+     "from": 1924,
+     "approx": true,
+     "label": "1920年代"
+    },
+    "importance": 5,
+    "yomi": "しんかんかくは"
+   },
+   {
     "id": "t-kindai-0238",
     "name": "普通選挙法",
     "col": "policy",
@@ -2552,6 +3784,16 @@
     "yomi": "わかつきれいじろう"
    },
    {
+    "id": "t-kindai-0447",
+    "name": "北伐（蔣介石の国民革命軍）",
+    "col": "situation",
+    "when": {
+     "from": 1926
+    },
+    "importance": 6,
+    "yomi": "ほくばつ"
+   },
+   {
     "id": "t-kindai-0244",
     "name": "金融恐慌（モラトリアム）",
     "col": "industry",
@@ -2602,6 +3844,28 @@
     },
     "importance": 6,
     "yomi": "とうほうかいぎ"
+   },
+   {
+    "id": "t-kindai-0410",
+    "name": "積極外交（田中義一）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1927,
+     "approx": true,
+     "label": "1920年代後半"
+    },
+    "importance": 6,
+    "yomi": "せっきょくがいこう"
+   },
+   {
+    "id": "t-kindai-0411",
+    "name": "片岡直温蔵相の失言・鈴木商店の破綻",
+    "col": "industry",
+    "when": {
+     "from": 1927
+    },
+    "importance": 5,
+    "yomi": "かたおかなおはる・すずきしょうてん"
    },
    {
     "id": "t-kindai-0249",
@@ -2662,6 +3926,18 @@
     },
     "importance": 6,
     "yomi": "さいなんじけん"
+   },
+   {
+    "id": "t-kindai-0448",
+    "name": "蔣介石・国民政府",
+    "col": "situation",
+    "when": {
+     "from": 1928,
+     "approx": true,
+     "label": "1920年代後半"
+    },
+    "importance": 6,
+    "yomi": "しょうかいせき"
    },
    {
     "id": "t-kindai-0255",
@@ -2726,6 +4002,30 @@
     "yomi": "とうすいけんかんぱん"
    },
    {
+    "id": "t-kindai-0412",
+    "name": "産業合理化",
+    "col": "industry",
+    "when": {
+     "from": 1930,
+     "approx": true,
+     "label": "昭和恐慌"
+    },
+    "importance": 5,
+    "yomi": "さんぎょうごうりか"
+   },
+   {
+    "id": "t-kindai-0449",
+    "name": "大衆娯楽（映画・レコード・ラジオ）",
+    "col": "culture",
+    "when": {
+     "from": 1930,
+     "approx": true,
+     "label": "昭和初期"
+    },
+    "importance": 4,
+    "yomi": "たいしゅうごらく"
+   },
+   {
     "id": "t-kindai-0261",
     "name": "満州事変（柳条湖事件）",
     "col": "diplomacy",
@@ -2770,6 +4070,18 @@
     "yomi": "きんゆしゅつのさいきんし"
    },
    {
+    "id": "t-kindai-0413",
+    "name": "関東軍",
+    "col": "system",
+    "when": {
+     "from": 1931,
+     "approx": true,
+     "label": "満州事変"
+    },
+    "importance": 8,
+    "yomi": "かんとうぐん"
+   },
+   {
     "id": "t-kindai-0265",
     "name": "重要産業統制法",
     "col": "policy",
@@ -2778,6 +4090,30 @@
     },
     "importance": 7,
     "yomi": "じゅうようさんぎょうとうせいほう"
+   },
+   {
+    "id": "t-kindai-0414",
+    "name": "国家改造運動（北一輝）",
+    "col": "society",
+    "when": {
+     "from": 1931,
+     "approx": true,
+     "label": "1930年代"
+    },
+    "importance": 6,
+    "yomi": "こっかかいぞううんどう"
+   },
+   {
+    "id": "t-kindai-0415",
+    "name": "石原莞爾",
+    "col": "diplomacy",
+    "when": {
+     "from": 1931,
+     "approx": true,
+     "label": "満州事変"
+    },
+    "importance": 5,
+    "yomi": "いしわらかんじ"
    },
    {
     "id": "t-kindai-0266",
@@ -2842,6 +4178,40 @@
     "yomi": "さいとうまこと"
    },
    {
+    "id": "t-kindai-0416",
+    "name": "皇道派・統制派",
+    "col": "system",
+    "when": {
+     "from": 1932,
+     "approx": true,
+     "label": "1930年代"
+    },
+    "importance": 7,
+    "yomi": "こうどうは・とうせいは"
+   },
+   {
+    "id": "t-kindai-0417",
+    "name": "挙国一致内閣（政党内閣の終わり）",
+    "col": "ruler",
+    "when": {
+     "from": 1932,
+     "approx": true,
+     "label": "1932年〜"
+    },
+    "importance": 6,
+    "yomi": "きょこくいっちないかく"
+   },
+   {
+    "id": "t-kindai-0450",
+    "name": "溥儀（満州国の執政、のち皇帝）",
+    "col": "diplomacy",
+    "when": {
+     "from": 1932
+    },
+    "importance": 6,
+    "yomi": "ふぎ"
+   },
+   {
     "id": "t-kindai-0272",
     "name": "国際連盟の脱退",
     "col": "diplomacy",
@@ -2874,6 +4244,18 @@
     "yomi": "てんこう"
    },
    {
+    "id": "t-kindai-0451",
+    "name": "松岡洋右",
+    "col": "diplomacy",
+    "when": {
+     "from": 1933,
+     "approx": true,
+     "label": "1930年代"
+    },
+    "importance": 6,
+    "yomi": "まつおかようすけ"
+   },
+   {
     "id": "t-kindai-0275",
     "name": "塘沽停戦協定",
     "col": "diplomacy",
@@ -2882,6 +4264,16 @@
     },
     "importance": 5,
     "yomi": "タンクーていせんきょうてい"
+   },
+   {
+    "id": "t-kindai-0452",
+    "name": "熱河作戦",
+    "col": "diplomacy",
+    "when": {
+     "from": 1933
+    },
+    "importance": 4,
+    "yomi": "ねっかさくせん"
    },
    {
     "id": "t-kindai-0276",
@@ -2904,6 +4296,16 @@
     },
     "importance": 9,
     "yomi": "てんのうきかんせつじけん"
+   },
+   {
+    "id": "t-kindai-0453",
+    "name": "永田鉄山の殺害（相沢事件）",
+    "col": "event",
+    "when": {
+     "from": 1935
+    },
+    "importance": 4,
+    "yomi": "ながたてつざん"
    },
    {
     "id": "t-kindai-0278",
@@ -2936,6 +4338,26 @@
     "importance": 7,
     "shape": "span",
     "yomi": "ひろたこうき"
+   },
+   {
+    "id": "t-kindai-0418",
+    "name": "軍部大臣現役武官制の復活",
+    "col": "system",
+    "when": {
+     "from": 1936
+    },
+    "importance": 7,
+    "yomi": "ぐんぶだいじんげんえきぶかんせい"
+   },
+   {
+    "id": "t-kindai-0454",
+    "name": "西安事件（張学良）",
+    "col": "situation",
+    "when": {
+     "from": 1936
+    },
+    "importance": 6,
+    "yomi": "せいあんじけん"
    },
    {
     "id": "t-kindai-0281",
@@ -3022,6 +4444,26 @@
     "yomi": "にちどくいさんごくぼうきょうきょうてい"
    },
    {
+    "id": "t-kindai-0419",
+    "name": "国体の本義",
+    "col": "culture",
+    "when": {
+     "from": 1937
+    },
+    "importance": 4,
+    "yomi": "こくたいのほんぎ"
+   },
+   {
+    "id": "t-kindai-0420",
+    "name": "矢内原事件・人民戦線事件",
+    "col": "event",
+    "when": {
+     "from": 1937
+    },
+    "importance": 4,
+    "yomi": "やないはらじけん"
+   },
+   {
     "id": "t-kindai-0289",
     "name": "国家総動員法",
     "col": "policy",
@@ -3052,6 +4494,38 @@
     },
     "importance": 7,
     "yomi": "はいきゅうせい・きっぷせい"
+   },
+   {
+    "id": "t-kindai-0455",
+    "name": "国民政府が重慶へ",
+    "col": "situation",
+    "when": {
+     "from": 1938,
+     "approx": true,
+     "label": "日中戦争"
+    },
+    "importance": 5,
+    "yomi": "じゅうけい"
+   },
+   {
+    "id": "t-kindai-0456",
+    "name": "電力国家管理",
+    "col": "policy",
+    "when": {
+     "from": 1938
+    },
+    "importance": 4,
+    "yomi": "でんりょくこっかかんり"
+   },
+   {
+    "id": "t-kindai-0457",
+    "name": "麦と兵隊（火野葦平）",
+    "col": "culture",
+    "when": {
+     "from": 1938
+    },
+    "importance": 4,
+    "yomi": "むぎとへいたい"
    },
    {
     "id": "t-kindai-0292",
@@ -3198,6 +4672,26 @@
     "yomi": "だいにっぽんさんぎょうほうこくかい"
    },
    {
+    "id": "t-kindai-0421",
+    "name": "隣組",
+    "col": "society",
+    "when": {
+     "from": 1940
+    },
+    "importance": 6,
+    "yomi": "となりぐみ"
+   },
+   {
+    "id": "t-kindai-0458",
+    "name": "七・七禁令（ぜいたく品の製造・販売禁止）",
+    "col": "policy",
+    "when": {
+     "from": 1940
+    },
+    "importance": 4,
+    "yomi": "しちしちきんれい"
+   },
+   {
     "id": "t-kindai-0305",
     "name": "日ソ中立条約",
     "col": "diplomacy",
@@ -3260,6 +4754,16 @@
     "yomi": "こくみんがっこう"
    },
    {
+    "id": "t-kindai-0422",
+    "name": "ハル・ノート",
+    "col": "diplomacy",
+    "when": {
+     "from": 1941
+    },
+    "importance": 7,
+    "yomi": "はる・のーと"
+   },
+   {
     "id": "t-kindai-0311",
     "name": "ミッドウェー海戦",
     "col": "diplomacy",
@@ -3278,6 +4782,28 @@
     },
     "importance": 7,
     "yomi": "よくさんせんきょ"
+   },
+   {
+    "id": "t-kindai-0423",
+    "name": "東南アジアでの軍政",
+    "col": "diplomacy",
+    "when": {
+     "from": 1942,
+     "approx": true,
+     "label": "太平洋戦争"
+    },
+    "importance": 5,
+    "yomi": "ぐんせい"
+   },
+   {
+    "id": "t-kindai-0459",
+    "name": "翼賛政治会",
+    "col": "society",
+    "when": {
+     "from": 1942
+    },
+    "importance": 4,
+    "yomi": "よくさんせいじかい"
    },
    {
     "id": "t-kindai-0313",
@@ -3308,6 +4834,18 @@
     },
     "importance": 8,
     "yomi": "カイロせんげん"
+   },
+   {
+    "id": "t-kindai-0424",
+    "name": "勤労動員・女子挺身隊",
+    "col": "society",
+    "when": {
+     "from": 1943,
+     "approx": true,
+     "label": "戦時中"
+    },
+    "importance": 6,
+    "yomi": "きんろうどういん"
    },
    {
     "id": "t-kindai-0316",
