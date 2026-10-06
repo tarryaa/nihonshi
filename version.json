@@ -1,7 +1,7 @@
 {
  "app": "0.1.0",
- "build": "ee3023abf753",
- "builtAt": "2026-10-05T13:49:11.523Z",
+ "build": "e59d60e57dff",
+ "builtAt": "2026-10-05T15:20:08.654Z",
  "seeds": [
   {
    "file": "seed-01-kodai.json",
@@ -20,23 +20,23 @@
   {
    "file": "seed-03-kinsei.json",
    "id": "kinsei",
-   "version": 2,
+   "version": 3,
    "title": "近世（安土桃山・江戸）",
-   "count": 462
+   "count": 593
   },
   {
    "file": "seed-04-kindai.json",
    "id": "kindai",
-   "version": 2,
+   "version": 3,
    "title": "近代（明治〜終戦）",
-   "count": 466
+   "count": 698
   },
   {
    "file": "seed-05-gendai.json",
    "id": "gendai",
-   "version": 2,
+   "version": 3,
    "title": "現代（戦後〜平成）",
-   "count": 183
+   "count": 372
   },
   {
    "file": "seed-06-world.json",
