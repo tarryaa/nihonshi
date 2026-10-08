@@ -4,7 +4,7 @@
    - 新しい版はすぐには切り替えず、アプリの「更新する」ボタンで切り替える
    - キャッシュが何かの理由で消えていても、ネットにつながれば自動で取り直す
    ========================================================= */
-const VERSION = 'e04db5daa188';
+const VERSION = 'af442fbd1c16';
 const PREFIX = 'nhnote-';
 const CACHE = PREFIX + VERSION;
 const FILES = [
@@ -28,10 +28,13 @@ const FILES = [
  "./map-l2.json",
  "./map-meta.json",
  "./mapState.js",
+ "./notes.js",
+ "./ops.js",
  "./relief-0.jpg",
  "./relief-1.jpg",
  "./relief-2.jpg",
  "./render.js",
+ "./rolldown-runtime.js",
  "./seed-01-kodai.json",
  "./seed-02-chusei.json",
  "./seed-03-kinsei.json",
@@ -40,8 +43,7 @@ const FILES = [
  "./seed-06-world.json",
  "./seed-index.json",
  "./signals.module.js",
- "./terr.json",
- "./years.js"
+ "./terr.json"
 ];
 /** いつもネットを先に見るもの（新しい初期データ・版の確認用） */
 const NETWORK_FIRST = ['version.json', 'seed-index.json'];
