@@ -4,7 +4,7 @@
    - 新しい版はすぐには切り替えず、アプリの「更新する」ボタンで切り替える
    - キャッシュが何かの理由で消えていても、ネットにつながれば自動で取り直す
    ========================================================= */
-const VERSION = 'af442fbd1c16';
+const VERSION = '9b51486ea6a8';
 const PREFIX = 'nhnote-';
 const CACHE = PREFIX + VERSION;
 const FILES = [
@@ -14,6 +14,7 @@ const FILES = [
  "./CompareView.js",
  "./DiagramNote.js",
  "./ImageView.js",
+ "./MAP_SOURCES.md",
  "./MapView.js",
  "./Preview.js",
  "./TableNote.js",
@@ -30,6 +31,8 @@ const FILES = [
  "./mapState.js",
  "./notes.js",
  "./ops.js",
+ "./regions-han.json",
+ "./regions-kuni.json",
  "./relief-0.jpg",
  "./relief-1.jpg",
  "./relief-2.jpg",
@@ -84,7 +87,7 @@ self.addEventListener('fetch', (event) => {
     if (NETWORK_FIRST.includes(name)) {
       try { return await fromNetwork(req, cache); } catch { const hit = await cache.match(req, { ignoreSearch: true }); if (hit) return hit; throw new Error('offline'); }
     }
-    if (req.mode === 'navigate') {
+    if (req.mode === 'navigate' && (name === '' || name === 'index.html')) {
       const hit = await cache.match('./index.html') || await cache.match('./');
       if (hit) return hit;
       try { return await fromNetwork(new Request('./index.html'), cache); } catch { return new Response('オフラインです。ネットにつないで開き直してください。', { status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' } }); }
